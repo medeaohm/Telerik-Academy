@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Console-Input-Output-Homework\09-SumOfN\bin\Debug\09-SumOfN.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Console-Input-Output-Homework\09-SumOfN\bin\Debug\09-SumOfN.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Console-Input-Output-Homework\09-SumOfN\bin\Debug\09-SumOfN.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Console-Input-Output-Homework\09-SumOfN\obj\Debug\09-SumOfN.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Console-Input-Output-Homework\09-SumOfN\obj\Debug\09-SumOfN.pdb

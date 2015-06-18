@@ -1,5 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Console-Input-Output-Homework\02-CompanyInfo\bin\Debug\02-CompanyInfo.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\Console-Input-Output-Homework\02-CompanyInfo\bin\Debug\02-CompanyInfo.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Console-Input-Output-Homework\02-CompanyInfo\bin\Debug\02-CompanyInfo.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Console-Input-Output-Homework\02-CompanyInfo\obj\Debug\02-CompanyInfo.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Console-Input-Output-Homework\02-CompanyInfo\obj\Debug\02-CompanyInfo.pdb
