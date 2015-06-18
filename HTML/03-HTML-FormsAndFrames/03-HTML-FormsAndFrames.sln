@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-HTML-FormsAndFrames", "03-HTML-FormsAndFrames\03-HTML-FormsAndFrames.csproj", "{DF8A24C2-C9A5-4C1F-B205-6108F0622357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8A24C2-C9A5-4C1F-B205-6108F0622357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8A24C2-C9A5-4C1F-B205-6108F0622357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8A24C2-C9A5-4C1F-B205-6108F0622357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8A24C2-C9A5-4C1F-B205-6108F0622357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
