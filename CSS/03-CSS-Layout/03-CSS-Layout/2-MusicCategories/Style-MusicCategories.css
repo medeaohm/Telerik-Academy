@@ -1,0 +1,62 @@
+﻿div, h1, section, button, p {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#container {
+    width:400px;
+    background-color:#eee;
+    border-radius:10px;
+}
+
+h1{
+    font-family:Calibri;
+    font-weight:normal;
+    font-size:20px;
+    font-style:italic;
+    margin:30px;
+}
+
+section {
+	margin: 35px 10px 10px 10px;
+	position: relative;
+	border: 1px solid #808080;
+	background: white;
+	padding: 15px;
+	overflow: hidden;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+img {
+    width: 135px;
+	height: 86px;
+	border: 1px solid #9a9997;
+	float: left;
+	margin-right: 15px;
+}
+
+form{
+    float:right;
+}
+
+button.listen, button.add {
+	background-image: url(img/button.png);
+	height: 24px;
+	color: white;
+}
+
+button.listen {
+	width: 76px;
+}
+
+button.add {
+	width: 65px;
+	margin-left: 5px;
+}

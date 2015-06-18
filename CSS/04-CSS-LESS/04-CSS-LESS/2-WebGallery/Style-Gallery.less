@@ -1,0 +1,44 @@
+﻿body{
+	form {
+
+		fieldset {
+			border: 1px solid black;
+			border-radius: 10px;
+			text-align: center;
+			position: relative;
+
+			label {
+				width: auto;
+				height: 150px;
+			}
+
+			legend {
+			font-size: 1.2em;
+			}
+			
+			img:first-of-type {
+				width: auto;
+				height: 150px;
+			}
+			
+			img:last-of-type {
+				position: absolute;
+				top:200px;
+                left:380px;
+				height: 450px;
+				width: auto;
+				border: 1px solid black;
+				display: none;
+			}
+
+			input[type="radio"] {
+				display: none;
+				&:checked + label img:last-of-type {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+ 

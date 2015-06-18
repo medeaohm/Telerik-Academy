@@ -1,0 +1,24 @@
+﻿.mainlist {
+    list-style:none;
+}
+
+.sublist{
+    list-style:none;
+    color:#808080;
+}
+
+    sublist > li:hover{
+        text-decoration:none;
+    }
+
+ul ul{
+    display:none;
+}
+
+    ul li:hover ul {
+        display: block;
+    }
+
+    ul li span:hover {
+        text-decoration: underline;
+    }

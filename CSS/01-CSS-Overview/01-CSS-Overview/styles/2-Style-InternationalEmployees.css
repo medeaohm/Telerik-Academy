@@ -1,0 +1,34 @@
+﻿body {
+    font-family:Arial;
+}
+
+
+td, th {
+	padding: 5px;
+}
+
+td {
+	border-left: 1px solid #d5d4c2;
+	padding-right: 50px;
+}
+
+th {
+    background-color: #57ba06;
+    color:white;
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-left: 1px solid #407f29;
+	border-bottom: 1px solid #407f29;
+}
+
+tbody tr:nth-child(2n){
+    background-color:#ececd8;
+}
+
+
+.flag{
+    width:16px;
+}

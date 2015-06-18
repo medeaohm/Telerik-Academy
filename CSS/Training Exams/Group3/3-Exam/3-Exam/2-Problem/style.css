@@ -1,0 +1,68 @@
+﻿body,
+html,
+a,
+ul,
+li,
+img,
+div {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  width: 960px;
+  font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+  font-size: 16px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu li {
+  display: block;
+  width: 150px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #b6ff00;
+  position: relative;
+}
+.menu li:hover {
+  text-decoration: underline;
+}
+.menu li:hover .content {
+  display: block;
+}
+.menu li .content {
+  position: absolute;
+  top: -10px;
+  left: 170px;
+  display: none;
+}
+.menu li .content li {
+  width: 540px;
+  background-color: #008000;
+  text-align: left;
+  color: white;
+  padding: 20px;
+}
+.menu li .content li img {
+  display: none;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.menu li .content li > a {
+  color: white;
+}
+.menu li .content li:hover {
+  text-decoration: underline;
+}
+.menu li .content li:hover img {
+  display: block;
+}
+.content {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

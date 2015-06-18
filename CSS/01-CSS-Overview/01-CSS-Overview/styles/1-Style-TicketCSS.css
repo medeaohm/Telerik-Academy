@@ -1,0 +1,49 @@
+﻿body {
+    background-color: #595959;
+    font-size:20px;
+}
+
+table{
+    margin: 150px;
+    padding: 40px;
+    font-family: 'Arial';
+    text-align:left;
+}
+
+table td{
+    padding: 8px;
+    padding-right:40px;
+}
+
+
+th {
+    color: #abaca3;
+    font-weight:normal;
+    font-size:30px;
+}
+
+.description{
+    color: #e3dfdf;
+}
+
+.info{
+    color:#f5e6a7;
+}
+
+#status{
+    color:#71b47a;
+}
+
+#noSupport{
+    color:#ff0000;
+    font-weight:bold;
+}
+
+.upInfo{
+    color:#97a49b;
+}
+
+.notAnswer{
+    color:#ea6839;
+    font-weight:bold;
+}

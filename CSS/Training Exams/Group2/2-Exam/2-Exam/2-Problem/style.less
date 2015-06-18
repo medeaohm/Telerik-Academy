@@ -1,0 +1,83 @@
+﻿.linear-gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background: @from-color;
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+    }
+
+body, html, ul, li div, p, h3, a, img, span {
+    margin:0;
+    padding:0;
+}
+
+#wrapper{
+    width:960px;
+}
+
+body{
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+.menu{
+
+    li{
+        .linear-gradient(#737373, 0%, #fff, 100%);
+        display:inline-block;
+        height:180px;
+        width:180px;
+        text-align:center;
+        border:20px solid #808080;
+        margin-top:5px;
+        
+        h3{
+            color:white;
+            padding:5px;
+        }
+
+        .subtitle{
+            padding:15px;
+        }
+
+        .click-here{
+            display:none;
+        }
+        
+        img{
+        height:100px;
+        width:120px;
+        border-radius:20px;
+        }
+
+        &:hover{
+            border: 20px solid #454545;
+            background: grey;
+
+            h3{
+                text-decoration:underline;
+            }
+
+            .subtitle{
+                display:none;
+            }
+
+             .click-here{
+                display:block;
+                margin:0;
+                text-transform:uppercase;
+                color:white;
+            }
+
+             .image-container{
+                 img{
+                    width: 140px;
+                    height: 110px;
+                 }
+             }
+        }        
+    }
+}

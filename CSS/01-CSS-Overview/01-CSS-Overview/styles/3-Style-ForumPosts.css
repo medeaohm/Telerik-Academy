@@ -1,0 +1,52 @@
+﻿body {
+    background-color:#a9a9a9;
+    text-align:center;
+}
+
+header{
+    color:#fafad2;
+    font-size:2em;
+}
+
+nav a{
+    font-size:0.8em;
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+}
+
+nav li{
+    list-style-type:none;
+}
+
+nav li:last-child{
+    text-decoration:underline;
+}
+
+.current {
+    background-color: #D3D3D3;
+}
+
+article > header{
+    text-align:left;
+    font-size:2em;
+}
+
+p{
+    font-size:1.2em;
+    text-align:left;
+}
+
+article > footer {
+    text-align:left;
+    font-size:0.8em;
+}
+
+article footer a{
+    text-decoration:none;
+    color:#000;
+}
+
+footer{
+    text-align:center;
+}

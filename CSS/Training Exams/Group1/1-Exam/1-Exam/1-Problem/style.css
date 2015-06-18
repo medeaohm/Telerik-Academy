@@ -1,0 +1,74 @@
+﻿html,
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+header {
+  background-image: url("img/header-bg.png");
+  height: 50px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+header h1 {
+  text-transform: uppercase;
+  float: left;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header nav {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+header nav ul {
+  margin-top: 5px;
+  padding: 0;
+}
+header nav ul li {
+  color: #808080;
+  font-size: 14px;
+  margin: 1px;
+  padding: 10px 10px 10px 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+#searchBar {
+  background-color: black;
+  color: #b3b8bd;
+  font-size: 14px;
+  padding: 9px 10px;
+}
+#searchBar #search {
+  margin: 0;
+  display: inline;
+  float: right;
+}
+#searchBar #archives {
+  display: inline;
+  float: left;
+}
+#searchBar a {
+  color: #b3b8bd;
+  font-size: 14px;
+  text-decoration: none;
+}
+#content {
+  color: #575e5b;
+}
+#content h1 {
+  font-size: 24px;
+}
+#content article {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
