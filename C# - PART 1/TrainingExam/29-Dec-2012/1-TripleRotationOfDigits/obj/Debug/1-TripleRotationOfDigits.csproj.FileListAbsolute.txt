@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\bin\Debug\1-TripleRotationOfDigits.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\bin\Debug\1-TripleRotationOfDigits.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\bin\Debug\1-TripleRotationOfDigits.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\obj\Debug\1-TripleRotationOfDigits.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\obj\Debug\1-TripleRotationOfDigits.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\1-TripleRotationOfDigits\obj\Debug\1-TripleRotationOfDigits.pdb
