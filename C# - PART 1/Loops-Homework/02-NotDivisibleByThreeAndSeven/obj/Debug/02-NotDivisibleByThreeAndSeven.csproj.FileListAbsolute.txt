@@ -1,5 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\02-NotDivisibleByThreeAndSeven\bin\Debug\02-NotDivisibleByThreeAndSeven.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\02-NotDivisibleByThreeAndSeven\bin\Debug\02-NotDivisibleByThreeAndSeven.exe
-c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\02-NotDivisibleByThreeAndSeven\bin\Debug\02-NotDivisibleByThreeAndSeven.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\02-NotDivisibleByThreeAndSeven\obj\Debug\02-NotDivisibleByThreeAndSeven.exe
-c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\02-NotDivisibleByThreeAndSeven\obj\Debug\02-NotDivisibleByThreeAndSeven.pdb
