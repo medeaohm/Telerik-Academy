@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\12December2013\WarMachines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.pdb

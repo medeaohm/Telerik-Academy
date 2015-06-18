@@ -1,0 +1,15 @@
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.csprojResolveAssemblyReference.cache
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.pdb
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Dropbox\Work\VariousTests\AcademyEcosystemX\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\bin\Debug\AcademyEcosystem.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\25March2013\AcademyEcosystem\AcademyEcosystem\obj\Debug\AcademyEcosystem.csprojResolveAssemblyReference.cache

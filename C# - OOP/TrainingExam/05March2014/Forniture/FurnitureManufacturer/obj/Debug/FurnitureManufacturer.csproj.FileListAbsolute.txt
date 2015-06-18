@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\bin\Debug\Furnitures.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\bin\Debug\Furnitures.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\obj\Debug\FurnitureManufacturer.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\obj\Debug\Furnitures.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\05March2014\Forniture\FurnitureManufacturer\obj\Debug\Furnitures.pdb

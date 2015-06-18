@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\02-Defining Classes-Part 2\MatrixClass\bin\Debug\MatrixClass.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\02-Defining Classes-Part 2\MatrixClass\bin\Debug\MatrixClass.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\02-Defining Classes-Part 2\MatrixClass\bin\Debug\MatrixClass.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\02-Defining Classes-Part 2\MatrixClass\obj\Debug\MatrixClass.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\02-Defining Classes-Part 2\MatrixClass\obj\Debug\MatrixClass.pdb
