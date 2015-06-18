@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\04-DownloadFile\bin\Debug\04-DownloadFile.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\04-DownloadFile\bin\Debug\04-DownloadFile.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\04-DownloadFile\bin\Debug\04-DownloadFile.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\04-DownloadFile\obj\Debug\04-DownloadFile.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\04-DownloadFile\obj\Debug\04-DownloadFile.pdb

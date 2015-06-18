@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\bin\Debug\1-KaspichanNumbers.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\bin\Debug\1-KaspichanNumbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\bin\Debug\1-KaspichanNumbers.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\obj\Debug\1-KaspichanNumbers.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\obj\Debug\1-KaspichanNumbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\04-feb-13\1-KaspichanNumbers\obj\Debug\1-KaspichanNumbers.pdb

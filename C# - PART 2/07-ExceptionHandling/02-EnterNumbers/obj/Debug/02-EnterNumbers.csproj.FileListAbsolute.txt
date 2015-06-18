@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\02-EnterNumbers\bin\Debug\02-EnterNumbers.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\02-EnterNumbers\bin\Debug\02-EnterNumbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\02-EnterNumbers\bin\Debug\02-EnterNumbers.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\02-EnterNumbers\obj\Debug\02-EnterNumbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\02-EnterNumbers\obj\Debug\02-EnterNumbers.pdb

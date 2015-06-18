@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\bin\Debug\8-Feb-2012.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\bin\Debug\8-Feb-2012.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\bin\Debug\8-Feb-2012.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\obj\Debug\1-Basic.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\obj\Debug\8-Feb-2012.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\8-Feb-2012\obj\Debug\8-Feb-2012.pdb

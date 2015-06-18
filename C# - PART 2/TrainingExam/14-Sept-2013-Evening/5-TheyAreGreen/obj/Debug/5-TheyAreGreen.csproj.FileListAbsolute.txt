@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\bin\Debug\5-TheyAreGreen.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\bin\Debug\5-TheyAreGreen.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\bin\Debug\5-TheyAreGreen.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\obj\Debug\5-TheyAreGreen.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\obj\Debug\5-TheyAreGreen.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013-Evening\5-TheyAreGreen\obj\Debug\5-TheyAreGreen.pdb

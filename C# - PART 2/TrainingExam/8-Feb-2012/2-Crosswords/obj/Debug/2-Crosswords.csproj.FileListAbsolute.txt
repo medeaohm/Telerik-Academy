@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\bin\Debug\2-Crosswords.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\bin\Debug\2-Crosswords.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\bin\Debug\2-Crosswords.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\obj\Debug\2-Crosswords.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\obj\Debug\2-Crosswords.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\2-Crosswords\obj\Debug\2-Crosswords.pdb

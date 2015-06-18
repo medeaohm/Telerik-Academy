@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\03-ReadFileContents\bin\Debug\03-ReadFileContents.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\03-ReadFileContents\bin\Debug\03-ReadFileContents.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\03-ReadFileContents\bin\Debug\03-ReadFileContents.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\03-ReadFileContents\obj\Debug\03-ReadFileContents.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\07-ExceptionHandling\03-ReadFileContents\obj\Debug\03-ReadFileContents.pdb

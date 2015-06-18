@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\bin\Debug\1-TRES4Numbers.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\bin\Debug\1-TRES4Numbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\bin\Debug\1-TRES4Numbers.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\obj\Debug\1-TRES4Numbers.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\obj\Debug\1-TRES4Numbers.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\22-Jan-14-Evening\1-TRES4Numbers\obj\Debug\1-TRES4Numbers.pdb

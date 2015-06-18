@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\bin\Debug\1-MultiverseCommunication.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\bin\Debug\1-MultiverseCommunication.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\bin\Debug\1-MultiverseCommunication.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\obj\Debug\1-MultiverseCommunication.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\obj\Debug\1-MultiverseCommunication.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\1-MultiverseCommunication\obj\Debug\1-MultiverseCommunication.pdb

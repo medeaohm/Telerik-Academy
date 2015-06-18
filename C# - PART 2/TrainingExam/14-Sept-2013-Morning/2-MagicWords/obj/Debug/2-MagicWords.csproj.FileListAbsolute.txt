@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\bin\Debug\2-MagicWords.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\bin\Debug\2-MagicWords.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\bin\Debug\2-MagicWords.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\obj\Debug\2-MagicWords.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\obj\Debug\2-MagicWords.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\14-Sept-2013\2-MagicWords\obj\Debug\2-MagicWords.csprojResolveAssemblyReference.cache
