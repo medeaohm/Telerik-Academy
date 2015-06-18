@@ -1,5 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\4-UnicodeCharacter\bin\Debug\4-UnicodeCharacter.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\4-UnicodeCharacter\bin\Debug\4-UnicodeCharacter.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\4-UnicodeCharacter\bin\Debug\4-UnicodeCharacter.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\4-UnicodeCharacter\obj\Debug\4-UnicodeCharacter.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\4-UnicodeCharacter\obj\Debug\4-UnicodeCharacter.pdb

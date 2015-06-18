@@ -1,5 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\5-BooleanVariable\bin\Debug\5-BooleanVariable.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\5-BooleanVariable\bin\Debug\5-BooleanVariable.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\5-BooleanVariable\bin\Debug\5-BooleanVariable.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\5-BooleanVariable\obj\Debug\5-BooleanVariable.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\5-BooleanVariable\obj\Debug\5-BooleanVariable.pdb
