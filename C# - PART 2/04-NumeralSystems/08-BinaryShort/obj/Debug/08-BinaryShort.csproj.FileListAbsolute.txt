@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\08-BinaryShort\bin\Debug\08-BinaryShort.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\08-BinaryShort\bin\Debug\08-BinaryShort.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\08-BinaryShort\bin\Debug\08-BinaryShort.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\08-BinaryShort\obj\Debug\08-BinaryShort.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\08-BinaryShort\obj\Debug\08-BinaryShort.pdb
