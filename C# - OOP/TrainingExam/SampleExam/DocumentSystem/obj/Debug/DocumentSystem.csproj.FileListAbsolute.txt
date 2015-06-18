@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\SampleExam\DocumentSystem\obj\Debug\DocumentSystem.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\SampleExam\DocumentSystem\bin\Debug\DocumentSystem.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\SampleExam\DocumentSystem\bin\Debug\DocumentSystem.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\SampleExam\DocumentSystem\obj\Debug\DocumentSystem.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - OOP\TrainingExam\SampleExam\DocumentSystem\obj\Debug\DocumentSystem.pdb
