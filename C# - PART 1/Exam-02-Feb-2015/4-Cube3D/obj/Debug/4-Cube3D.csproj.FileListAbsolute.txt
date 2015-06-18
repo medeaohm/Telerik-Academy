@@ -1,6 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\bin\Debug\4-Cube3D.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\bin\Debug\4-Cube3D.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\bin\Debug\4-Cube3D.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\obj\Debug\4-Cube3D.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\obj\Debug\4-Cube3D.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\4-Cube3D\obj\Debug\4-Cube3D.csprojResolveAssemblyReference.cache
