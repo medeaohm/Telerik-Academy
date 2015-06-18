@@ -1,5 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\9-PrintSequence\bin\Debug\9-PrintSequence.exe.config
-c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\9-PrintSequence\bin\Debug\9-PrintSequence.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\9-PrintSequence\bin\Debug\9-PrintSequence.pdb
-c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\9-PrintSequence\obj\Debug\9-PrintSequence.exe
-c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\9-PrintSequence\obj\Debug\9-PrintSequence.pdb
