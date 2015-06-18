@@ -1,8 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\05-MaximalIncreasingSequence\bin\Debug\05-MaximalIncreasingSequence.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\05-MaximalIncreasingSequence\bin\Debug\05-MaximalIncreasingSequence.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\05-MaximalIncreasingSequence\bin\Debug\05-MaximalIncreasingSequence.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\05-MaximalIncreasingSequence\obj\Debug\05-MaximalIncreasingSequence.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\05-MaximalIncreasingSequence\obj\Debug\05-MaximalIncreasingSequence.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\05-MaximalIncreasingSequence\bin\Debug\05-MaximalIncreasingSequence.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\05-MaximalIncreasingSequence\obj\Debug\05-MaximalIncreasingSequence.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\05-MaximalIncreasingSequence\obj\Debug\05-MaximalIncreasingSequence.pdb

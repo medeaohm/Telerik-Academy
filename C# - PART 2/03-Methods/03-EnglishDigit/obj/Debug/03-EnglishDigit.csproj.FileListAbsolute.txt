@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\03-EnglishDigit\bin\Debug\03-EnglishDigit.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\03-EnglishDigit\bin\Debug\03-EnglishDigit.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\03-EnglishDigit\bin\Debug\03-EnglishDigit.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\03-EnglishDigit\obj\Debug\03-EnglishDigit.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\03-EnglishDigit\obj\Debug\03-EnglishDigit.pdb

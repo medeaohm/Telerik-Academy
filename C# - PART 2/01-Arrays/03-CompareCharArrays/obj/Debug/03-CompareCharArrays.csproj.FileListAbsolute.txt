@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\03-CompareCharArrays\bin\Debug\03-CompareCharArrays.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\03-CompareCharArrays\bin\Debug\03-CompareCharArrays.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\03-CompareCharArrays\bin\Debug\03-CompareCharArrays.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\03-CompareCharArrays\obj\Debug\03-CompareCharArrays.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\03-CompareCharArrays\obj\Debug\03-CompareCharArrays.pdb

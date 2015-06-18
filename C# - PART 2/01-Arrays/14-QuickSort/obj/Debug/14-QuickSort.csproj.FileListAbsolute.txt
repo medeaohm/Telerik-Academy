@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\bin\Debug\14-QuickSort.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\bin\Debug\14-QuickSort.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\bin\Debug\14-QuickSort.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\obj\Debug\14-QuickSort.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\obj\Debug\14-QuickSort.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\14-QuickSort\obj\Debug\14-QuickSort.pdb

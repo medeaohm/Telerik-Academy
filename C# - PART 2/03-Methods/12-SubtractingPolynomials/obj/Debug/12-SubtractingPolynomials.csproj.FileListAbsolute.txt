@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\12-SubtractingPolynomials\bin\Debug\12-SubtractingPolynomials.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\12-SubtractingPolynomials\bin\Debug\12-SubtractingPolynomials.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\12-SubtractingPolynomials\bin\Debug\12-SubtractingPolynomials.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\12-SubtractingPolynomials\obj\Debug\12-SubtractingPolynomials.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\12-SubtractingPolynomials\obj\Debug\12-SubtractingPolynomials.pdb
