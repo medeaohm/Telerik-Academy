@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\bin\02-OperatorsAndExpressions.dll.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\bin\02-OperatorsAndExpressions.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\bin\02-OperatorsAndExpressions.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\obj\Debug\02-OperatorsAndExpressions.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\obj\Debug\02-OperatorsAndExpressions.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\02-OperatorsAndExpressions\02-OperatorsAndExpressions\obj\Debug\02-OperatorsAndExpressions.pdb

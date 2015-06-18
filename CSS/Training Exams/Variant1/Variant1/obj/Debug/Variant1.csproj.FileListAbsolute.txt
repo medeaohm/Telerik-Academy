@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\bin\Variant1.dll.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\bin\Variant1.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\bin\Variant1.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\obj\Debug\Variant1.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\obj\Debug\Variant1.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Variant1\Variant1\obj\Debug\Variant1.pdb

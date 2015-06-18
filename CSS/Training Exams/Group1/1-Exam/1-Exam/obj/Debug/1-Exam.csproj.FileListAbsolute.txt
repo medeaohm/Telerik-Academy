@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\bin\1-Exam.dll.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\bin\1-Exam.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\bin\1-Exam.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\obj\Debug\1-Exam.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\obj\Debug\1-Exam.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\CSS\Training Exams\Group1\1-Exam\1-Exam\obj\Debug\1-Exam.pdb

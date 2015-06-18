@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\bin\08-Strings.dll.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\bin\08-Strings.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\bin\08-Strings.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\obj\Debug\08-Strings.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\obj\Debug\08-Strings.dll
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\JavaScript\08-Strings\08-Strings\obj\Debug\08-Strings.pdb
