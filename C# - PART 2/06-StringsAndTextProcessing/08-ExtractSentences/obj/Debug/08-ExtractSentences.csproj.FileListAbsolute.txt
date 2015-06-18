@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\bin\Debug\08-ExtractSentences.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\bin\Debug\08-ExtractSentences.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\bin\Debug\08-ExtractSentences.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\obj\Debug\08-ExtractSentences.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\obj\Debug\08-ExtractSentences.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\06-StringsAndTextProcessing\08-ExtractSentences\obj\Debug\08-ExtractSentences.pdb

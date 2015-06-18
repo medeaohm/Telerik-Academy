@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\08-MaximalSum\bin\Debug\08-MaximalSum.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\08-MaximalSum\bin\Debug\08-MaximalSum.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\08-MaximalSum\bin\Debug\08-MaximalSum.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\08-MaximalSum\obj\Debug\08-MaximalSum.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\08-MaximalSum\obj\Debug\08-MaximalSum.pdb

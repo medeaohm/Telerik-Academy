@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\09-BinaryFloatingPoint\bin\Debug\09-BinaryFloatingPoint.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\09-BinaryFloatingPoint\bin\Debug\09-BinaryFloatingPoint.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\09-BinaryFloatingPoint\bin\Debug\09-BinaryFloatingPoint.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\09-BinaryFloatingPoint\obj\Debug\09-BinaryFloatingPoint.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\09-BinaryFloatingPoint\obj\Debug\09-BinaryFloatingPoint.pdb

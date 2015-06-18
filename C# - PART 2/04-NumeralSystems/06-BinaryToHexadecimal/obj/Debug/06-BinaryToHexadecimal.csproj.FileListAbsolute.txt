@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\bin\Debug\06-BinaryToHexadecimal.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\bin\Debug\06-BinaryToHexadecimal.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\bin\Debug\06-BinaryToHexadecimal.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\obj\Debug\06-BinaryToHexadecimal.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\obj\Debug\06-BinaryToHexadecimal.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\04-NumeralSystems\06-BinaryToHexadecimal\obj\Debug\06-BinaryToHexadecimal.csprojResolveAssemblyReference.cache

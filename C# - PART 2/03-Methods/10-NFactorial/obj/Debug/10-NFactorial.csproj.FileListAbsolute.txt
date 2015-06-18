@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\bin\Debug\10-NFactorial.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\bin\Debug\10-NFactorial.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\bin\Debug\10-NFactorial.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\obj\Debug\10-NFactorial.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\obj\Debug\10-NFactorial.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\10-NFactorial\obj\Debug\10-NFactorial.pdb

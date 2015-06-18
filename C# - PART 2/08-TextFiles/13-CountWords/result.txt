@@ -1,0 +1,6 @@
+Turing --> 3
+British --> 1
+computer --> 4
+mathematical --> 1
+science --> 2
+machine --> 1

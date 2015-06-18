@@ -1,0 +1,22 @@
+this
+program
+reads 
+a
+text 
+file
+and 
+delete 
+its 
+odd 
+lines.
+The 
+output
+is 
+saved
+in 
+the 
+original
+file
+(the file
+is
+overwrited)

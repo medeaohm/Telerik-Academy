@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\bin\Debug\04-TriangleSurface.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\bin\Debug\04-TriangleSurface.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\bin\Debug\04-TriangleSurface.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\obj\Debug\04-TriangleSurface.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\obj\Debug\04-TriangleSurface.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\04-TriangleSurface\obj\Debug\04-TriangleSurface.csprojResolveAssemblyReference.cache

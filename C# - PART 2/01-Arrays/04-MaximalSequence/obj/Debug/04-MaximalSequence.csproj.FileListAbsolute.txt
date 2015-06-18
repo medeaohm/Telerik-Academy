@@ -1,0 +1,9 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\bin\Debug\04-MaximalSequence.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\bin\Debug\04-MaximalSequence.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\bin\Debug\04-MaximalSequence.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\obj\Debug\04-MaximalSequence.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\obj\Debug\04-MaximalSequence.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-AllocateArray\04-MaximalSequence\obj\Debug\04-MaximalSequence.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\04-MaximalSequence\bin\Debug\04-MaximalSequence.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\04-MaximalSequence\obj\Debug\04-MaximalSequence.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\04-MaximalSequence\obj\Debug\04-MaximalSequence.pdb

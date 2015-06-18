@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\02-MultidimensionalArrays\04-BinarySearch\bin\Debug\04-BinarySearch.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\02-MultidimensionalArrays\04-BinarySearch\bin\Debug\04-BinarySearch.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\02-MultidimensionalArrays\04-BinarySearch\bin\Debug\04-BinarySearch.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\02-MultidimensionalArrays\04-BinarySearch\obj\Debug\04-BinarySearch.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\02-MultidimensionalArrays\04-BinarySearch\obj\Debug\04-BinarySearch.pdb

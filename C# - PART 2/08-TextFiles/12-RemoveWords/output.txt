@@ -1,0 +1,2 @@
+Problem 12: Remove 
+write a program that removes from a  file all  listed in given another  file. Handle all  exception in you method.

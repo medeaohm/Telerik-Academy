@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-MultiverseCommunication", "1-MultiverseCommunication\1-MultiverseCommunication.csproj", "{CFF16B5C-7C86-46AC-8240-ADB13AE14921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-MagicWords", "2-MagicWords\2-MagicWords.csproj", "{621CAFE4-8584-4841-8FE2-84D319821E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-DecodeAndDecrypt", "4-DecodeAndDecrypt\4-DecodeAndDecrypt.csproj", "{09432D52-9834-42E5-A382-36AA5F3A3C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-FeaturingWithGrisko", "5-FeaturingWithGrisko\5-FeaturingWithGrisko.csproj", "{5012B617-59CA-448B-BE2B-E8BE3DE6BE4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF16B5C-7C86-46AC-8240-ADB13AE14921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF16B5C-7C86-46AC-8240-ADB13AE14921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF16B5C-7C86-46AC-8240-ADB13AE14921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF16B5C-7C86-46AC-8240-ADB13AE14921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621CAFE4-8584-4841-8FE2-84D319821E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621CAFE4-8584-4841-8FE2-84D319821E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621CAFE4-8584-4841-8FE2-84D319821E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621CAFE4-8584-4841-8FE2-84D319821E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09432D52-9834-42E5-A382-36AA5F3A3C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09432D52-9834-42E5-A382-36AA5F3A3C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09432D52-9834-42E5-A382-36AA5F3A3C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09432D52-9834-42E5-A382-36AA5F3A3C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5012B617-59CA-448B-BE2B-E8BE3DE6BE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5012B617-59CA-448B-BE2B-E8BE3DE6BE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5012B617-59CA-448B-BE2B-E8BE3DE6BE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5012B617-59CA-448B-BE2B-E8BE3DE6BE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\02-RandomNumbers\bin\Debug\02-RandomNumbers.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\02-RandomNumbers\bin\Debug\02-RandomNumbers.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\02-RandomNumbers\bin\Debug\02-RandomNumbers.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\02-RandomNumbers\obj\Debug\02-RandomNumbers.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\02-RandomNumbers\obj\Debug\02-RandomNumbers.pdb

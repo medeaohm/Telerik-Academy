@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\03-DayOfWeek\bin\Debug\03-DayOfWeek.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\03-DayOfWeek\bin\Debug\03-DayOfWeek.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\03-DayOfWeek\bin\Debug\03-DayOfWeek.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\03-DayOfWeek\obj\Debug\03-DayOfWeek.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\05-UsingClassesAndObjects\03-DayOfWeek\obj\Debug\03-DayOfWeek.pdb

@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\09-FrequentNumber\bin\Debug\09-FrequentNumber.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\09-FrequentNumber\bin\Debug\09-FrequentNumber.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\09-FrequentNumber\bin\Debug\09-FrequentNumber.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\09-FrequentNumber\obj\Debug\09-FrequentNumber.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\01-Arrays\09-FrequentNumber\obj\Debug\09-FrequentNumber.pdb

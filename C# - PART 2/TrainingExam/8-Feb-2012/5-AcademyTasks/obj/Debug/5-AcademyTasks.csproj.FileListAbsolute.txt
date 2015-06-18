@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\bin\Debug\5-AcademyTasks.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\bin\Debug\5-AcademyTasks.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\bin\Debug\5-AcademyTasks.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\obj\Debug\5-AcademyTasks.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\obj\Debug\5-AcademyTasks.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\TrainingExam\8-Feb-2012\5-AcademyTasks\obj\Debug\5-AcademyTasks.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\bin\Debug\09-SortingArray.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\bin\Debug\09-SortingArray.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\bin\Debug\09-SortingArray.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\obj\Debug\09-SortingArray.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\obj\Debug\09-SortingArray.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\C# - PART 2\03-Methods\09-SortingArray\obj\Debug\09-SortingArray.pdb
