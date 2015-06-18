@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Generate list</title>
+</head>
+<body>
+    <h1>Problem 12. Generate list</h1>
+    <p>
+        <ul>
+            <li>Write a function that creates a HTML < ul> using a template for every HTML < li>.</li>
+            <li>The source of the list should be an array of elements.</li>
+            <li>Replace all placeholders marked with –{…}– with the value of the corresponding property of the object.</li>    
+        </ul>
+    </p>
+
+    <div data-type="template" id="list-item" style="display: none">
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+    <button onclick="generateList()">Generate List</button>
+    <script src="scripts/12-script-GenerateList.js"></script>
+</body>
+</html>
