@@ -1,0 +1,6 @@
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\bin\Debug\1-Garden.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\bin\Debug\1-Garden.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\bin\Debug\1-Garden.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\obj\Debug\1-Garden.csprojResolveAssemblyReference.cache
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\obj\Debug\1-Garden.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\24-June-2013\1-Garden\obj\Debug\1-Garden.pdb

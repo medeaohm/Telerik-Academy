@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\9-ExchangeVariableValues\bin\Debug\9-ExchangeVariableValues.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\9-ExchangeVariableValues\bin\Debug\9-ExchangeVariableValues.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\9-ExchangeVariableValues\bin\Debug\9-ExchangeVariableValues.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\9-ExchangeVariableValues\obj\Debug\9-ExchangeVariableValues.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\9-ExchangeVariableValues\obj\Debug\9-ExchangeVariableValues.pdb

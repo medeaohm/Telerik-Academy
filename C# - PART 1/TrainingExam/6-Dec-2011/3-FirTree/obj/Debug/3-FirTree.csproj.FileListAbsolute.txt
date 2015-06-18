@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\3-FirTree\bin\Debug\3-FirTree.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\3-FirTree\bin\Debug\3-FirTree.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\3-FirTree\bin\Debug\3-FirTree.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\3-FirTree\obj\Debug\3-FirTree.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\3-FirTree\obj\Debug\3-FirTree.pdb

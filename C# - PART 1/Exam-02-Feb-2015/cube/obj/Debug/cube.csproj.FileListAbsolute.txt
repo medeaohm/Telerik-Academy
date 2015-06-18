@@ -1,0 +1,6 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\bin\Debug\cube.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\bin\Debug\cube.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\bin\Debug\cube.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\obj\Debug\cube.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\obj\Debug\cube.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\cube\obj\Debug\cube.csprojResolveAssemblyReference.cache

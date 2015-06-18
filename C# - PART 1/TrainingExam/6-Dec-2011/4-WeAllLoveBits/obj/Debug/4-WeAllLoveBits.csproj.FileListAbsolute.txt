@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\bin\Debug\4-WeAllLoveBits.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\bin\Debug\4-WeAllLoveBits.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\bin\Debug\4-WeAllLoveBits.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\obj\Debug\4-WeAllLoveBits.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\obj\Debug\4-WeAllLoveBits.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\6-Dec-2011\4-WeAllLoveBits\obj\Debug\4-WeAllLoveBits.pdb

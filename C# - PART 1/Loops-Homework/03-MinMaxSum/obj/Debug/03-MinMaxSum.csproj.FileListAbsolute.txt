@@ -1,0 +1,9 @@
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\bin\Debug\03-MinMaxSum.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\bin\Debug\03-MinMaxSum.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\bin\Debug\03-MinMaxSum.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\obj\Debug\03-MinMaxSum.csprojResolveAssemblyReference.cache
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\obj\Debug\03-MinMaxSum.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\Loops-Homework\03-MinMaxSum\obj\Debug\03-MinMaxSum.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Loops-Homework\03-MinMaxSum\bin\Debug\03-MinMaxSum.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Loops-Homework\03-MinMaxSum\obj\Debug\03-MinMaxSum.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Loops-Homework\03-MinMaxSum\obj\Debug\03-MinMaxSum.pdb

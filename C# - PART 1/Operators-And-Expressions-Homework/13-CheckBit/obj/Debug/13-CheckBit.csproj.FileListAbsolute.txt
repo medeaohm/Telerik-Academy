@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\13-CheckBit\bin\Debug\13-CheckBit.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\13-CheckBit\bin\Debug\13-CheckBit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\13-CheckBit\bin\Debug\13-CheckBit.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\13-CheckBit\obj\Debug\13-CheckBit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\13-CheckBit\obj\Debug\13-CheckBit.pdb

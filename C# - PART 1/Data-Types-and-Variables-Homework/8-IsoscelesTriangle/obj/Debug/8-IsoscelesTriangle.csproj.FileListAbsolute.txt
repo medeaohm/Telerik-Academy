@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\8-IsoscelesTriangle\bin\Debug\8-IsoscelesTriangle.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\8-IsoscelesTriangle\bin\Debug\8-IsoscelesTriangle.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\8-IsoscelesTriangle\bin\Debug\8-IsoscelesTriangle.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\8-IsoscelesTriangle\obj\Debug\8-IsoscelesTriangle.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\8-IsoscelesTriangle\obj\Debug\8-IsoscelesTriangle.pdb

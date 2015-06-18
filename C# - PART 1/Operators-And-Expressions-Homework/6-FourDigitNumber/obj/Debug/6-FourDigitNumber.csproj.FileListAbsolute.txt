@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\6-FourDigitNumber\bin\Debug\6-FourDigitNumber.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\6-FourDigitNumber\bin\Debug\6-FourDigitNumber.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\6-FourDigitNumber\bin\Debug\6-FourDigitNumber.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\6-FourDigitNumber\obj\Debug\6-FourDigitNumber.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\6-FourDigitNumber\obj\Debug\6-FourDigitNumber.pdb

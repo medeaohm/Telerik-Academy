@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\2-EncodingSum\bin\Debug\2-EncodingSum.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\2-EncodingSum\bin\Debug\2-EncodingSum.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\2-EncodingSum\bin\Debug\2-EncodingSum.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\2-EncodingSum\obj\Debug\2-EncodingSum.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Exam-02-Feb-2015\2-EncodingSum\obj\Debug\2-EncodingSum.pdb

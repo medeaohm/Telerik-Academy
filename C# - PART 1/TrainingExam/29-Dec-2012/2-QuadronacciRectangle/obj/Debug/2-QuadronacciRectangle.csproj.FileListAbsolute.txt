@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\bin\Debug\2-QuadronacciRectangle.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\bin\Debug\2-QuadronacciRectangle.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\bin\Debug\2-QuadronacciRectangle.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\obj\Debug\2-QuadronacciRectangle.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\obj\Debug\2-QuadronacciRectangle.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\2-QuadronacciRectangle\obj\Debug\2-QuadronacciRectangle.pdb

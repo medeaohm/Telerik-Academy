@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\bin\Debug\14-ModifyBit.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\bin\Debug\14-ModifyBit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\bin\Debug\14-ModifyBit.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\obj\Debug\14-ModifyBit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\obj\Debug\14-ModifyBit.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\14-ModifyBit\obj\Debug\14-ModifyBit.csprojResolveAssemblyReference.cache

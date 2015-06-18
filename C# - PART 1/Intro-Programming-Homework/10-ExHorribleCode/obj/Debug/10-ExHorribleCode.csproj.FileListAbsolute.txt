@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\10-ExHorribleCode\bin\Debug\10-ExHorribleCode.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\10-ExHorribleCode\bin\Debug\10-ExHorribleCode.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\10-ExHorribleCode\bin\Debug\10-ExHorribleCode.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\10-ExHorribleCode\obj\Debug\10-ExHorribleCode.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\10-ExHorribleCode\obj\Debug\10-ExHorribleCode.pdb

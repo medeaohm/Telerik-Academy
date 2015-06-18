@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\bin\Debug\3-Poker.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\bin\Debug\3-Poker.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\bin\Debug\3-Poker.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\obj\Debug\3-Poker.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\obj\Debug\3-Poker.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\TrainingExam\29-Dec-2012\3-Poker\obj\Debug\3-Poker.pdb

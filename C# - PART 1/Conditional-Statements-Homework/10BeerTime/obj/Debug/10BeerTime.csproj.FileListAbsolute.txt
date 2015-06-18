@@ -1,0 +1,6 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\bin\Debug\10BeerTime.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\bin\Debug\10BeerTime.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\bin\Debug\10BeerTime.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\obj\Debug\10BeerTime.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\obj\Debug\10BeerTime.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Conditional-Statements-Homework\10BeerTime\obj\Debug\10BeerTime.csprojResolveAssemblyReference.cache

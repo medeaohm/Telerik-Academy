@@ -1,0 +1,5 @@
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\5-ThirdDigit\bin\Debug\5-ThirdDigit.exe.config
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\5-ThirdDigit\bin\Debug\5-ThirdDigit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\5-ThirdDigit\bin\Debug\5-ThirdDigit.pdb
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\5-ThirdDigit\obj\Debug\5-ThirdDigit.exe
+C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\5-ThirdDigit\obj\Debug\5-ThirdDigit.pdb

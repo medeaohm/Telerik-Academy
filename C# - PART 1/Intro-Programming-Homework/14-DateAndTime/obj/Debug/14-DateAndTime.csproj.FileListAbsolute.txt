@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\14-DateAndTime\bin\Debug\14-DateAndTime.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\14-DateAndTime\bin\Debug\14-DateAndTime.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\14-DateAndTime\bin\Debug\14-DateAndTime.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\14-DateAndTime\obj\Debug\14-DateAndTime.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Intro-Programming-Homework\14-DateAndTime\obj\Debug\14-DateAndTime.pdb

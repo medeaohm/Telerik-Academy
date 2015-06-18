@@ -1,0 +1,6 @@
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\bin\Debug\1-ShipDamage.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\bin\Debug\1-ShipDamage.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\bin\Debug\1-ShipDamage.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\obj\Debug\1-ShipDamage.csprojResolveAssemblyReference.cache
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\obj\Debug\1-ShipDamage.exe
+c:\users\adrian\documents\visual studio 2013\Projects\TrainingExam\6-Dec-2011\1-ShipDamage\obj\Debug\1-ShipDamage.pdb

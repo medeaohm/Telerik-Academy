@@ -1,0 +1,5 @@
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\6-StringsAndObjects\bin\Debug\6-StringsAndObjects.exe.config
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\6-StringsAndObjects\bin\Debug\6-StringsAndObjects.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\6-StringsAndObjects\bin\Debug\6-StringsAndObjects.pdb
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\6-StringsAndObjects\obj\Debug\6-StringsAndObjects.exe
+c:\users\adrian\documents\visual studio 2013\Projects\Data-Types-and-Variables-Homework\6-StringsAndObjects\obj\Debug\6-StringsAndObjects.pdb
