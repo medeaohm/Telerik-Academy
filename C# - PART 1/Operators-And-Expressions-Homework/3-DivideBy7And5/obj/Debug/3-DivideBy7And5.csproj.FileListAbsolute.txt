@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\3-DivideBy7And5\bin\Debug\3-DivideBy7And5.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\3-DivideBy7And5\bin\Debug\3-DivideBy7And5.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\3-DivideBy7And5\bin\Debug\3-DivideBy7And5.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\3-DivideBy7And5\obj\Debug\3-DivideBy7And5.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\3-DivideBy7And5\obj\Debug\3-DivideBy7And5.pdb

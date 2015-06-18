@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\4-Rectangles\bin\Debug\4-Rectangles.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\4-Rectangles\bin\Debug\4-Rectangles.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\4-Rectangles\bin\Debug\4-Rectangles.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\4-Rectangles\obj\Debug\4-Rectangles.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\4-Rectangles\obj\Debug\4-Rectangles.pdb

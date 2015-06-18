@@ -1,5 +1,0 @@
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\11-ExtractThirdBit\bin\Debug\11-ExtractThirdBit.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\11-ExtractThirdBit\bin\Debug\11-ExtractThirdBit.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\11-ExtractThirdBit\bin\Debug\11-ExtractThirdBit.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\11-ExtractThirdBit\obj\Debug\11-ExtractThirdBit.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\11-ExtractThirdBit\obj\Debug\11-ExtractThirdBit.pdb

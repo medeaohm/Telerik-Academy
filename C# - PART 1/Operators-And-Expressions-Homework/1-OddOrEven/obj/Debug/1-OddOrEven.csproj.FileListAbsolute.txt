@@ -1,6 +1,0 @@
-c:\users\adrian\documents\visual studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\bin\Debug\1-OddOrEven.exe.config
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\bin\Debug\1-OddOrEven.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\bin\Debug\1-OddOrEven.pdb
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\obj\Debug\1-OddOrEven.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\obj\Debug\1-OddOrEven.exe
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Operators-And-Expressions-Homework\1-OddOrEven\obj\Debug\1-OddOrEven.pdb
