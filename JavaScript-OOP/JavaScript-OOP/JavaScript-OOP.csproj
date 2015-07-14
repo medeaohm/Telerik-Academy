@@ -111,8 +111,16 @@
     <Content Include="04-PrototypalInheritance\node_modules\chai\ReleaseNotes.md" />
     <Content Include="04-PrototypalInheritance\package.json" />
     <Content Include="04-PrototypalInheritance\README.md" />
-    <Content Include="05-ModulesAndPatterns\homework\package.json" />
-    <Content Include="05-ModulesAndPatterns\homework\README.md" />
+    <Content Include="05-ModulesAndPatterns\package.json" />
+    <Content Include="05-ModulesAndPatterns\README.md" />
+    <Content Include="Exam09-July-2015\README.html" />
+    <Content Include="Exam09-July-2015\sample-usage.js" />
+    <Content Include="Sample exam\package.json" />
+    <Content Include="Sample exam\README.md" />
+    <Content Include="Sample exam\tasks\solution-doncho.js" />
+    <Content Include="Sample exam\tests\task-1-tests.coffee" />
+    <Content Include="Sample exam\tests\task-1-tests.js.map" />
+    <Content Include="Exam09-July-2015\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -209,11 +217,40 @@
     <Content Include="04-PrototypalInheritance\node_modules\chai\sauce.browsers.js" />
     <Content Include="04-PrototypalInheritance\tasks\task-1.js" />
     <Content Include="04-PrototypalInheritance\tests\tests-task-1.js" />
-    <Content Include="05-ModulesAndPatterns\demos\1. module.js" />
-    <Content Include="05-ModulesAndPatterns\demos\2. revealing-module.js" />
-    <Content Include="05-ModulesAndPatterns\demos\3. singleton.js" />
-    <Content Include="05-ModulesAndPatterns\homework\tasks\task-1.js" />
-    <Content Include="05-ModulesAndPatterns\homework\tests\tests-task-1.js" />
+    <Content Include="05-ModulesAndPatterns\tasks\task-1.js" />
+    <Content Include="05-ModulesAndPatterns\tests\tests-task-1.js" />
+    <Content Include="08. Object and Object.prototype methods\01. Object.defineProperty%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\02. Object.defineProperties%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\03. Object.create%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\04. Object.keys%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\06. Object.preventExtensions%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\07. Object.isExtensible%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\08. Object.seal%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\09. Object.isSealed%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\10. Object.freeze%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\11. deepFreeze%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\12. Object.isFrozen%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\13. Object.assign%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\14. Object.is%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\15. Object.prototype.hasOwnProperty%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\16. Object.prototype.isPrototypeOf%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\17. Object.prototype.propertyIsEnumerable%28%29.js" />
+    <Content Include="08. Object and Object.prototype methods\18. Object.prototype.valueOf%28%29.js" />
+    <Content Include="09. ECMAScript 6\01. let and const.js" />
+    <Content Include="09. ECMAScript 6\02. for-of loop.js" />
+    <Content Include="09. ECMAScript 6\03. templated string.js" />
+    <Content Include="09. ECMAScript 6\04. classes and inheritance.js" />
+    <Content Include="09. ECMAScript 6\05. arrow functions.js" />
+    <Content Include="09. ECMAScript 6\06. destructuring assignments.js" />
+    <Content Include="09. ECMAScript 6\07. maps and sets.js" />
+    <Content Include="09. ECMAScript 6\08. modules\lib\math.js" />
+    <Content Include="09. ECMAScript 6\08. modules\otherApp.js" />
+    <Content Include="09. ECMAScript 6\08. modules\someApp.js" />
+    <Content Include="09. ECMAScript 6\09. extended parameter handling.js" />
+    <Content Include="Sample exam\tasks\task-1-nn.js" />
+    <Content Include="Sample exam\tasks\task-1.js" />
+    <Content Include="Sample exam\tests\task-1-tests-playlist.js" />
+    <Content Include="Sample exam\tests\task-1-tests.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
