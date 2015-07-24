@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{0A684E72-082D-4510-8A1B-683D65BAD6B5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\GitHub\High-Quality-Code\06. Control Flow, Conditional Statements and Loops\Homework\README.md = ..\..\..\..\Documents\GitHub\High-Quality-Code\06. Control Flow, Conditional Statements and Loops\Homework\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Chef", "1-Chef\1-Chef.csproj", "{049381E0-5D26-4633-8325-62DAD3FD3C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Refactor-if-statements", "2-Refactor-if-statements\2-Refactor-if-statements.csproj", "{77282298-B523-47EB-81E0-D12DEE2B4068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Refractor-loop", "3-Refractor-loop\3-Refractor-loop.csproj", "{6CE3F155-FD14-4BA8-B30F-5644D95D43FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-RefactorC-Sharp1examSolutions", "4-RefactorC-Sharp1examSolutions", "{BCD3016A-4FD1-432B-843C-C4316BC44A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Money", "1-Money\1-Money.csproj", "{4DBF73DE-3981-45A4-AACD-8215975E76DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Cube3D", "4-Cube3D\4-Cube3D.csproj", "{5D162F95-3972-4966-82A0-F1F1DF423740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049381E0-5D26-4633-8325-62DAD3FD3C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049381E0-5D26-4633-8325-62DAD3FD3C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049381E0-5D26-4633-8325-62DAD3FD3C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049381E0-5D26-4633-8325-62DAD3FD3C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77282298-B523-47EB-81E0-D12DEE2B4068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77282298-B523-47EB-81E0-D12DEE2B4068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77282298-B523-47EB-81E0-D12DEE2B4068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77282298-B523-47EB-81E0-D12DEE2B4068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE3F155-FD14-4BA8-B30F-5644D95D43FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE3F155-FD14-4BA8-B30F-5644D95D43FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE3F155-FD14-4BA8-B30F-5644D95D43FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE3F155-FD14-4BA8-B30F-5644D95D43FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBF73DE-3981-45A4-AACD-8215975E76DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBF73DE-3981-45A4-AACD-8215975E76DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBF73DE-3981-45A4-AACD-8215975E76DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBF73DE-3981-45A4-AACD-8215975E76DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D162F95-3972-4966-82A0-F1F1DF423740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D162F95-3972-4966-82A0-F1F1DF423740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D162F95-3972-4966-82A0-F1F1DF423740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D162F95-3972-4966-82A0-F1F1DF423740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DBF73DE-3981-45A4-AACD-8215975E76DD} = {BCD3016A-4FD1-432B-843C-C4316BC44A6E}
+		{5D162F95-3972-4966-82A0-F1F1DF423740} = {BCD3016A-4FD1-432B-843C-C4316BC44A6E}
+	EndGlobalSection
+EndGlobal
