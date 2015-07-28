@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\bin\Debug\2-CompareSimpleMaths.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\obj\Debug\2-CompareSimpleMaths.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\bin\Debug\2-CompareSimpleMaths.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\bin\Debug\2-CompareSimpleMaths.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\obj\Debug\2-CompareSimpleMaths.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\2-CompareSimpleMaths\obj\Debug\2-CompareSimpleMaths.pdb

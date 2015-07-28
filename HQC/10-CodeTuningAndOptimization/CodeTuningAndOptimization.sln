@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem.csproj", "{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{52734B0A-22A8-4A9F-AD09-AD4F789C01D8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\GitHub\High-Quality-Code\10. Code Tuning and Optimization\Homework\README.md = ..\..\..\..\Documents\GitHub\High-Quality-Code\10. Code Tuning and Optimization\Homework\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-CompareSimpleMaths", "..\2-CompareSimpleMaths\2-CompareSimpleMaths.csproj", "{09625D60-0BE5-47C5-B639-46502E155D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CompareAdvancedMaths", "3-CompareAdvancedMaths\3-CompareAdvancedMaths.csproj", "{245A48B9-731F-434A-8B1E-B5EB40119894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-SolarSystem", "01-SolarSystem", "{F9150F23-14AE-4B2F-9D2E-185BD04FCDFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-CompareSimpleMaths", "02-CompareSimpleMaths", "{2A50B22A-593D-48F8-90ED-3396E194B404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-CompareAdvancedMaths", "03-CompareAdvancedMaths", "{978F93E0-4CCA-43F7-9A9D-E035DECAAD90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09625D60-0BE5-47C5-B639-46502E155D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09625D60-0BE5-47C5-B639-46502E155D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09625D60-0BE5-47C5-B639-46502E155D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09625D60-0BE5-47C5-B639-46502E155D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245A48B9-731F-434A-8B1E-B5EB40119894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A48B9-731F-434A-8B1E-B5EB40119894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A48B9-731F-434A-8B1E-B5EB40119894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A48B9-731F-434A-8B1E-B5EB40119894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F30E9AF-8256-40AF-B356-EA14E55CE9D7} = {F9150F23-14AE-4B2F-9D2E-185BD04FCDFB}
+		{09625D60-0BE5-47C5-B639-46502E155D11} = {2A50B22A-593D-48F8-90ED-3396E194B404}
+		{245A48B9-731F-434A-8B1E-B5EB40119894} = {978F93E0-4CCA-43F7-9A9D-E035DECAAD90}
+	EndGlobalSection
+EndGlobal
