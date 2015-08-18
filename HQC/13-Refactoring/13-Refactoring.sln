@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotating-Walk-in-Matrix", "Rotating-Walk-in-Matrix\Rotating-Walk-in-Matrix.csproj", "{9A3D94F5-C5B1-4114-8CA5-C74A259237B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{73CFDF2A-FA14-438F-B930-28FB1BD21E70}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\GitHub\High-Quality-Code\13. Refactoring\Homework\README.md = ..\..\..\..\Documents\GitHub\High-Quality-Code\13. Refactoring\Homework\README.md
+		..\..\..\..\Documents\GitHub\High-Quality-Code\13. Refactoring\Homework\Rotating-Walk-in-Matrix.docx = ..\..\..\..\Documents\GitHub\High-Quality-Code\13. Refactoring\Homework\Rotating-Walk-in-Matrix.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Walk-in-Matrix", "Walk-in-Matrix", "{555617CD-F4F1-404D-AA4C-71909309E061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Walk-in-Matrix.Test", "Walk-in-Matrix.Test", "{E2BE933F-CC69-4A23-B59B-10AC4910BA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotating-Walk-in-Matrix.Test", "Walk-in-Matrix.Test\Rotating-Walk-in-Matrix.Test.csproj", "{73CB156F-E842-46EC-9B65-9D0427D04417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3D94F5-C5B1-4114-8CA5-C74A259237B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3D94F5-C5B1-4114-8CA5-C74A259237B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3D94F5-C5B1-4114-8CA5-C74A259237B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3D94F5-C5B1-4114-8CA5-C74A259237B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CB156F-E842-46EC-9B65-9D0427D04417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CB156F-E842-46EC-9B65-9D0427D04417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CB156F-E842-46EC-9B65-9D0427D04417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB156F-E842-46EC-9B65-9D0427D04417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A3D94F5-C5B1-4114-8CA5-C74A259237B4} = {555617CD-F4F1-404D-AA4C-71909309E061}
+		{73CB156F-E842-46EC-9B65-9D0427D04417} = {E2BE933F-CC69-4A23-B59B-10AC4910BA74}
+	EndGlobalSection
+EndGlobal
