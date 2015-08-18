@@ -48,7 +48,6 @@ function solve() {
    for (var index = 0; index < count; index++) {
      content += + index;
      $("<li class='list-item'>").html(content).appendTo($ul);
-     console.log(content);
      content = "List item #";
    }
   };
