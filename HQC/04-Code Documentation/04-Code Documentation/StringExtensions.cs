@@ -13,6 +13,10 @@
     /// </summary>
     public static class StringExtensions
     {
+        public static void Main()
+        {
+            Console.WriteLine("Now is ok");
+        }
         /// <summary>
         /// Converts a string input to a byte array and compute the hash
         /// </summary>

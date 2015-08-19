@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Code-Documentation.shfbproj" started="02/07/2015 22:34:08">
+<shfbBuild product="Sandcastle Help File Builder" version="2015.1.12.0" projectFile="C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\StringExtensions-Documentation.shfbproj" started="19/08/2015 00:14:43">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
 Searching for HTML Help 1 compiler...
 Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
 Locating components in the following folder(s):
-   C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation
+   C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation
 Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
 Lightweight Website Style Version 2015.1.12.0
@@ -18,27 +18,27 @@ Clearing working folder...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.vshost.exe
-    Found assembly &#39;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.vshost.exe&#39;
-Source: C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.XML
+Source: C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.exe
+    Found assembly &#39;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.exe&#39;
+Source: C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.XML
 
 Copying XML comments files
-    C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.XML -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\04-Code Documentation.XML
+    C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\bin\Debug\04-Code Documentation.XML -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\04-Code Documentation.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.7225
+</plugIn>    Last step completed in 00:00:16.5238
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0360
+    Last step completed in 00:00:00.6200
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 02/07/2015 22:34:11.
-Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+Build started 19/08/2015 00:16:39.
+Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\MCD\Debug\&quot;.
 GenerateRefInfo:
@@ -46,24 +46,24 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 1 namespaces, 1 types, and 1 members
+  Wrote information on 1 namespaces, 1 types, and 17 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-Done Building Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.71
-    Last step completed in 00:00:07.3442
+Time Elapsed 00:00:47.02
+    Last step completed in 00:01:21.5962
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 02/07/2015 22:34:18.
-Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+Build started 19/08/2015 00:17:30.
+Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -78,82 +78,82 @@ TransformManifest:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-Done Building Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.45
-    Last step completed in 00:00:07.3093
+Time Elapsed 00:00:10.32
+    Last step completed in 00:00:13.0673
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0720
+    Last step completed in 00:00:00.7400
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0120
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 02/07/2015 22:34:25.
-Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+Build started 19/08/2015 00:17:42.
+Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-Done Building Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Done Building Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.82
+Time Elapsed 00:00:01.49
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.7521
+    Last step completed in 00:00:03.3301
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.5760
+    Last step completed in 00:00:04.2416
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0560
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.1800
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 02/07/2015 22:34:28.
-Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+Build started 19/08/2015 00:17:49.
+Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2015.1.12.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:Microsoft.VisualStudio.HostingProcess] Missing &lt;summary&gt; documentation [C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:Microsoft.VisualStudio.HostingProcess.EntryPoint] Missing &lt;summary&gt; documentation [C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Microsoft.VisualStudio.HostingProcess.EntryPoint.Main] Missing &lt;summary&gt; documentation [C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj]
-  Processed 4 topic(s)
-  3 warning(s)
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 1 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-Done Building Project &quot;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+BuildAssembler : warning : ShowMissingComponent: [N:Telerik.ILS.Common] Missing &lt;summary&gt; documentation [C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Telerik.ILS.Common.StringExtensions.Main] Missing &lt;summary&gt; documentation [C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj]
+  Processed 20 topic(s)
+  2 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 13 entries
+Done Building Project &quot;C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:22.51
-    Last step completed in 00:00:23.4983
+Time Elapsed 00:01:32.17
+    Last step completed in 00:01:32.8908
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -164,91 +164,91 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing Help 1 files in C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1
-Processed 4 HTML files
+Processing Help 1 files in C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1
+Processed 20 HTML files
 Sorting keywords and generating See Also indices
-Saving HTML Help 1 keyword index to C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Documentation.hhk
-Saving HTML Help 1 table of contents to C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Documentation.hhc
-    Last step completed in 00:00:02.6841
+Saving HTML Help 1 keyword index to C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Documentation.hhc
+    Last step completed in 00:00:08.9239
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help2.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00.2040
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:07.4859
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.2300
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -257,19 +257,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Compiling c:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  Compiling c:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
   
   
   
   
   
-  Compile time: 0 minutes, 3 seconds
+  Compile time: 0 minutes, 12 seconds
   
-  6	Topics
+  22	Topics
   
-  33	Local links
+  209	Local links
   
-  23	Internet links
+  85	Internet links
   
   0	Graphics
   
@@ -277,19 +277,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\Adrian\Documents\Visual Studio 2013\Projects\Telerik-Academy\High Quality Code\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 54,205 bytes
+  Created c:\Users\Adrian\Desktop\Telerik-Academy\HQC\04-Code Documentation\04-Code Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 72,203 bytes
   
-  Compression decreased file by 59,583 bytes.
+  Compression decreased file by 194,558 bytes.
   
-    Last step completed in 00:00:06.8381
+    Last step completed in 00:00:22.7406
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0360
+    Last step completed in 00:00:00.2700
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 02/07/2015 22:35:01.  Total time: 00:00:52.7966
+Build completed successfully at 19/08/2015 00:20:01.  Total time: 00:05:18.0926
 
 </buildStep>
 </shfbBuild>
