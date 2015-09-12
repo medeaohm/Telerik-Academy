@@ -53,6 +53,7 @@ The Singleton pattern can be used in the following cases:
 	        }
 	    }
 	}
+	~~~
 
 * **Participants:**
 When implementing the Singleton pattern the participants are the Singleton class and the client:

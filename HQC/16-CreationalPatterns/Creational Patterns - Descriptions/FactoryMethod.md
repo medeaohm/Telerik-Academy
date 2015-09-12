@@ -128,4 +128,4 @@ The classes and objects participating in this pattern are:
 
 * **Structure:**
 
-![FactoryMethod](images/FactoryMethod.svg.png "Factor Method - UML diagram")
+![FactoryMethod](images/FactoryMethod.svg.png "Factory Method - UML diagram")
