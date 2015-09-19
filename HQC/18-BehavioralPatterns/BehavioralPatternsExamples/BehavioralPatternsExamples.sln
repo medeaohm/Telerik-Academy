@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{FF350104-0F53-4652-AE47-88EDD1CC4B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{DA613282-F7E2-42A3-8CE3-D9E70100D608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{7E978991-5CC9-4289-A652-50DE750150B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{B2C24BE2-A928-467A-9A08-DF2E18C047FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{26F544B3-DFAB-4F7F-B186-75E193624987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{C2CAC937-9999-4BF0-A0C7-F5778C48FE31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{EA071330-F002-456E-9C4E-3194705CE7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{AA2B6972-F060-4D15-9955-FB13779074BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA613282-F7E2-42A3-8CE3-D9E70100D608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA613282-F7E2-42A3-8CE3-D9E70100D608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA613282-F7E2-42A3-8CE3-D9E70100D608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA613282-F7E2-42A3-8CE3-D9E70100D608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C24BE2-A928-467A-9A08-DF2E18C047FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C24BE2-A928-467A-9A08-DF2E18C047FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C24BE2-A928-467A-9A08-DF2E18C047FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C24BE2-A928-467A-9A08-DF2E18C047FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CAC937-9999-4BF0-A0C7-F5778C48FE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CAC937-9999-4BF0-A0C7-F5778C48FE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CAC937-9999-4BF0-A0C7-F5778C48FE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CAC937-9999-4BF0-A0C7-F5778C48FE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2B6972-F060-4D15-9955-FB13779074BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2B6972-F060-4D15-9955-FB13779074BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2B6972-F060-4D15-9955-FB13779074BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2B6972-F060-4D15-9955-FB13779074BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA613282-F7E2-42A3-8CE3-D9E70100D608} = {FF350104-0F53-4652-AE47-88EDD1CC4B70}
+		{B2C24BE2-A928-467A-9A08-DF2E18C047FA} = {7E978991-5CC9-4289-A652-50DE750150B1}
+		{C2CAC937-9999-4BF0-A0C7-F5778C48FE31} = {26F544B3-DFAB-4F7F-B186-75E193624987}
+		{AA2B6972-F060-4D15-9955-FB13779074BA} = {EA071330-F002-456E-9C4E-3194705CE7B0}
+	EndGlobalSection
+EndGlobal
