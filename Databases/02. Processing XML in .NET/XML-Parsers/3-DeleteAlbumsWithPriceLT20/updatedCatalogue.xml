@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Create a XML file representing catalogue.
+* The catalogue should contain albums of different artists.
+* For each album you should define: `name`, `artist`, `year`, `producer`, `price` and a list of `songs`.
+* Each song should be described by title and duration.-->
+<catalogue>
+  <album>
+    <name>Hello world</name>
+    <artist>Krisko</artist>
+    <year>2015</year>
+    <producer>Painer</producer>
+    <price>20</price>
+    <songs>
+      <song>
+        <title>Ala Bala</title>
+        <duration>4.25</duration>
+      </song>
+      <song>
+        <title>Dva 4uvala</title>
+        <duration>3.33</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>GoodMorning</name>
+    <artist>Krisko</artist>
+    <year>2013</year>
+    <producer>Painer</producer>
+    <price>20</price>
+    <songs>
+      <song>
+        <title>Al Bal</title>
+        <duration>4.25</duration>
+      </song>
+      <song>
+        <title>Dv 4uval</title>
+        <duration>3.33</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Hi</name>
+    <artist>Lora</artist>
+    <year>2015</year>
+    <producer>Painer</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Haha</title>
+        <duration>4.11</duration>
+      </song>
+      <song>
+        <title>Hoho</title>
+        <duration>3.45</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

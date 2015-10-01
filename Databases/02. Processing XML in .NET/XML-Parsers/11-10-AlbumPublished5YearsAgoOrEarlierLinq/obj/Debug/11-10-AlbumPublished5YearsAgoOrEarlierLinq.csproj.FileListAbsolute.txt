@@ -1,0 +1,1 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\11-10-AlbumPublished5YearsAgoOrEarlierLinq\bin\Debug\11-10-AlbumPublished5YearsAgoOrEarlierLinq.exe.config

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="../../../">
+  <dir path="../../../1-CountAlbumsPerArtist">
+    <dir path="../../../1-CountAlbumsPerArtist\bin">
+      <dir path="../../../1-CountAlbumsPerArtist\bin\Debug">
+        <file name="1-CountAlbumsPerArtist" ext=".exe" />
+        <file name="1-CountAlbumsPerArtist.exe" ext=".config" />
+        <file name="1-CountAlbumsPerArtist" ext=".pdb" />
+        <file name="1-CountAlbumsPerArtist.vshost" ext=".exe" />
+        <file name="1-CountAlbumsPerArtist.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../1-CountAlbumsPerArtist\bin\Release" />
+    </dir>
+    <dir path="../../../1-CountAlbumsPerArtist\obj">
+      <dir path="../../../1-CountAlbumsPerArtist\obj\Debug">
+        <dir path="../../../1-CountAlbumsPerArtist\obj\Debug\TempPE" />
+        <file name="1-CountAlbumsPerArtist.csproj.FileListAbsolute" ext=".txt" />
+        <file name="1-CountAlbumsPerArtist.csprojResolveAssemblyReference" ext=".cache" />
+        <file name="1-CountAlbumsPerArtist" ext=".exe" />
+        <file name="1-CountAlbumsPerArtist" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../1-CountAlbumsPerArtist\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="1-CountAlbumsPerArtist" ext=".cs" />
+    <file name="1-CountAlbumsPerArtist" ext=".csproj" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../2-CountAlbumsPerArtist-XPath">
+    <dir path="../../../2-CountAlbumsPerArtist-XPath\bin">
+      <dir path="../../../2-CountAlbumsPerArtist-XPath\bin\Debug">
+        <file name="2-CountAlbumsPerArtist-XPath" ext=".exe" />
+        <file name="2-CountAlbumsPerArtist-XPath.exe" ext=".config" />
+        <file name="2-CountAlbumsPerArtist-XPath" ext=".pdb" />
+        <file name="2-CountAlbumsPerArtist-XPath.vshost" ext=".exe" />
+        <file name="2-CountAlbumsPerArtist-XPath.vshost.exe" ext=".config" />
+        <file name="2-CountAlbumsPerArtist-XPath.vshost.exe" ext=".manifest" />
+      </dir>
+      <dir path="../../../2-CountAlbumsPerArtist-XPath\bin\Release" />
+    </dir>
+    <dir path="../../../2-CountAlbumsPerArtist-XPath\obj">
+      <dir path="../../../2-CountAlbumsPerArtist-XPath\obj\Debug">
+        <dir path="../../../2-CountAlbumsPerArtist-XPath\obj\Debug\TempPE" />
+        <file name="2-CountAlbumsPerArtist-XPath.csproj.FileListAbsolute" ext=".txt" />
+        <file name="2-CountAlbumsPerArtist-XPath" ext=".exe" />
+        <file name="2-CountAlbumsPerArtist-XPath" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../2-CountAlbumsPerArtist-XPath\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="2-CountAlbumsPerArtist-XPath" ext=".csproj" />
+    <file name="2-CountAlbumsPerArtist" ext=".cs" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../3-DeleteAlbumsWithPriceLT20">
+    <dir path="../../../3-DeleteAlbumsWithPriceLT20\bin">
+      <dir path="../../../3-DeleteAlbumsWithPriceLT20\bin\Debug">
+        <file name="3-DeleteAlbumsWithPriceLT20" ext=".exe" />
+        <file name="3-DeleteAlbumsWithPriceLT20.exe" ext=".config" />
+        <file name="3-DeleteAlbumsWithPriceLT20" ext=".pdb" />
+        <file name="3-DeleteAlbumsWithPriceLT20.vshost" ext=".exe" />
+        <file name="3-DeleteAlbumsWithPriceLT20.vshost.exe" ext=".config" />
+        <file name="3-DeleteAlbumsWithPriceLT20.vshost.exe" ext=".manifest" />
+      </dir>
+      <dir path="../../../3-DeleteAlbumsWithPriceLT20\bin\Release" />
+    </dir>
+    <dir path="../../../3-DeleteAlbumsWithPriceLT20\obj">
+      <dir path="../../../3-DeleteAlbumsWithPriceLT20\obj\Debug">
+        <dir path="../../../3-DeleteAlbumsWithPriceLT20\obj\Debug\TempPE" />
+        <file name="3-DeleteAlbumsWithPriceLT20.csproj.FileListAbsolute" ext=".txt" />
+        <file name="3-DeleteAlbumsWithPriceLT20" ext=".exe" />
+        <file name="3-DeleteAlbumsWithPriceLT20" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../3-DeleteAlbumsWithPriceLT20\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="3-DeleteAlbumsWithPriceLT20" ext=".csproj" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+    <file name="DeleteAlbumsWithPriceLT20" ext=".cs" />
+    <file name="updatedCatalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../4-AllSongsXMLreader">
+    <dir path="../../../4-AllSongsXMLreader\bin">
+      <dir path="../../../4-AllSongsXMLreader\bin\Debug">
+        <file name="4-AllSongsXMLreader.exe" ext=".config" />
+        <file name="4-AllSongsXMLreader.vshost" ext=".exe" />
+        <file name="4-AllSongsXMLreader.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../4-AllSongsXMLreader\bin\Release" />
+    </dir>
+    <dir path="../../../4-AllSongsXMLreader\obj">
+      <dir path="../../../4-AllSongsXMLreader\obj\Debug">
+        <dir path="../../../4-AllSongsXMLreader\obj\Debug\TempPE" />
+        <file name="4-AllSongsXMLreader.csproj.FileListAbsolute" ext=".txt" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../4-AllSongsXMLreader\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="4-AllSongsXMLreader" ext=".csproj" />
+    <file name="AllSongs" ext=".cs" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../5-AllSongsXdocument">
+    <dir path="../../../5-AllSongsXdocument\bin">
+      <dir path="../../../5-AllSongsXdocument\bin\Debug">
+        <file name="5-AllSongsXdocument" ext=".exe" />
+        <file name="5-AllSongsXdocument.exe" ext=".config" />
+        <file name="5-AllSongsXdocument" ext=".pdb" />
+        <file name="5-AllSongsXdocument.vshost" ext=".exe" />
+        <file name="5-AllSongsXdocument.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../5-AllSongsXdocument\bin\Release" />
+    </dir>
+    <dir path="../../../5-AllSongsXdocument\obj">
+      <dir path="../../../5-AllSongsXdocument\obj\Debug">
+        <dir path="../../../5-AllSongsXdocument\obj\Debug\TempPE" />
+        <file name="5-AllSongsXdocument.csproj.FileListAbsolute" ext=".txt" />
+        <file name="5-AllSongsXdocument" ext=".exe" />
+        <file name="5-AllSongsXdocument" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../5-AllSongsXdocument\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="5-AllSongsXdocument" ext=".csproj" />
+    <file name="AllSongs" ext=".cs" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../6-PersonToXML">
+    <dir path="../../../6-PersonToXML\bin">
+      <dir path="../../../6-PersonToXML\bin\Debug">
+        <file name="6-PersonToXML" ext=".exe" />
+        <file name="6-PersonToXML.exe" ext=".config" />
+        <file name="6-PersonToXML" ext=".pdb" />
+        <file name="6-PersonToXML.vshost" ext=".exe" />
+        <file name="6-PersonToXML.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../6-PersonToXML\bin\Release" />
+    </dir>
+    <dir path="../../../6-PersonToXML\obj">
+      <dir path="../../../6-PersonToXML\obj\Debug">
+        <dir path="../../../6-PersonToXML\obj\Debug\TempPE" />
+        <file name="6-PersonToXML.csproj.FileListAbsolute" ext=".txt" />
+        <file name="6-PersonToXML.csprojResolveAssemblyReference" ext=".cache" />
+        <file name="6-PersonToXML" ext=".exe" />
+        <file name="6-PersonToXML" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../6-PersonToXML\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="6-PersonToXML" ext=".csproj" />
+    <file name="App" ext=".config" />
+    <file name="Person" ext=".cs" />
+    <file name="Person" ext=".txt" />
+    <file name="person" ext=".xml" />
+    <file name="PersonToXML" ext=".cs" />
+  </dir>
+  <dir path="../../../7-AlbumsFromCatalogue">
+    <dir path="../../../7-AlbumsFromCatalogue\bin">
+      <dir path="../../../7-AlbumsFromCatalogue\bin\Debug">
+        <file name="7-AlbumsFromCatalogue" ext=".exe" />
+        <file name="7-AlbumsFromCatalogue.exe" ext=".config" />
+        <file name="7-AlbumsFromCatalogue" ext=".pdb" />
+        <file name="7-AlbumsFromCatalogue.vshost" ext=".exe" />
+        <file name="7-AlbumsFromCatalogue.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../7-AlbumsFromCatalogue\bin\Release" />
+    </dir>
+    <dir path="../../../7-AlbumsFromCatalogue\obj">
+      <dir path="../../../7-AlbumsFromCatalogue\obj\Debug">
+        <dir path="../../../7-AlbumsFromCatalogue\obj\Debug\TempPE" />
+        <file name="7-AlbumsFromCatalogue.csproj.FileListAbsolute" ext=".txt" />
+        <file name="7-AlbumsFromCatalogue" ext=".exe" />
+        <file name="7-AlbumsFromCatalogue" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../7-AlbumsFromCatalogue\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="7-AlbumsFromCatalogue" ext=".csproj" />
+    <file name="Albums" ext=".cs" />
+    <file name="albums" ext=".xml" />
+    <file name="App" ext=".config" />
+    <file name="catalogue" ext=".xml" />
+  </dir>
+  <dir path="../../../8-TraverseDirectory">
+    <dir path="../../../8-TraverseDirectory\bin">
+      <dir path="../../../8-TraverseDirectory\bin\Debug">
+        <file name="8-TraverseDirectory" ext=".exe" />
+        <file name="8-TraverseDirectory.exe" ext=".config" />
+        <file name="8-TraverseDirectory" ext=".pdb" />
+        <file name="8-TraverseDirectory.vshost" ext=".exe" />
+        <file name="8-TraverseDirectory.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../8-TraverseDirectory\bin\Release" />
+    </dir>
+    <dir path="../../../8-TraverseDirectory\obj">
+      <dir path="../../../8-TraverseDirectory\obj\Debug">
+        <dir path="../../../8-TraverseDirectory\obj\Debug\TempPE" />
+        <file name="8-TraverseDirectory.csproj.FileListAbsolute" ext=".txt" />
+        <file name="8-TraverseDirectory" ext=".exe" />
+        <file name="8-TraverseDirectory" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../8-TraverseDirectory\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="8-TraverseDirectory" ext=".csproj" />
+    <file name="App" ext=".config" />
+    <file name="dir" ext=".xml" />
+    <file name="TraverseDirectory" ext=".cs" />
+  </dir>
+  <dir path="../../../9-TraverseDocumentXdocument">
+    <dir path="../../../9-TraverseDocumentXdocument\bin">
+      <dir path="../../../9-TraverseDocumentXdocument\bin\Debug">
+        <file name="9-TraverseDocumentXdocument" ext=".exe" />
+        <file name="9-TraverseDocumentXdocument.exe" ext=".config" />
+        <file name="9-TraverseDocumentXdocument" ext=".pdb" />
+        <file name="9-TraverseDocumentXdocument.vshost" ext=".exe" />
+        <file name="9-TraverseDocumentXdocument.vshost.exe" ext=".config" />
+      </dir>
+      <dir path="../../../9-TraverseDocumentXdocument\bin\Release" />
+    </dir>
+    <dir path="../../../9-TraverseDocumentXdocument\obj">
+      <dir path="../../../9-TraverseDocumentXdocument\obj\Debug">
+        <dir path="../../../9-TraverseDocumentXdocument\obj\Debug\TempPE" />
+        <file name="9-TraverseDirectoryXdocument.csproj.FileListAbsolute" ext=".txt" />
+        <file name="9-TraverseDocumentXdocument.csproj.FileListAbsolute" ext=".txt" />
+        <file name="9-TraverseDocumentXdocument" ext=".exe" />
+        <file name="9-TraverseDocumentXdocument" ext=".pdb" />
+        <file name="DesignTimeResolveAssemblyReferencesInput" ext=".cache" />
+        <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92" ext=".cs" />
+        <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1" ext=".cs" />
+        <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3" ext=".cs" />
+      </dir>
+    </dir>
+    <dir path="../../../9-TraverseDocumentXdocument\Properties">
+      <file name="AssemblyInfo" ext=".cs" />
+    </dir>
+    <file name="9-TraverseDirectoryXdocument" ext=".csproj" />
+    <file name="App" ext=".config" />
+    <file name="TraverseDirectoryXdocument" ext=".cs" />
+  </dir>
+  <file name="XML-Parsers" ext=".sln" />
+  <file name="XML-Parsers.v12" ext=".suo" />
+</dir>

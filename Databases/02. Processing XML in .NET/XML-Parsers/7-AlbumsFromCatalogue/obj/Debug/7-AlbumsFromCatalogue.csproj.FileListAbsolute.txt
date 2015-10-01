@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\7-AlbumsFromCatalogue\bin\Debug\7-AlbumsFromCatalogue.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\7-AlbumsFromCatalogue\bin\Debug\7-AlbumsFromCatalogue.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\7-AlbumsFromCatalogue\bin\Debug\7-AlbumsFromCatalogue.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\7-AlbumsFromCatalogue\obj\Debug\7-AlbumsFromCatalogue.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\7-AlbumsFromCatalogue\obj\Debug\7-AlbumsFromCatalogue.pdb

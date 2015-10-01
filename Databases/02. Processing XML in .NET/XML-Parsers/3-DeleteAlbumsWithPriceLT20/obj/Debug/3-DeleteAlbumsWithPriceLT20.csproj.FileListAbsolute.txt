@@ -1,0 +1,8 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\3-DeleteAlbumsWithPriceLT20\bin\Debug\3-DeleteAlbumsWithPriceLT20.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\3-DeleteAlbumsWithPriceLT20\bin\Debug\3-DeleteAlbumsWithPriceLT20.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\3-DeleteAlbumsWithPriceLT20\bin\Debug\3-DeleteAlbumsWithPriceLT20.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\3-DeleteAlbumsWithPriceLT20\obj\Debug\3-DeleteAlbumsWithPriceLT20.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\3-DeleteAlbumsWithPriceLT20\obj\Debug\3-DeleteAlbumsWithPriceLT20.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\3-DeleteAlbumsWithPriceLT20\bin\Debug\3-DeleteAlbumsWithPriceLT20.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\3-DeleteAlbumsWithPriceLT20\obj\Debug\3-DeleteAlbumsWithPriceLT20.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\3-DeleteAlbumsWithPriceLT20\obj\Debug\3-DeleteAlbumsWithPriceLT20.pdb

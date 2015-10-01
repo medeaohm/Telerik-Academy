@@ -1,0 +1,8 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\2-CountAlbumsPerArtist-XPath\bin\Debug\2-CountAlbumsPerArtist-XPath.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\2-CountAlbumsPerArtist-XPath\bin\Debug\2-CountAlbumsPerArtist-XPath.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\2-CountAlbumsPerArtist-XPath\bin\Debug\2-CountAlbumsPerArtist-XPath.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\2-CountAlbumsPerArtist-XPath\obj\Debug\2-CountAlbumsPerArtist-XPath.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\HQC\XML-Parsers\2-CountAlbumsPerArtist-XPath\obj\Debug\2-CountAlbumsPerArtist-XPath.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\2-CountAlbumsPerArtist-XPath\bin\Debug\2-CountAlbumsPerArtist-XPath.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\2-CountAlbumsPerArtist-XPath\obj\Debug\2-CountAlbumsPerArtist-XPath.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\2-CountAlbumsPerArtist-XPath\obj\Debug\2-CountAlbumsPerArtist-XPath.pdb

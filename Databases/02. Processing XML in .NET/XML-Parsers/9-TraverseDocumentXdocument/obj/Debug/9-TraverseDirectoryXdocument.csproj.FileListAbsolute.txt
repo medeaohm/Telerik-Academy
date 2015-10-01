@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\9-TraverseDocumentXdocument\bin\Debug\9-TraverseDocumentXdocument.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\9-TraverseDocumentXdocument\bin\Debug\9-TraverseDocumentXdocument.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\9-TraverseDocumentXdocument\bin\Debug\9-TraverseDocumentXdocument.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\9-TraverseDocumentXdocument\obj\Debug\9-TraverseDocumentXdocument.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\9-TraverseDocumentXdocument\obj\Debug\9-TraverseDocumentXdocument.pdb

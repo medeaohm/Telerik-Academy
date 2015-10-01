@@ -1,0 +1,3 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\1-CountAlbumsPerArtist\bin\Debug\1-CountAlbumsPerArtist.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\1-CountAlbumsPerArtist\obj\Debug\1-CountAlbumsPerArtist.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\1-CountAlbumsPerArtist\obj\Debug\1-CountAlbumsPerArtist.pdb

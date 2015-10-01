@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>Hello world</name>
+    <artist>Krisko</artist>
+  </album>
+  <album>
+    <name>GoodMorning</name>
+    <artist>Krisko</artist>
+  </album>
+  <album>
+    <name>Hi</name>
+    <artist>Lora</artist>
+  </album>
+</albums>

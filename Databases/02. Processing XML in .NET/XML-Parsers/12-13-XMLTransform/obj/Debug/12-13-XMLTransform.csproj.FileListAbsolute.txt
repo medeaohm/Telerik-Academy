@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\12-13-XMLTransform\bin\Debug\12-13-XMLTransform.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\12-13-XMLTransform\bin\Debug\12-13-XMLTransform.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\12-13-XMLTransform\bin\Debug\12-13-XMLTransform.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\12-13-XMLTransform\obj\Debug\12-13-XMLTransform.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\12-13-XMLTransform\obj\Debug\12-13-XMLTransform.pdb

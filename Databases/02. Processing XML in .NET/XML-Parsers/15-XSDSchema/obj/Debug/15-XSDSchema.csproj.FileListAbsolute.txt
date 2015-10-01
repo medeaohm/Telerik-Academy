@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\15-XSDSchema\bin\Debug\15-XSDSchema.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\15-XSDSchema\bin\Debug\15-XSDSchema.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\15-XSDSchema\bin\Debug\15-XSDSchema.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\15-XSDSchema\obj\Debug\15-XSDSchema.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\15-XSDSchema\obj\Debug\15-XSDSchema.pdb

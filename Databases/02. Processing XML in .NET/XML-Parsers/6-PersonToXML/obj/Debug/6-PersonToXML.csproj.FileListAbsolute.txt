@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\bin\Debug\6-PersonToXML.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\bin\Debug\6-PersonToXML.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\bin\Debug\6-PersonToXML.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\obj\Debug\6-PersonToXML.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\obj\Debug\6-PersonToXML.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\6-PersonToXML\obj\Debug\6-PersonToXML.pdb

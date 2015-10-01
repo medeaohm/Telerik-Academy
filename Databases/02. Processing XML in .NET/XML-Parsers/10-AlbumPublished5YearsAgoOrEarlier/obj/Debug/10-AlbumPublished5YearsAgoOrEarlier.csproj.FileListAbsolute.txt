@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\10-AlbumPublished5YearsAgoOrEarlier\bin\Debug\10-AlbumPublished5YearsAgoOrEarlier.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\10-AlbumPublished5YearsAgoOrEarlier\bin\Debug\10-AlbumPublished5YearsAgoOrEarlier.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\10-AlbumPublished5YearsAgoOrEarlier\bin\Debug\10-AlbumPublished5YearsAgoOrEarlier.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\10-AlbumPublished5YearsAgoOrEarlier\obj\Debug\10-AlbumPublished5YearsAgoOrEarlier.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\10-AlbumPublished5YearsAgoOrEarlier\obj\Debug\10-AlbumPublished5YearsAgoOrEarlier.pdb

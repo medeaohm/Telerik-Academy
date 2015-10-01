@@ -1,0 +1,1 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\4-AllSongsXMLreader\bin\Debug\4-AllSongsXMLreader.exe.config

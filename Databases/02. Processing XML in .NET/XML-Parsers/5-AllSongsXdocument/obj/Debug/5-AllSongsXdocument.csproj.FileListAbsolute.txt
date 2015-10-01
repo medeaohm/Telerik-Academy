@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\5-AllSongsXdocument\bin\Debug\5-AllSongsXdocument.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\5-AllSongsXdocument\bin\Debug\5-AllSongsXdocument.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\5-AllSongsXdocument\bin\Debug\5-AllSongsXdocument.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\5-AllSongsXdocument\obj\Debug\5-AllSongsXdocument.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Databases\02. Processing XML in .NET\XML-Parsers\5-AllSongsXdocument\obj\Debug\5-AllSongsXdocument.pdb
