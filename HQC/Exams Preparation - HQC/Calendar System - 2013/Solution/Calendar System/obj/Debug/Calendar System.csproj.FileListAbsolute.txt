@@ -1,0 +1,7 @@
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\bin\Debug\Calendar System.exe.config
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\bin\Debug\Calendar System.exe
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\bin\Debug\Calendar System.pdb
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\bin\Debug\PowerCollections.dll
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\obj\Debug\Calendar System.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\obj\Debug\Calendar System.exe
+C:\Users\Adrian\Desktop\Exams Preparation - HQC\2013\Calendar System\Solution\Calendar System\obj\Debug\Calendar System.pdb

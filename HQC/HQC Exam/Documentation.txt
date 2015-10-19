@@ -1,0 +1,38 @@
+Design pattern: Factory Method
+	* 
+
+Design pattern: Strategy
+	* 
+
+Design pattern: Template Method
+	* 
+	* 
+
+Design pattern: Chain of Responsibility
+	* 
+
+Design pattern: Decorator
+	* 
+
+Found bugs:
+	* var class
+	* HTTP 3.0 should retourn NotImplemented - response provided class (line 55 changed condition from <=3 to <3)
+	* #warning 
+
+Found bottleneck:
+	* 
+
+Single responsibility principle
+	* Action Descritor
+
+Open/closed principle
+	* If we need to add another type of action result, it is sufficient to add another class, because all methods which use it are based on the abstact class ActionResults
+
+Liskov substitution principle
+	* ContentActionResults and ActionResult
+
+Interface segregation principle
+	* 
+
+Dependency inversion principle
+	* In methods which need ActionResult as parameter is passed IActionResult
