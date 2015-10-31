@@ -1,0 +1,15 @@
+USE PetStore;
+
+CREATE PROCEDURE usp_SeedInitialColors
+AS
+
+IF NOT EXISTS(SELECT 1 FROM Colors)
+	BEGIN
+		INSERT INTO Colors values ('Black')
+		INSERT INTO Colors values ('White')
+		INSERT INTO Colors values ('Red')
+		INSERT INTO Colors values ('Mixed')
+	END 
+GO
+
+EXECUTE usp_SeedInitialColors;

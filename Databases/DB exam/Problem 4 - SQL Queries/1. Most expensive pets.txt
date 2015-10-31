@@ -1,0 +1,3 @@
+SELECT TOP 5 Price, Breed,  DatePart(year, DateOfBirth) AS BirthYear FROM Pets
+	WHERE DatePart(year, DateOfBirth) >= 2012
+	ORDER BY Price DESC

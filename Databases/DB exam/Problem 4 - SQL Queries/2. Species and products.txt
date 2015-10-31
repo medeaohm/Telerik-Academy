@@ -1,0 +1,7 @@
+select  s.Name, count(p.Id) as NumberOfProducts from Species s
+join ProductsSpecies ps
+	on ps.SpecieId = s.Id
+join Products p
+	on p.Id = ps.ProductId
+group by s.Name
+order by NumberOfProducts
