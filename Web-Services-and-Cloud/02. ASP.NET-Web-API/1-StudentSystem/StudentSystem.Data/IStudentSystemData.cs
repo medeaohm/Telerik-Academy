@@ -8,5 +8,7 @@
         IGenericRepository<Course> Courses { get; }
 
         StudentsRepository Students { get; }
+
+        IGenericRepository<Homework> Homeworks { get; }
     }
 }

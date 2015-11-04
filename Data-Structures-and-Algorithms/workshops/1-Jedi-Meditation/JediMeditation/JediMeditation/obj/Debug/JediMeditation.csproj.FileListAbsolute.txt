@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\bin\Debug\JediMeditation.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\bin\Debug\JediMeditation.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\bin\Debug\JediMeditation.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\obj\Debug\JediMeditation.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\obj\Debug\JediMeditation.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Data-Structures-and-Algorithms\workshops\1-Jedi-Meditation\JediMeditation\JediMeditation\obj\Debug\JediMeditation.pdb
