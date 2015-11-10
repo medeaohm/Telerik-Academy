@@ -1,6 +1,0 @@
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\bin\Debug\01-NestedLoops.exe.config
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\bin\Debug\01-NestedLoops.exe
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\bin\Debug\01-NestedLoops.pdb
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\obj\Debug\01-NestedLoops.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\obj\Debug\01-NestedLoops.exe
-C:\Users\Adrian\Desktop\Telerik-Academy\DSA\07. Recursion\07-Recursion\01-NestedLoops\obj\Debug\01-NestedLoops.pdb

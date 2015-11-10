@@ -1,14 +1,14 @@
-﻿// 2. Write a recursive program for generating and printing all the `combinations with duplicates `of k elements from n-element set.
-//    Example: n= 3, k= 2 -> (1 1), (1 2), (1 3), (2 2), (2 3), (3 3)
+﻿// 3. Modify the previous program to `skip duplicates`:
+//  * `n=4, k=2` &rarr; `(1 2), (1 3), (1 4), (2 3), (2 4), (3 4)`
 
-namespace _02_CombinationsWithDuplicates
+namespace _03_CombinationsWithoutDuplicates
 {
     using System;
 
     public class Program
     {
         private const int K = 2;
-        private const int N = 3;
+        private const int N = 4;
 
         private static int[] array;
 
@@ -30,7 +30,7 @@ namespace _02_CombinationsWithDuplicates
             for (int i = start; i <= N; i++)
             {
                 array[index] = i;
-                Combinations(index + 1, i);
+                Combinations(index + 1, i + 1);
             }
         }
 
