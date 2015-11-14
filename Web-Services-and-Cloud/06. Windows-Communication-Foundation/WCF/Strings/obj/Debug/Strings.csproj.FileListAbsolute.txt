@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\bin\Debug\Strings.dll.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\bin\Debug\Strings.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\bin\Debug\Strings.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\obj\Debug\Strings.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\obj\Debug\Strings.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache

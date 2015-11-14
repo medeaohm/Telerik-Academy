@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\bin\Debug\DayOfTheWeek.ConsoleClient.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\bin\Debug\DayOfTheWeek.ConsoleClient.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\bin\Debug\DayOfTheWeek.ConsoleClient.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\obj\Debug\DayOfTheWeek.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\obj\Debug\DayOfTheWeek.ConsoleClient.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeek.ConsoleClient\obj\Debug\DayOfTheWeek.ConsoleClient.pdb

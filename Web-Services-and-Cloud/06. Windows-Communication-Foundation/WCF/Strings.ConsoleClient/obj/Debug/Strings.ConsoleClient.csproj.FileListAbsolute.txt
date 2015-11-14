@@ -1,0 +1,8 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\bin\Debug\Strings.ConsoleClient.exe.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\bin\Debug\Strings.ConsoleClient.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\bin\Debug\Strings.ConsoleClient.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\bin\Debug\Strings.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\bin\Debug\Strings.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\obj\Debug\Strings.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\obj\Debug\Strings.ConsoleClient.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\Strings.ConsoleClient\obj\Debug\Strings.ConsoleClient.pdb

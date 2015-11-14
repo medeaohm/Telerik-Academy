@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\bin\DayOfTheWeekService.dll.config
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\bin\DayOfTheWeekService.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\bin\DayOfTheWeekService.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\obj\Debug\DayOfTheWeekService.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\obj\Debug\DayOfTheWeekService.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\Web-Services-and-Cloud\06. Windows-Communication-Foundation\WCF\DayOfTheWeekService\obj\Debug\DayOfTheWeekService.pdb
