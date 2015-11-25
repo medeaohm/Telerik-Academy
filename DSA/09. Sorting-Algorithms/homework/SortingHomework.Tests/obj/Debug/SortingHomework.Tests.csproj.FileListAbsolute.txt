@@ -1,0 +1,9 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\SortingHomework.Tests.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\SortingHomework.Tests.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\SortingHomework.exe
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\SortingHomework.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\obj\Debug\SortingHomework.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\obj\Debug\SortingHomework.Tests.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\DSA\09. Sorting-Algorithms\homework\SortingHomework.Tests\obj\Debug\SortingHomework.Tests.pdb
