@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Common\bin\Debug\TripExchange.Common.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Common\bin\Debug\TripExchange.Common.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Common\obj\Debug\TripExchange.Common.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Common\obj\Debug\TripExchange.Common.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Common\obj\Debug\TripExchange.Common.pdb

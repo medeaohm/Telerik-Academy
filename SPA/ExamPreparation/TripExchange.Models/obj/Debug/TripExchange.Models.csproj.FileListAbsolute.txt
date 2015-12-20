@@ -1,0 +1,14 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\TripExchange.Models.dll.config
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\TripExchange.Models.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\TripExchange.Models.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\EntityFramework.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\EntityFramework.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\obj\Debug\TripExchange.Models.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\obj\Debug\TripExchange.Models.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\SPA\ExamPreparation\TripExchange.Models\obj\Debug\TripExchange.Models.pdb

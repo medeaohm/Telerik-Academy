@@ -1,0 +1,8 @@
+﻿<div>
+    <h4>Results</h4>
+    <ol>
+        <li ng-repeat="user in vm.gameScores | orderBy:'-Score'">{{user.UserName}} - {{user.Score}} wins</li>
+    </ol>
+</div>
+
+<div listed-players-directive></div>
