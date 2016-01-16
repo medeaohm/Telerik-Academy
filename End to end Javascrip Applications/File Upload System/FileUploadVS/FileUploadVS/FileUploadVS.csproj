@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{916C6E30-A585-47FB-A136-454576C2E312}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FileUploadVS</RootNamespace>
+    <AssemblyName>FileUploadVS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="files\1\07-01-2016\0d2c9327384aa65c90ca546b3c52726e2f4fa31d" />
+    <Content Include="files\1\07-01-2016\2bd204d503e8cced0f99dd1452da5c7dca07023f" />
+    <Content Include="files\1\07-01-2016\92bd9cffa415070d7c3ea8862a3ea0a96537b779" />
+    <Content Include="files\1\07-01-2016\aca291e80611ec0e293bac24c1c765da7590aea6" />
+    <Content Include="files\1\07-01-2016\b480a3a3a6a206c23267b33eace6ab397c31d840" />
+    <Content Include="files\1\07-01-2016\d9ec65298f2dd9abc7475e8f1b434b5abc7819a0" />
+    <Content Include="files\1\07-01-2016\e81d7660a1f1924334b25e779b8bf4281770ddc5" />
+    <Content Include="files\1\07-01-2016\efdd684bc1bb55dfaf602916119c0fbc5ed0b19f" />
+    <Content Include="files\1\07-01-2016\f1aa22f4db8a645b4b38cc5186f27ba629f521ac" />
+    <Content Include="files\1\08-01-2016\530c20795a231577961908c0663c4ba4dc376662" />
+    <Content Include="files\asd\07-01-2016\79690c7b5015d425a0ab14bfa0fb98ce87b00364" />
+    <Content Include="files\asd\07-01-2016\d6d970d32a1b1f601954d101519f6835143bc12e" />
+    <Content Include="files\asd\08-01-2016\34d80f7c18c09025ff1439e2080541b7fb44a2d8" />
+    <Content Include="files\asd\08-01-2016\4d8c611d3ce8ffda62cc7f7fd3f5eb38bc72320f" />
+    <Content Include="files\asd\08-01-2016\9e01aceb4552805a68ee6a80560617684041e2a4" />
+    <Content Include="files\asd\08-01-2016\a9fd237f8d19597469f774f1e081065e2f2b9f1a" />
+    <Content Include="files\asd\09-01-2016\bb8fe954b2199722b1d096045cf30bbb4dddb028" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.install.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.uninstall.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0.nupkg" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\init.ps1" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\uninstall.ps1" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\Microsoft.Net.Compilers.1.0.0.nupkg" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\ThirdPartyNotices.rtf" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap-theme.css.map" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap-theme.min.css.map" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap.css.map" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap.min.css.map" />
+    <Content Include="public\lib\bootstrap-3.3.6\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="public\lib\bootstrap-3.3.6\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="public\lib\bootstrap-3.3.6\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="public\lib\bootstrap-3.3.6\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="server\views\files\result.jade" />
+    <Content Include="server\views\files\upload.jade" />
+    <Content Include="server\views\index.jade" />
+    <Content Include="server\views\shared\layout.jade" />
+    <Content Include="server\views\shared\scripts.jade" />
+    <Content Include="server\views\users\login.jade" />
+    <Content Include="server\views\users\register.jade" />
+    <Content Include="package.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\csc.exe" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\vbc.exe" />
+    <Content Include="packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe" />
+    <Content Include="public\css\site.css" />
+    <Content Include="public\js\upload.js" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap-theme.css" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap-theme.min.css" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap.css" />
+    <Content Include="public\lib\bootstrap-3.3.6\css\bootstrap.min.css" />
+    <Content Include="public\lib\bootstrap-3.3.6\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\lib\bootstrap-3.3.6\js\bootstrap.js" />
+    <Content Include="public\lib\bootstrap-3.3.6\js\bootstrap.min.js" />
+    <Content Include="public\lib\bootstrap-3.3.6\js\npm.js" />
+    <Content Include="public\lib\jquery-2.1.4\jquery-2.1.4.min.js" />
+    <Content Include="server.js" />
+    <Content Include="server\config\auth.js" />
+    <Content Include="server\config\config.js" />
+    <Content Include="server\config\express.js" />
+    <Content Include="server\config\mongoose.js" />
+    <Content Include="server\config\passport.js" />
+    <Content Include="server\config\routes.js" />
+    <Content Include="server\controllers\FilesController.js" />
+    <Content Include="server\controllers\index.js" />
+    <Content Include="server\controllers\UsersController.js" />
+    <Content Include="server\data\files.js" />
+    <Content Include="server\data\models\Files.js" />
+    <Content Include="server\data\models\User.js" />
+    <Content Include="server\data\users.js" />
+    <Content Include="server\utilities\encryption.js" />
+    <Content Include="server\utilities\uploading.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\typings\jade\jade.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\img\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9396</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9396/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

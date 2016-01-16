@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    title Mobile Devices Online Store
+    include css
+body
+    div(class="navbar navbar-default navbar-fixed-top")
+        div(class='navbar-collapse collapse')
+            ul(class='nav navbar-nav')
+                each link in links
+                    li
+                        a(href=link.url)
+                            = link.title
+    div#root
+        block mainContent
+    footer(style="text-align: center;")
+        h3(class="footer") &copy; The Best Online Mobile Devices Store
+    include scripts

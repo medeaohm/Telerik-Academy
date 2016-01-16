@@ -1,0 +1,14 @@
+{
+  "name": "chat-db",
+  "version": "1.0.0",
+  "description": "1. Create a modules for Chat, that keep the data into a local MongoDB instance\r \t* The module should have the following functionality:",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.3.4"
+  }
+}

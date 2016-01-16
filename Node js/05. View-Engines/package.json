@@ -1,0 +1,15 @@
+{
+  "name": "mobile-devices-market",
+  "version": "1.0.0",
+  "description": "1. Create a simple web site for buying mobile devices\r \t* Create the following pages and put them into nav\r \t\t* Home -> contains greeting and site information\r \t\t* Smart phones -> contains a list of smartphones\r \t\t* Tablets -> contains a list of tablets\r \t\t* Wearables -> contains a list of wearables\r \t* All pages must have the same header, navigation and footer\r \t* Use Jade and Jade Layouts\r \t* Use the `each` directive to create the navigation",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
