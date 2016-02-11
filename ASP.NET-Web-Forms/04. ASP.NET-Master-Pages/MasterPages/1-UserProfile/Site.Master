@@ -1,0 +1,60 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UserProfile.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User profile</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formMain" runat="server">
+        <header id="header">
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="~/Home.aspx" runat="server">User profile master header</a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    Menu
+                </li>
+                <li>
+                    <a href="~/Home.aspx" runat="server" class="fa fa-table fa-fw">Home</a>
+                 </li>
+                <li>
+                    <a href="~/PersonalInfo.aspx" runat="server" class="fa fa-table fa-fw">Personal Info</a>
+                </li>
+                <li>
+                    <a href="~/Friends.aspx" runat="server" class="fa fa-table fa-fw">Friends</a>
+
+                </li>
+                <li>
+                    <a href="~/AdditionalInfo.aspx" runat="server">Additional Info</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer" class="panel-footer navbar-fixed-bottom">
+            &copy;<a href="http://telerikacademy.com/" target="_blank">Teletrik Academy 2016</a>
+        </footer>
+    </form>
+</body>
+</html>

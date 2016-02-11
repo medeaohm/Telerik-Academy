@@ -1,0 +1,6 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\bin\_1.MenuControl.dll.config
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\bin\_1.MenuControl.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\bin\_1.MenuControl.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\obj\Debug\1. MenuControl.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\obj\Debug\_1.MenuControl.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET-Web-Forms\13. User-Controls\1. MenuControl\obj\Debug\_1.MenuControl.pdb

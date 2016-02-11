@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylists.Web", "YouTubePlaylists.Web\YouTubePlaylists.Web.csproj", "{8EF9117B-A103-4A79-8DAC-DF9CAAC44947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubePlaylists.Data", "YoutubePlaylists.Data\YoutubePlaylists.Data.csproj", "{37148036-4A9E-417E-9AD3-F1AD15566F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylists.Data.Models", "YouTubePlaylists.Data.Models\YouTubePlaylists.Data.Models.csproj", "{901BED48-C64C-430A-95F7-FD9AD9F32F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubePlaylists.Data.Services", "YouTubePlaylists.Data.Services\YouTubePlaylists.Data.Services.csproj", "{E9CE54F9-ABB4-486C-A9A9-49DB93898638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF9117B-A103-4A79-8DAC-DF9CAAC44947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF9117B-A103-4A79-8DAC-DF9CAAC44947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF9117B-A103-4A79-8DAC-DF9CAAC44947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF9117B-A103-4A79-8DAC-DF9CAAC44947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37148036-4A9E-417E-9AD3-F1AD15566F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37148036-4A9E-417E-9AD3-F1AD15566F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37148036-4A9E-417E-9AD3-F1AD15566F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37148036-4A9E-417E-9AD3-F1AD15566F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901BED48-C64C-430A-95F7-FD9AD9F32F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901BED48-C64C-430A-95F7-FD9AD9F32F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901BED48-C64C-430A-95F7-FD9AD9F32F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901BED48-C64C-430A-95F7-FD9AD9F32F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9CE54F9-ABB4-486C-A9A9-49DB93898638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CE54F9-ABB4-486C-A9A9-49DB93898638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CE54F9-ABB4-486C-A9A9-49DB93898638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CE54F9-ABB4-486C-A9A9-49DB93898638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
