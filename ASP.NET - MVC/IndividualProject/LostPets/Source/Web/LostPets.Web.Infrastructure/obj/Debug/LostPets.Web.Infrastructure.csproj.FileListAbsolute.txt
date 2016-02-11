@@ -1,0 +1,7 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\LostPets.Web.Infrastructure.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\LostPets.Web.Infrastructure.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.pdb
