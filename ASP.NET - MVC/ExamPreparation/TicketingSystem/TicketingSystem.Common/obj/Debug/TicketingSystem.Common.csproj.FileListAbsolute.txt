@@ -1,0 +1,5 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\bin\Debug\TiketingSystem.Common.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\bin\Debug\TiketingSystem.Common.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\obj\Debug\TicketingSystem.Common.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\obj\Debug\TiketingSystem.Common.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\obj\Debug\TiketingSystem.Common.pdb

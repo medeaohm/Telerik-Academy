@@ -1,0 +1,14 @@
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\TicketingSystem.Models.dll.config
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\TicketingSystem.Models.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\TicketingSystem.Models.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\EntityFramework.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\EntityFramework.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\obj\Release\TicketingSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\obj\Release\TicketingSystem.Models.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Models\obj\Release\TicketingSystem.Models.pdb
