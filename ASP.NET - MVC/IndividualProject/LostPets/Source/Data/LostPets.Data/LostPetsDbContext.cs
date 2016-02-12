@@ -4,10 +4,9 @@
     using System.Data.Entity;
     using System.Linq;
 
-    using Common.Models;
-
     using Microsoft.AspNet.Identity.EntityFramework;
 
+    using Common.Models;
     using LostPets.Data.Models;
 
     public class LostPetsDbContext : IdentityDbContext<User>
@@ -33,9 +32,11 @@
 
         public IDbSet<Cat> Cats { get; set; }
 
-        public IDbSet<Dog> Dog { get; set; }
+        public IDbSet<Dog> Dogs { get; set; }
 
         public IDbSet<Rodent> Rodents { get; set; }
+
+        public IDbSet<OtherPet> OtherPets { get; set; }
 
         public static LostPetsDbContext Create()
         {

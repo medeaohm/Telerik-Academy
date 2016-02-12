@@ -1,8 +1,8 @@
 ﻿namespace LostPets.Data.Models
 {
-    using Common.Models;
     using System.ComponentModel.DataAnnotations;
 
+    using Common.Models;
     using Types;
 
     public class Location : BaseModel<int>

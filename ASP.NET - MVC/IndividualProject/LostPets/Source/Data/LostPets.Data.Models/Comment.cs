@@ -1,9 +1,10 @@
 ﻿namespace LostPets.Data.Models
 {
-    using Common.Models;
     using System;
     using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
+
+    using Common.Models;
 
     public class Comment : BaseModel<int>
     {

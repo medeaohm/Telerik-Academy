@@ -2,8 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
     using System.ComponentModel;
+    using System.ComponentModel.DataAnnotations;
+
     using Types;
     using Common.Models;
 
@@ -34,6 +35,10 @@
         public int AuthorId { get; set; }
 
         public virtual User Author { get; set; }
+
+        public int PetId { get; set; }
+
+        public virtual Pet Pet { get; set; }
 
         public virtual ICollection<Image> Gallery
         {

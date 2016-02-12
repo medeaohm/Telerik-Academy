@@ -67,6 +67,7 @@
     <Compile Include="Joke.cs" />
     <Compile Include="JokeCategory.cs" />
     <Compile Include="Location.cs" />
+    <Compile Include="OtherPet.cs" />
     <Compile Include="Pet.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

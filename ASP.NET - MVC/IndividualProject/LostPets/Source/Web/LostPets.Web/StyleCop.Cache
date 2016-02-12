@@ -7,7 +7,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.880</sourceFile>
+      <sourceFile>2016/02/11 21:04:40.749</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -30,7 +30,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.886</sourceFile>
+      <sourceFile>2016/02/11 22:18:32.146</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -53,7 +53,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.891</sourceFile>
+      <sourceFile>2016/02/11 22:18:32.269</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -220,7 +220,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:02.043</sourceFile>
+      <sourceFile>2016/02/11 21:04:40.781</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -241,8 +241,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to XsrfKey must begin with the 'this.', 'base.', 'object.' or 'ChallengeResult.' or 'HttpUnauthorizedResult.' prefix to indicate the intended method call. </context>
         <line>489</line>
-        <index>17737</index>
-        <endIndex>17743</endIndex>
+        <index>17715</index>
+        <endIndex>17721</endIndex>
         <startLine>489</startLine>
         <startColumn>43</startColumn>
         <endLine>489</endLine>
@@ -278,7 +278,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:02.056</sourceFile>
+      <sourceFile>2016/02/11 22:07:58.250</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -295,13 +295,19 @@
       <StyleCop.CSharp.SpacingRules>2015/10/13 22:30:19.705</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="JokesController.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:02.062</sourceFile>
+      <sourceFile>2016/02/11 21:59:49.619</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -347,7 +353,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.848</sourceFile>
+      <sourceFile>2016/02/11 22:18:32.201</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -600,7 +606,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:02.461</sourceFile>
+      <sourceFile>2016/02/11 22:10:33.254</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -617,13 +623,24 @@
       <StyleCop.CSharp.SpacingRules>2015/10/13 22:30:19.705</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="JokeViewModel.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:02.466</sourceFile>
+      <sourceFile>2016/02/11 22:10:41.622</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -640,7 +657,23 @@
       <StyleCop.CSharp.SpacingRules>2015/10/13 22:30:19.705</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
+        <context>If a statement spans multiple lines, the opening curly bracket must be placed on its own line.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="AddPhoneNumberViewModel.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
@@ -830,7 +863,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.944</sourceFile>
+      <sourceFile>2016/02/11 22:18:32.222</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -859,7 +892,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 21:00:22.235</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.862</sourceFile>
+      <sourceFile>2016/02/11 21:01:18.441</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>

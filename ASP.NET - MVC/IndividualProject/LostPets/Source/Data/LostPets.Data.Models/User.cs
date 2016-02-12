@@ -1,5 +1,6 @@
 ﻿namespace LostPets.Data.Models
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
@@ -8,8 +9,8 @@
 
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
+
     using Types;
-    using System;
 
     public class User : IdentityUser
     {

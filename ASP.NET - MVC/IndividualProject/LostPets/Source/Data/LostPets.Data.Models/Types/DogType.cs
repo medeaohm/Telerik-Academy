@@ -33,6 +33,5 @@
         BerneseMountainDog = 28,
         GreatDane = 29,
         BrittanySpaniel = 30,
-
     }
 }

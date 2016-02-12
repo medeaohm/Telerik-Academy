@@ -6,8 +6,8 @@
   <sourcecode name="CategoriesService.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
-      <settingsFile>2016/02/11 20:59:58.802</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.472</sourceFile>
+      <settingsFile>2016/02/11 21:01:00.297</settingsFile>
+      <sourceFile>2016/02/11 22:00:01.918</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -29,8 +29,8 @@
   <sourcecode name="ICategoriesService.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
-      <settingsFile>2016/02/11 20:59:58.802</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.477</sourceFile>
+      <settingsFile>2016/02/11 21:01:00.297</settingsFile>
+      <sourceFile>2016/02/11 22:00:09.179</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -52,8 +52,8 @@
   <sourcecode name="IJokesService.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
-      <settingsFile>2016/02/11 20:59:58.802</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.482</sourceFile>
+      <settingsFile>2016/02/11 21:01:00.297</settingsFile>
+      <sourceFile>2016/02/11 22:00:15.630</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -75,8 +75,8 @@
   <sourcecode name="JokesService.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
-      <settingsFile>2016/02/11 20:59:58.802</settingsFile>
-      <sourceFile>2016/02/11 20:51:01.487</sourceFile>
+      <settingsFile>2016/02/11 21:01:00.297</settingsFile>
+      <sourceFile>2016/02/11 22:00:22.536</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -98,7 +98,7 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
-      <settingsFile>2016/02/11 20:59:58.802</settingsFile>
+      <settingsFile>2016/02/11 21:01:00.297</settingsFile>
       <sourceFile>2016/02/11 20:51:01.500</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
