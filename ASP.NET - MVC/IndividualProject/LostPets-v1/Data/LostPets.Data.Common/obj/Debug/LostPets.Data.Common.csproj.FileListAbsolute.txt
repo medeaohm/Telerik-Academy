@@ -1,4 +1,0 @@
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Data\LostPets.Data.Common\bin\Debug\LostPets.Data.Common.dll
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Data\LostPets.Data.Common\bin\Debug\LostPets.Data.Common.pdb
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Data\LostPets.Data.Common\obj\Debug\LostPets.Data.Common.dll
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Data\LostPets.Data.Common\obj\Debug\LostPets.Data.Common.pdb
