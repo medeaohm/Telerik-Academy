@@ -28,7 +28,11 @@
         {
             this.SeedRoles(context);
             this.SeedUsers(context);
-            this.SeedPostsWithLocationsWithComments(context);
+            this.SeedLocations(context);
+            this.SeedPets(context);
+            this.SeedPostsWithComments(context);
+
+            context.SaveChanges();
         }
 
         private void SeedRoles(LostPetsDbContext context)
@@ -69,15 +73,8 @@
             context.SaveChanges();
         }
 
-        private void SeedPostsWithLocationsWithComments(LostPetsDbContext context)
+        private void SeedLocations(LostPetsDbContext context)
         {
-            if (context.Posts.Any())
-            {
-                return;
-            }
-
-            var users = context.Users.Take(10).ToList();
-
             /* Locations Creation */
             var locations = new List<Location>();
             var location1 = new Location {
@@ -104,7 +101,11 @@
             locations.Add(location3);
             context.Locations.Add(location3);
 
-            /* Pets Creations */
+            context.SaveChanges();
+        }
+
+        private void SeedPets(LostPetsDbContext context)
+        {
             var dog1 = new Dog {
                 Name = "Rex",
                 Age = 2,
@@ -169,6 +170,23 @@
             };
             context.Birds.Add(bird2);
 
+            context.SaveChanges();
+        }
+
+        private void SeedPostsWithComments(LostPetsDbContext context)
+        {
+            if (context.Posts.Any())
+            {
+                return;
+            }
+
+            var users = context.Users.Take(10).ToList();
+            var locations = context.Locations.Take(3).ToList();
+            var dogs = context.Dogs.Take(3).ToList();
+            var cats = context.Cats.Take(1).ToList();
+            var rodents = context.Rodents.Take(2).ToList();
+            var birds = context.Birds.Take(2).ToList();
+
             var image1 = this.GetImage("dog1.jpg");
             var image2 = this.GetImage("dog2.jpg");
             var image3 = this.GetImage("dog3.jpg");
@@ -195,16 +213,17 @@
             commentsContent.Add("Please help");
             commentsContent.Add("Shared!");
 
-
-            /* Posts Creations */
+            // Posts Creations 
             var post1 = new Post {
                 Title = "I lost my dog!",
+                Content = "Please help me to find my dog... I lost it when going for a walk",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Dog,
                 PostType = PostType.Lost,
-                Pet = dog1,
+                Pet = dogs[0],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post1.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
                 var comment = new Comment {
@@ -217,15 +236,16 @@
             post1.Gallery.Add(image1);
             context.Posts.Add(post1);
 
-            var post2 = new Post 
-            {
+            var post2 = new Post {
                 Title = "Beagle Found!",
+                Content = "Anybody is searching this dog?",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Dog,
                 PostType = PostType.Found,
-                Pet = dog2,
+                Pet = dogs[1],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post2.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
                 var comment = new Comment {
@@ -238,40 +258,41 @@
             post2.Gallery.Add(image2);
             context.Posts.Add(post2);
 
-            var post3 = new Post 
-            {
+            var post3 = new Post {
                 Title = "I lost Mimi!",
+                Content = "I am really sad.. Mimi desappeared! Please help me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Dog,
                 PostType = PostType.Lost,
-                Pet = dog3,
+                Pet = dogs[2],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)],
             };
-            post3.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
                 post3.Comments.Add(comment);
             }
 
-            post1.Gallery.Add(image3);
+            post3.Gallery.Add(image3);
             context.Posts.Add(post3);
 
             var post4 = new Post {
                 Title = "Where is Kety",
+                Content = "Kety is a buautiful cat.. If somebody see her, please contact me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Cat,
                 PostType = PostType.Lost,
-                Pet = cat1,
+                Pet = cats[0],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post4.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
@@ -281,19 +302,19 @@
             post4.Gallery.Add(image4);
             context.Posts.Add(post4);
 
-            var post5 = new Post 
-            {
+            var post5 = new Post {
                 Title = "I found a black rabbit",
+                Content = "This black rabbit found me... If is yours - please contact me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Rodent,
                 PostType = PostType.Found,
-                Pet = rabbit1,
+                Pet = rodents[0],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post5.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
@@ -303,19 +324,19 @@
             post5.Gallery.Add(image5);
             context.Posts.Add(post5);
 
-            var post6 = new Post 
-            {
+            var post6 = new Post {
                 Title = "My peruvian is not at home",
+                Content = "Please help me... I really want to fint it!",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Rodent,
                 PostType = PostType.Lost,
-                Pet = guineaPig1,
+                Pet = rodents[1],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post6.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
@@ -325,19 +346,19 @@
             post6.Gallery.Add(image6);
             context.Posts.Add(post6);
 
-            var post7 = new Post 
-            {
+            var post7 = new Post {
                 Title = "Somebody is searching a parrot?",
+                Content = "I found this parrot yesterday",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Bird,
                 PostType = PostType.Found,
-                Pet = bird1,
+                Pet = birds[0],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
-            post7.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
@@ -347,19 +368,19 @@
             post7.Gallery.Add(image7);
             context.Posts.Add(post7);
 
-            var post8 = new Post 
-            {
+           var post8 = new Post {
                 Title = "Help me to find my eagle",
+                Content = "She is mostly deaf and her vision is not great but she is still pretty active. I cant get her picture to download but her face is mostly grey now.",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 AnimalType = AnimalType.Bird,
                 PostType = PostType.Lost,
-                Pet = bird2,
+                Pet = birds[1],
+                Location = locations[this.random.RandomNumber(0, locations.Count - 1)],
             };
-            post8.Locations.Add(locations[this.random.RandomNumber(0, locations.Count - 1)]);
+
             for (int i = 0; i < this.random.RandomNumber(1, 5); i++)
             {
-                var comment = new Comment 
-                {
+                var comment = new Comment {
                     Content = commentsContent[this.random.RandomNumber(0, commentsContent.Count - 1)],
                     Author = users[this.random.RandomNumber(0, users.Count - 1)],
                 };
@@ -377,8 +398,7 @@
         {
             var directory = AssemblyHelpers.GetDirectoryForAssembyl(Assembly.GetExecutingAssembly());
             var file = File.ReadAllBytes(directory + "../../../../Data/LostPets.Data/Migrations/imgs/" + imageName);
-            var image = new Image 
-            {
+            var image = new Image {
                 Content = file,
                 FileExtension = "jpg"
             };

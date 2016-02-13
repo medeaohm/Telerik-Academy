@@ -2,24 +2,54 @@
 @{
     ViewBag.Title = "Home Page";
 }
-<h1>Вицове</h1>
-<div class="row">
-    @foreach (var joke in Model.Jokes)
-    {
-        <div class="col-md-4">
-            <a href="@joke.Url">
-                @Html.Raw(joke.Content.Replace("\n", "<br />"))
-            </a>
-            <div>@joke.Category</div>
-        </div>
-    }
+<div class="jumbotron text-center text-primary">
+    <h1>Most Recent Posts</h1>
 </div>
-<h1>Категории</h1>
+
 <div class="row">
-    @foreach (var category in Model.Categories)
+    @foreach (var post in Model.Posts)
     {
-        <div class="col-md-2">
-            @category.Name
+        <div class="col-md-6">
+            <div class="row">
+                <h3>@post.Title</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    @if (@post.ImageId != null)
+                    {
+                        <img src="@Url.Action("Image", "Posts", new { id = post.ImageId.Value })" alt="@post.Title" class="img-responsive" width="100" />
+                    }
+                    <div>
+                        <i>Posted by: @post.Author</i>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <h3>@post.PostType @post.AnimalType</h3>
+                    <div>
+                        @post.Content
+                    </div>
+                    <div>
+                        <strong>Name: </strong> @post.PetName
+                    </div>
+                    <div>
+                        <strong>Age: </strong> @post.PetAge
+                    </div>
+                    <div>
+                        <strong>Description: </strong> @post.PetDescription
+                    </div>
+                    <div>
+                        <strong>City: </strong> @post.LocationCity
+                    </div>
+                    <div>
+                        <strong>Street: </strong> @post.LocationStreet
+                    </div>
+                    <div>
+                        <strong>Location additional info: </strong> @post.LocationAdditionalInfo
+                    </div>
+                </div>
+            </div>
+
         </div>
     }
 </div>

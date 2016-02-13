@@ -21,7 +21,7 @@
     <div class="col-md-4">
         @if (Model.ImageId != null)
         {
-            <img src="@Url.Action("Image", "Tickets", new { id = Model.ImageId.Value })" alt="@Model.Title" class="img-responsive" />
+            <img src="@Url.Action("Image", "Posts", new { id = Model.ImageId.Value })" alt="@Model.Title" class="img-responsive" />
         }
     </div>
     <div class="col-md-4" style="word-wrap: break-word">

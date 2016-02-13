@@ -43,9 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriesService.cs" />
+    <Compile Include="Contracts\IPostService.cs" />
     <Compile Include="ICategoriesService.cs" />
+    <Compile Include="Contracts\IImageService.cs" />
     <Compile Include="IJokesService.cs" />
+    <Compile Include="ImageService.cs" />
     <Compile Include="JokesService.cs" />
+    <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +79,7 @@
       <Link>stylecop.json</Link>
     </AdditionalFiles>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

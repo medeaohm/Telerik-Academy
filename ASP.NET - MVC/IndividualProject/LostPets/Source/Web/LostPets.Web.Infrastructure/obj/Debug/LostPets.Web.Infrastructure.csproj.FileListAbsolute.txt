@@ -5,3 +5,16 @@ C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets
 C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.dll
 C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\obj\Debug\LostPets.Web.Infrastructure.pdb
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Helpers.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Helpers.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\IndividualProject\LostPets\Source\Web\LostPets.Web.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml

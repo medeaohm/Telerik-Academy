@@ -94,8 +94,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Migrations\imgs\admin.jpe" />
+    <Content Include="Migrations\imgs\bird1.jpg" />
+    <Content Include="Migrations\imgs\bird2.jpg" />
+    <Content Include="Migrations\imgs\cat1.jpg" />
     <Content Include="Migrations\imgs\defaultavatar.jpe" />
     <Content Include="Migrations\imgs\dog1.jpg" />
+    <Content Include="Migrations\imgs\dog2.jpg" />
+    <Content Include="Migrations\imgs\dog3.jpg" />
+    <Content Include="Migrations\imgs\guineaPig1.jpg" />
+    <Content Include="Migrations\imgs\rabbit1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

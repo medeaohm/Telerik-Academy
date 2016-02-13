@@ -11,28 +11,24 @@
 
     public class HomeController : BaseController
     {
-        private readonly IJokesService jokes;
-        private readonly ICategoriesService jokeCategories;
+        private readonly IPostService posts;
 
-        public HomeController(
-            IJokesService jokes,
-            ICategoriesService jokeCategories)
+        public HomeController(IPostService posts)
         {
-            this.jokes = jokes;
-            this.jokeCategories = jokeCategories;
+            this.posts = posts;
         }
 
         public ActionResult Index()
         {
-            var jokes = this.jokes.GetRandomJokes(3).To<JokeViewModel>().ToList();
-            var categories =
+            var posts =
                 this.Cache.Get(
-                    "categories",
-                    () => this.jokeCategories.GetAll().To<JokeCategoryViewModel>().ToList(),
-                    30 * 60);
-            var viewModel = new IndexViewModel {
-                Jokes = jokes,
-                Categories = categories
+                    "posts",
+                    () => this.posts.GetMostRecent(8).To<PostViewModel>().ToList(),
+                    10 * 60);
+
+            var viewModel = new IndexViewModel
+            {
+                Posts = posts
             };
 
             return this.View(viewModel);
