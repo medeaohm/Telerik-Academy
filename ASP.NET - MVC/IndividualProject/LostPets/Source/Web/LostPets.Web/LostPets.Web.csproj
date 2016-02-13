@@ -292,7 +292,6 @@
     <Content Include="Views\Posts\Details.cshtml" />
     <Content Include="Views\Posts\_PostDetailsPartial.cshtml" />
     <Content Include="Views\Posts\All.cshtml" />
-    <Content Include="Views\Home\_PostIndexPartial.cshtml" />
     <Content Include="Views\Posts\_PostPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
