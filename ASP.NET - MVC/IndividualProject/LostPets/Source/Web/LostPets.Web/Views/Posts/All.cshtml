@@ -1,0 +1,11 @@
+﻿@model LostPets.Web.ViewModels.Home.IndexViewModel
+@{
+    ViewBag.Title = "All";
+}
+
+<div class="container">
+    @foreach (var post in Model.Posts)
+    {
+        @Html.Partial("_PostPartial", post)
+    }
+</div>

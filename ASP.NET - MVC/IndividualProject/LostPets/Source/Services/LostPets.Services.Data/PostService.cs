@@ -25,6 +25,11 @@
             return post;
         }
 
+        public IQueryable<Post> GetAll()
+        {
+            return this.posts.All().OrderByDescending(p => p.CreatedOn);
+        }
+
         public IQueryable<Post> GetMostRecent(int count)
         {
             return this.posts.All().OrderByDescending(p => p.CreatedOn).Take(count);

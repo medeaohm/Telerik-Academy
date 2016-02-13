@@ -289,8 +289,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
-    <Content Include="Views\Jokes\ById.cshtml" />
     <Content Include="Views\Posts\Details.cshtml" />
+    <Content Include="Views\Posts\_PostDetailsPartial.cshtml" />
+    <Content Include="Views\Posts\All.cshtml" />
+    <Content Include="Views\Home\_PostIndexPartial.cshtml" />
     <Content Include="Views\Posts\_PostPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>

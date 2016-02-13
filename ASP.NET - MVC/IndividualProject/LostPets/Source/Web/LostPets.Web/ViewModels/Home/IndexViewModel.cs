@@ -6,7 +6,6 @@
 
     public class IndexViewModel
     {
-        public IEnumerable<PostViewModel> Posts
-        { get; set; }
+        public IEnumerable<PostViewModel> Posts { get; set; }
     }
 }

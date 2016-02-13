@@ -24,7 +24,7 @@
             var posts =
                 this.Cache.Get(
                     "posts",
-                    () => this.posts.GetMostRecent(8).To<PostViewModel>().ToList(),
+                    () => this.posts.GetMostRecent(4).To<PostViewModel>().ToList(),
                     10 * 60);
 
             var viewModel = new IndexViewModel

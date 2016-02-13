@@ -8,9 +8,13 @@
     using Services.Data;
     using Data.Models.Types;
     using System.Linq;
+    using System.Collections.Generic;
 
     public class PostViewModel : IMapFrom<Post>, IHaveCustomMappings
     {
+        public IEnumerable<PostViewModel> Posts
+        { get; set; }
+
         public int Id
         { get; set;  }
 

@@ -9,6 +9,8 @@
     {
         Post GetById(string id);
 
+        IQueryable<Post> GetAll();
+
         IQueryable<Post> GetMostRecent(int count);
 
         IQueryable<Post> GetByType(PostType postType);

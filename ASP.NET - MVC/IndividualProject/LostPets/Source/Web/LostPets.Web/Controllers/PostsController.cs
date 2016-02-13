@@ -1,10 +1,13 @@
 ﻿namespace LostPets.Web.Controllers
 {
-    using System.Web;
+    using System.Linq;
     using System.Web.Mvc;
 
-    using LostPets.Services.Data;
+    using ViewModels.Home;
     using ViewModels.Posts;
+
+    using Infrastructure.Mapping;
+    using Services.Data;
 
     public class PostsController : BaseController
     {
@@ -26,13 +29,23 @@
             return this.View(viewModel);
         }
 
+        public ActionResult All()
+        {
+            var posts = this.posts.GetAll().To<PostViewModel>().ToList();
+            var viewModel = new IndexViewModel {
+                Posts = posts,
+            };
+
+            return this.View(viewModel);
+        }
+
         public ActionResult Image(int id)
         {
             var image = this.images.GetById(id);
 
             if (image == null)
             {
-                throw new HttpException(404, "Image not found!");
+                return this.File(this.images.GetById(0).Content, "image/" + image.FileExtension);
             }
 
             return this.File(image.Content, "image/" + image.FileExtension);
