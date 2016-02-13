@@ -4,6 +4,6 @@
 
     public interface IImageService
     {
-        Image GetById(int id);
+        Photo GetById(int id);
     }
 }

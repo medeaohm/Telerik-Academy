@@ -11,12 +11,12 @@
 
     public class Post : BaseModel<int>
     {
-        private ICollection<Image> gallery;
+        private ICollection<Photo> gallery;
         private ICollection<Comment> comments;
 
         public Post()
         {
-            this.gallery = new HashSet<Image>();
+            this.gallery = new HashSet<Photo>();
             this.comments = new HashSet<Comment>();
         }
 
@@ -47,7 +47,7 @@
 
         public virtual Location Location { get; set; }
 
-        public virtual ICollection<Image> Gallery
+        public virtual ICollection<Photo> Gallery
         {
             get
             {

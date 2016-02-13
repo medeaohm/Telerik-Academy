@@ -22,7 +22,7 @@
 
         public IDbSet<Location> Locations { get; set; }
 
-        public IDbSet<Image> Images { get; set; }
+        public IDbSet<Photo> Images { get; set; }
 
         public IDbSet<Bird> Birds { get; set; }
 

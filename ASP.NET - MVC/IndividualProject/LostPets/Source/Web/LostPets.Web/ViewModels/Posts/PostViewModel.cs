@@ -1,4 +1,4 @@
-﻿namespace LostPets.Web.ViewModels.Home
+﻿namespace LostPets.Web.ViewModels.Posts
 {
     using Data.Models;
     using LostPets.Services.Web;
@@ -57,7 +57,7 @@
             get
             {
                 IIdentifierProvider identifier = new IdentifierProvider();
-                return $"/Post/{identifier.EncodeId(this.Id)}";
+                return $"/Posts/Details/{identifier.EncodeId(this.Id)}";
             }
         }
 
@@ -70,7 +70,7 @@
                 .ForMember(x => x.Author, opt => opt.MapFrom(x => x.Author.UserName))
                 .ForMember(x => x.PetName, opt => opt.MapFrom(x => x.Pet.Name))
                 .ForMember(x => x.PetAge, opt => opt.MapFrom(x => x.Pet.Age.ToString()))
-                .ForMember(x => x.PetDescription, opt => opt.MapFrom(x => x.Pet.Description))       
+                .ForMember(x => x.PetDescription, opt => opt.MapFrom(x => x.Pet.Description))
                 .ForMember(x => x.LocationCity, opt => opt.MapFrom(x => x.Location.City.ToString()))
                 .ForMember(x => x.LocationStreet, opt => opt.MapFrom(x => x.Location.Street))
                 .ForMember(x => x.LocationAdditionalInfo, opt => opt.MapFrom(x => x.Location.AdditionalInfo));

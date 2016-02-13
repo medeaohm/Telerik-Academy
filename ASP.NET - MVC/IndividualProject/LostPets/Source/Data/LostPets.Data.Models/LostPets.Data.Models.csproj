@@ -63,7 +63,7 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Dog.cs" />
-    <Compile Include="Image.cs" />
+    <Compile Include="Photo.cs" />
     <Compile Include="Joke.cs" />
     <Compile Include="JokeCategory.cs" />
     <Compile Include="Location.cs" />

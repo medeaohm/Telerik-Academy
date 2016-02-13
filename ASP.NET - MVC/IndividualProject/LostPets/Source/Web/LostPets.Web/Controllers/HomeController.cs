@@ -8,6 +8,7 @@
     using Services.Data;
 
     using ViewModels.Home;
+    using ViewModels.Posts;
 
     public class HomeController : BaseController
     {

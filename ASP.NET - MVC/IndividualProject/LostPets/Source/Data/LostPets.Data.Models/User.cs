@@ -67,7 +67,7 @@
             }
         }
 
-        public virtual Image ProfilePicture { get; set; }
+        public virtual Photo ProfilePicture { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager)
         {

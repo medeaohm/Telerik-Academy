@@ -1,11 +1,10 @@
 ﻿namespace LostPets.Web.Controllers
 {
+    using System.Web;
     using System.Web.Mvc;
 
     using LostPets.Services.Data;
-    using LostPets.Web.Infrastructure.Mapping;
-    using LostPets.Web.ViewModels.Home;
-    using System.Web;
+    using ViewModels.Posts;
 
     public class PostsController : BaseController
     {
@@ -20,13 +19,12 @@
             this.images = images;
         }
 
-        public ActionResult ById(string id)
+        public ActionResult Details(string id)
         {
             var post = this.posts.GetById(id);
             var viewModel = this.Mapper.Map<PostViewModel>(post);
             return this.View(viewModel);
         }
-
 
         public ActionResult Image(int id)
         {

@@ -6,16 +6,16 @@
 
     public class ImageService : IImageService
     {
-        private readonly IDbRepository<Image> images;
+        private readonly IDbRepository<Photo> images;
         private readonly IIdentifierProvider identifierProvider;
 
-        public ImageService(IDbRepository<Image> images, IIdentifierProvider identifierProvider)
+        public ImageService(IDbRepository<Photo> images, IIdentifierProvider identifierProvider)
         {
             this.images = images;
             this.identifierProvider = identifierProvider;
         }
 
-        public Image GetById(int id)
+        public Photo GetById(int id)
         {
             return this.images.GetById(id);
         }

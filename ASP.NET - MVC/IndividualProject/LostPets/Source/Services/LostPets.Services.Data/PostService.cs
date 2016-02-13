@@ -1,12 +1,9 @@
 ﻿namespace LostPets.Services.Data
 {
-    using LostPets.Data.Common;
-    using Web;
-    using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using Web;
+
+    using LostPets.Data.Common;
     using LostPets.Data.Models;
     using LostPets.Data.Models.Types;
 
@@ -42,15 +39,5 @@
         {
             return this.posts.All().Where(p => p.AnimalType == animalType);
         }
-
-        //public Image GetPostImage(int? imageId)
-        //{
-        //    if (imageId == null)
-        //    {
-        //        throw new Exception();
-        //    }
-
-        //    var image = this.posts.
-        //}
     }
 }

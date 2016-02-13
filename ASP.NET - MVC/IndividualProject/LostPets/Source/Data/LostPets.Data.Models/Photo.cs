@@ -2,7 +2,7 @@
 {
     using Common.Models;
 
-    public class Image : BaseModel<int>
+    public class Photo : BaseModel<int>
     {
         public byte[] Content { get; set; }
 

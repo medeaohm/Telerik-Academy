@@ -12,6 +12,7 @@
     using Models;
     using Models.Types;
     using LostPets.Common;
+    using Common;
 
     public class SeedData
     {
@@ -394,11 +395,11 @@
         }
 
         // TODO: Get the real file extension
-        private Image GetImage(string imageName)
+        private Photo GetImage(string imageName)
         {
             var directory = AssemblyHelpers.GetDirectoryForAssembyl(Assembly.GetExecutingAssembly());
             var file = File.ReadAllBytes(directory + "../../../../Data/LostPets.Data/Migrations/imgs/" + imageName);
-            var image = new Image {
+            var image = new Photo {
                 Content = file,
                 FileExtension = "jpg"
             };
