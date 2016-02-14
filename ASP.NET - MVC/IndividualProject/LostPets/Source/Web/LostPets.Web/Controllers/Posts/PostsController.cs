@@ -11,6 +11,8 @@
 
     using Infrastructure.Mapping;
     using Services.Data;
+    using System.Web.Mvc.Html;
+    using Data.Models.Types;
 
     public class PostsController : BaseController
     {
@@ -52,7 +54,6 @@
 
             var posts = this.Mapper.Map<PostViewModel>(postsQuery);
 
-
             return this.Json(postsQuery.ToDataSourceResult(request));
         }
 
@@ -66,6 +67,11 @@
             }
 
             return this.File(image.Content, "image/" + image.FileExtension);
+        }
+
+        public ActionResult GetCategories()
+        {
+            return this.Json(EnumHelper.GetSelectList(typeof(PostType)), JsonRequestBehavior.AllowGet);
         }
     }
 }
