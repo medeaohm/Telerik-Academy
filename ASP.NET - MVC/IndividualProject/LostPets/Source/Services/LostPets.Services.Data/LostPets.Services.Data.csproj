@@ -45,8 +45,10 @@
     <Compile Include="Contracts\IPostService.cs" />
     <Compile Include="Contracts\IImageService.cs" />
     <Compile Include="ImageService.cs" />
+    <Compile Include="Contracts\IUserService.cs" />
     <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Data\LostPets.Data.Common\LostPets.Data.Common.csproj">

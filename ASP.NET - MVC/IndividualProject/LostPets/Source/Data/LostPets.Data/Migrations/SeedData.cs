@@ -57,6 +57,7 @@
                     UserName = string.Format("username{0}", i),
                     PasswordHash = this.passwordHasher.HashPassword("123456"),
                     UserRole = GlobalConstants.UserRole,
+                    SecurityStamp = "hsxj"
                 };
 
                 context.Users.Add(user);
@@ -67,7 +68,8 @@
                 UserName = "Admin",
                 PasswordHash = this.passwordHasher.HashPassword("admin123456"),
                 UserRole = GlobalConstants.AdminRole,
-                ProfilePicture = this.GetImage("admin.jpe")
+                ProfilePicture = this.GetImage("admin.jpe"),
+                SecurityStamp = "hsxj"
             };
 
             context.Users.Add(adminUser);

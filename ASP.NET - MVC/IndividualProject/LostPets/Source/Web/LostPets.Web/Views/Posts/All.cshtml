@@ -1,11 +1,48 @@
-﻿@model LostPets.Web.ViewModels.Home.IndexViewModel
+﻿@using LostPets.Web.ViewModels.Posts
 @{
     ViewBag.Title = "All";
 }
 
-<div class="container">
+@*<div class="container">
     @foreach (var post in Model.Posts)
     {
         @Html.Partial("_PostPartial", post)
     }
+</div>*@
+
+<div class="container">
+    <div class="row k-header">
+        <div class="col-md-3 text-center">
+            <h3>Title</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <h3>Author</h3>
+        </div>
+    </div>
 </div>
+<br />
+
+@(Html.Kendo()
+    .ListView<PostViewModel>()
+    .TagName("div")
+    .Name("all-posts")
+    .Pageable()
+    .ClientTemplateId("all-posts-template")
+    .DataSource(dataSource => {
+        dataSource
+            .ServerOperation(true)
+            .PageSize(5)
+            .Read(read => read.Action("ReadPosts", "Posts", new { category = Model }));
+    }))
+
+<script id="all-tickets-template" type="text/x-kendo-tmpl">
+    <div class="row">
+        <div class="col-md-3 text-center">
+            <a href="/Posts/Details/#= Id #">#= Title #</a>
+        </div>
+        <div class="col-md-2 text-center">
+            #= AuthorUserName #
+        </div>
+    </div>
+    <br />
+</script>

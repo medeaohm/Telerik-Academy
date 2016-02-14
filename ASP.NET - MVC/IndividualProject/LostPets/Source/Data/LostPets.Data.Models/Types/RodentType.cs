@@ -1,7 +1,10 @@
 ﻿namespace LostPets.Data.Models.Types
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum RodentType
     {
+        [Display(Name ="Other")]
         NotGiven = 0,
         Rabbit = 1,
         Mouse = 2,

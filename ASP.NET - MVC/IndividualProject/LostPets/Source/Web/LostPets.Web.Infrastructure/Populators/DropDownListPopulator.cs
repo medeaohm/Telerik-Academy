@@ -1,32 +1,31 @@
-﻿//namespace TicketingSystem.Web.Infrastructure.Populators
+﻿//namespace LostPets.Web.Infrastructure.Populators
 //{
+//    using Data.Common.Repositories;
+//    using Data.Models;
+//    using Services.Web;
 //    using System.Collections.Generic;
 //    using System.Linq;
 //    using System.Web.Mvc;
 
-//    using TicketingSystem.Data;
-//    using TicketingSystem.Web.Infrastructure.Caching;
-
-//    public class DropDownListPopulator : IDropDownListPopulator
+//    public class DropDownListPopulator
 //    {
-//        private ITicketSystemData data;
+//        private readonly IIdentifierProvider identifierProvider;
+//        private IDeletableEntityRepository<Post> posts;
 //        private ICacheService cache;
 
-//        public DropDownListPopulator(ITicketSystemData data, ICacheService cache)
+//        public DropDownListPopulator(IDeletableEntityRepository<Post> posts, ICacheService cache)
 //        {
-//            this.data = data;
+//            this.posts = posts;
 //            this.cache = cache;
 //        }
 
-//        public IEnumerable<SelectListItem> GetCategories()
+//        public IEnumerable<SelectListItem> GetCities()
 //        {
-//            var categories = this.cache.Get<IEnumerable<SelectListItem>>("categories",
-//                () =>
-//                {
-//                    return this.data.Categories
+//            var cities = this.cache.Get<IEnumerable<SelectListItem>>("cities",
+//                () => {
+//                    return this.posts
 //                       .All()
-//                       .Select(c => new SelectListItem
-//                       {
+//                       .Select(c => new SelectListItem {
 //                           Value = c.Id.ToString(),
 //                           Text = c.Name
 //                       })

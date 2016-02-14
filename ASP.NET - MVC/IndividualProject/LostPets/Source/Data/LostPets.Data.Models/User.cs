@@ -29,10 +29,13 @@
         [StringLength(100)]
         public string LastName { get; set; }
 
-        public string HomeCity { get; set; }
+        [DefaultValue(City.NotGiven)]
+        public City HomeCity { get; set; }
 
         [DefaultValue(Gender.NotGiven)]
         public Gender Gender { get; set; }
+
+        public string FacebookProfile { get; set; }
 
         public string UserRole { get; set; }
 

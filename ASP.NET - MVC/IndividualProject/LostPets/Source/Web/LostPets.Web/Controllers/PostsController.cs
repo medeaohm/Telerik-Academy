@@ -3,6 +3,9 @@
     using System.Linq;
     using System.Web.Mvc;
 
+    using Kendo.Mvc.UI;
+    using Kendo.Mvc.Extensions;
+
     using ViewModels.Home;
     using ViewModels.Posts;
 
@@ -37,6 +40,18 @@
             };
 
             return this.View(viewModel);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request)
+        {
+            var postsQuery = this.posts.GetAll();
+
+            var posts = this.Mapper.Map<PostViewModel>(postsQuery);
+
+
+            return this.Json(postsQuery.ToDataSourceResult(request));
         }
 
         public ActionResult Image(int id)

@@ -1,7 +1,10 @@
 ﻿namespace LostPets.Data.Models.Types
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum CatType
     {
+        [Display(Name = "Other")]
         NotGiven = 0,
         Abyssinian = 1,
         Bengal = 2,

@@ -1,7 +1,10 @@
 ﻿namespace LostPets.Data.Models.Types
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum DogType
     {
+        [Display(Name ="Other")]
         NotGiven = 0,
         LabradorRetriever = 1,
         GermanShepherd = 2,

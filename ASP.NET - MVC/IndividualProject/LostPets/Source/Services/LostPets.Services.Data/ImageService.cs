@@ -1,15 +1,15 @@
 ﻿namespace LostPets.Services.Data
 {
-    using LostPets.Data.Common;
+    using LostPets.Data.Common.Repositories;
     using LostPets.Data.Models;
     using Web;
 
     public class ImageService : IImageService
     {
-        private readonly IDbRepository<Photo> images;
         private readonly IIdentifierProvider identifierProvider;
+        private IDeletableEntityRepository<Photo> images;
 
-        public ImageService(IDbRepository<Photo> images, IIdentifierProvider identifierProvider)
+        public ImageService(IDeletableEntityRepository<Photo> images, IIdentifierProvider identifierProvider)
         {
             this.images = images;
             this.identifierProvider = identifierProvider;

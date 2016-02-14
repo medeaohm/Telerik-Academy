@@ -14,6 +14,7 @@
 
     using Services.Web;
     using Services.Data;
+    using Data.Common.Repositories;
 
     public static class AutofacConfig
     {
@@ -60,8 +61,8 @@
             var servicesAssembly = Assembly.GetAssembly(typeof(IPostService));
             builder.RegisterAssemblyTypes(servicesAssembly).AsImplementedInterfaces();
 
-            builder.RegisterGeneric(typeof(DbRepository<>))
-                .As(typeof(IDbRepository<>))
+            builder.RegisterGeneric(typeof(DeletableEntityRepository<>))
+                .As(typeof(IDeletableEntityRepository<>))
                 .InstancePerRequest();
 
             builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())

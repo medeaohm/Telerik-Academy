@@ -6,13 +6,14 @@
     using LostPets.Data.Common;
     using LostPets.Data.Models;
     using LostPets.Data.Models.Types;
+    using LostPets.Data.Common.Repositories;
 
     public class PostService : IPostService
     {
-        private readonly IDbRepository<Post> posts;
         private readonly IIdentifierProvider identifierProvider;
+        private IDeletableEntityRepository<Post> posts;
 
-        public PostService(IDbRepository<Post> posts, IIdentifierProvider identifierProvider)
+        public PostService(IDeletableEntityRepository<Post> posts, IIdentifierProvider identifierProvider)
         {
             this.posts = posts;
             this.identifierProvider = identifierProvider;

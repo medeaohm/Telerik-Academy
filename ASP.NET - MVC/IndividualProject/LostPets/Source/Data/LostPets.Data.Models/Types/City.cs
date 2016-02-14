@@ -1,7 +1,10 @@
 ﻿namespace LostPets.Data.Models.Types
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum City
     {
+        [Display(Name ="Not Given")]
         NotGiven = 0,
         Sofia = 1,
         Plovdiv = 2,

@@ -64,8 +64,6 @@
     <Compile Include="Comment.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Photo.cs" />
-    <Compile Include="Joke.cs" />
-    <Compile Include="JokeCategory.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="OtherPet.cs" />
     <Compile Include="Pet.cs" />
