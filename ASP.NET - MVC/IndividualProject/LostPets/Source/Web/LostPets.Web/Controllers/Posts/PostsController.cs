@@ -19,7 +19,9 @@
 
         public PostsController(
             IPostService posts,
-            IImageService images)
+            IImageService images,
+            IUserService users)
+            : base(users)
         {
             this.posts = posts;
             this.images = images;

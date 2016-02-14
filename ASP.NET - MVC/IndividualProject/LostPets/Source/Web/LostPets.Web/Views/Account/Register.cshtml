@@ -36,6 +36,10 @@
                         @Html.LabelFor(m => m.PhoneNumber)
                         @Html.TextBoxFor(m => m.PhoneNumber)
                     </div>
+                    <div>
+                        @Html.LabelFor(m => m.FacebookProfile)
+                        @Html.TextBoxFor(m => m.FacebookProfile)
+                    </div>
                     <div class="input-field col s6">
                         @Html.DropDownListFor(m => m.Gender, EnumHelper.GetSelectList(typeof(Gender)), new { @class = "form-control" })
                     </div>

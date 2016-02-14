@@ -58,7 +58,7 @@
                 .As<IIdentifierProvider>()
                 .InstancePerRequest();
 
-            var servicesAssembly = Assembly.GetAssembly(typeof(IPostService));
+            var servicesAssembly = Assembly.GetAssembly(typeof(IUserService));
             builder.RegisterAssemblyTypes(servicesAssembly).AsImplementedInterfaces();
 
             builder.RegisterGeneric(typeof(DeletableEntityRepository<>))

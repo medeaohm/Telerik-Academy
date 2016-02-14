@@ -14,7 +14,8 @@
     {
         private readonly IPostService posts;
 
-        public HomeController(IPostService posts)
+        public HomeController(IUserService users, IPostService posts)
+            : base(users)
         {
             this.posts = posts;
         }

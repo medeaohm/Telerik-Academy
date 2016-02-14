@@ -19,5 +19,10 @@
         {
             return this.images.GetById(id);
         }
+
+        public void Update()
+        {
+            this.images.SaveChanges();
+        }
     }
 }

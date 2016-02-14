@@ -5,5 +5,7 @@
     public interface IImageService
     {
         Photo GetById(int id);
+
+        void Update();
     }
 }

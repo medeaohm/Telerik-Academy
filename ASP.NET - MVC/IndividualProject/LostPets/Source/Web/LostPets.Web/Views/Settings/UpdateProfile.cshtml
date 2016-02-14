@@ -1,0 +1,74 @@
+﻿@using LostPets.Web.Infrastructure.HtmlHelpers
+@model LostPets.Web.ViewModels.Settings.UpdateProfileViewModel
+@{
+    ViewBag.Title = "User";
+}
+<div class="container">
+    <div class="card-panel">
+        <h3 class="center">Profile</h3>
+
+        <div class="row">
+            @*<div class="col-md-4">
+                    @if (@Model.ProfilePictureId != null)
+                {
+                        <img src="@Url.Action("Image", "Settings", new { id = Model.ProfilePictureId.Value })" alt="@Model.UserName" class="img-responsive" width="100" />
+                    }
+                    <div>*@
+            <div class="col s6">
+                <ul>
+                    <li class="collection-item">
+                        <div class="row">
+                            <div>
+                                Name
+                            </div>
+                            <div>@Html.DisplayFor(m => m.UserName) @Html.DisplayFor(m => m.Email)</div>
+                        </div>
+                    </li>
+                    <li class="collection-item">
+                        <div class="row">
+                            <div>
+                                E-mail
+                            </div>
+                            <div>@Html.DisplayFor(m => m.Email)</div>
+                        </div>
+                    </li>
+                    <li class="collection-item">
+                        <div class="row">
+                            <div>
+                                Phone number
+                            </div>
+                            <div>@Html.DisplayFor(m => m.PhoneNumber)</div>
+                        </div>
+                    </li>
+                    <li class="collection-item">
+                        <div class="row">
+                            <div>
+                               Facebook
+                            </div>
+                            <div >@Html.DisplayFor(m => m.FacebookProfile)</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            @using (Html.BeginForm("UpdateProfile", "Settings", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="col s5 offset-s1">
+                    <div class="row center">
+                        <div class="file-field input-field">
+                            <div class="col s1">
+                                <span class="btn-floating">
+                                    <input type="file" name="File"/>
+                                </span>
+                            </div>
+                            <div class="col-md-5 col-md-offset-2">
+                                <input type="submit" class="btn btn-default" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

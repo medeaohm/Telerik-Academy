@@ -9,11 +9,12 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
 
-    using LostPets.Data.Models;
-    using LostPets.Web.ViewModels.Account;
+    using Common;
+    using Data.Models;
+    using ViewModels.Account;
 
     [Authorize]
-    public class AccountController : BaseController
+    public class AccountController : Controller
     {
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
@@ -176,7 +177,9 @@
                     Email = model.Email,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
-                    Gender = model.Gender
+                    Gender = model.Gender,
+                    FacebookProfile = model.FacebookProfile,
+                    UserRole = GlobalConstants.UserRole
                 };
                 var result = await this.UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)

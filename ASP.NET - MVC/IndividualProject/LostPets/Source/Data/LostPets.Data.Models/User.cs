@@ -10,9 +10,10 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
 
+    using Common.Models;
     using Types;
 
-    public class User : IdentityUser
+    public class User : IdentityUser, IAuditInfo, IDeletableEntity
     {
         private ICollection<Post> posts;
         private ICollection<Comment> comments;
@@ -38,6 +39,10 @@
         public string FacebookProfile { get; set; }
 
         public string UserRole { get; set; }
+
+        public int? ProfilePictureId { get; set; }
+
+        public virtual Photo ProfilePicture { get; set; }
 
         [DefaultValue(false)]
         public bool IsDeleted { get; set; }
@@ -70,7 +75,9 @@
             }
         }
 
-        public virtual Photo ProfilePicture { get; set; }
+        public DateTime CreatedOn { get; set; }
+
+        public DateTime? ModifiedOn { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager)
         {
