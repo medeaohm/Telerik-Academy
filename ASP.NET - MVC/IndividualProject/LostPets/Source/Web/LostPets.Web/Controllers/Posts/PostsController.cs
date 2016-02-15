@@ -1,18 +1,21 @@
 ﻿namespace LostPets.Web.Controllers
 {
+    using System.IO;
     using System.Linq;
     using System.Web.Mvc;
+    using System.Web.Mvc.Html;
 
-    using Kendo.Mvc.UI;
+    using Infrastructure.Mapping;
+
     using Kendo.Mvc.Extensions;
+    using Kendo.Mvc.UI;
 
+    using Data.Models;
+    using Data.Models.Types;
+    using Services.Data;
     using ViewModels.Home;
     using ViewModels.Posts;
 
-    using Infrastructure.Mapping;
-    using Services.Data;
-    using System.Web.Mvc.Html;
-    using Data.Models.Types;
 
     public class PostsController : BaseController
     {
@@ -34,6 +37,46 @@
             var post = this.posts.GetById(id);
             var viewModel = this.Mapper.Map<PostViewModel>(post);
             return this.View(viewModel);
+        }
+
+        [Authorize]
+        public ActionResult Add()
+        {
+            var addPostViewModel = new AddPostViewModel();
+
+            return this.View(addPostViewModel);
+        }
+
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Add(AddPostViewModel post)
+        {
+            if (post != null && this.ModelState.IsValid)
+            {
+                var dbPost = this.Mapper.Map<Post>(post);
+                dbPost.Author = this.CurrentUser;
+
+                if (post.UploadedImage != null)
+                {
+                    using (var memory = new MemoryStream())
+                    {
+                        post.UploadedImage.InputStream.CopyTo(memory);
+                        var content = memory.GetBuffer();
+
+                        dbPost.Gallery.Add(new Photo {
+                            Content = content,
+                            FileExtension = post.UploadedImage.FileName.Split(new[] { '.' }).Last()
+                        });
+                    }
+                }
+
+                this.posts.Update();
+
+                return this.RedirectToAction("All", "Posts");
+            }
+
+            return this.View(post);
         }
 
         public ActionResult All()

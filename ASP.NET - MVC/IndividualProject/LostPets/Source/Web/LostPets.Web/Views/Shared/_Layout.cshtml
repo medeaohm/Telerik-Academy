@@ -27,6 +27,21 @@
                 <ul class="nav navbar-nav" id="menu">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("View All", "All", "Posts", new { area = string.Empty }, null)</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Add Post", "Add", "Posts", new { area = string.Empty }, null)</li>
+
+                        if (User.IsInRole(LostPets.Common.GlobalConstants.AdminRole))
+                        {
+                            <li>
+                                Administration
+                                <ul>
+                                    <li>@Html.ActionLink("Comments", "Index", "Comments", new { area = "Administration" }, null)</li>
+                                    <li>@Html.ActionLink("Posts", "Index", "Posts", new { area = "Administration" }, null)</li>
+                                </ul>
+                            </li>
+                        }
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

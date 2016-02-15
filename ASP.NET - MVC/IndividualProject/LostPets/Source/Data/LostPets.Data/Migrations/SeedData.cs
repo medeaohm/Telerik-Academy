@@ -78,6 +78,11 @@
 
         private void SeedLocations(LostPetsDbContext context)
         {
+            if (context.Locations.Any())
+            {
+                return;
+            }
+
             /* Locations Creation */
             var locations = new List<Location>();
             var location1 = new Location {
@@ -109,6 +114,11 @@
 
         private void SeedPets(LostPetsDbContext context)
         {
+            if (context.Dogs.Any())
+            {
+                return;
+            }
+
             var dog1 = new Dog {
                 Name = "Rex",
                 Age = 2,

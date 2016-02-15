@@ -45,5 +45,10 @@
         {
             return this.posts.All().Where(p => p.AnimalType == animalType);
         }
+
+        public void Update()
+        {
+            this.posts.SaveChanges();
+        }
     }
 }
