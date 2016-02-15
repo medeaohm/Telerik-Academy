@@ -1,12 +1,10 @@
 ﻿namespace LostPets.Data.Models
 {
-    using System;
-    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
 
     using Common.Models;
 
-    public abstract class Pet : BaseModel<int>
+    public class Pet : BaseModel<int>
     {
         [StringLength(100)]
         public string Name { get; set; }

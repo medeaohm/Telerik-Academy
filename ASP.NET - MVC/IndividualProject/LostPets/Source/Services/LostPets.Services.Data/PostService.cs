@@ -33,7 +33,7 @@
 
         public IQueryable<Post> GetMostRecent(int count)
         {
-            return this.posts.All().OrderByDescending(p => p.CreatedOn).Take(count);
+            return this.posts.All().OrderBy(p => p.CreatedOn).Take(count);
         }
 
         public IQueryable<Post> GetByType(PostType postType)
@@ -49,6 +49,11 @@
         public void Update()
         {
             this.posts.SaveChanges();
+        }
+
+        public void Add(Post post)
+        {
+            this.posts.Add(post);
         }
     }
 }

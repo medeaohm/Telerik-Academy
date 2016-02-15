@@ -7,43 +7,45 @@
     using AutoMapper;
     using Data.Models;
     using Infrastructure.Mapping;
+    using Data.Models.Types;
+    using Data.Common.Models;
 
-    public class AddPostViewModel : IMapFrom<Post>, IHaveCustomMappings
+    public class AddPostViewModel : BaseModel<int>, IMapFrom<Post>, IHaveCustomMappings
     {
-        public int Id { get; set;  }
-
-        public Pet Pet { get; set; }
-
-        public Location Location { get; set; }
-
+        [Required]
         [UIHint("SingleLineText")]
         public string Title { get; set; }
 
+        [Required]
         [UIHint("MultiLineText")]
         public string Content { get; set; }
 
         [Display(Name = "Post Type")]
-        public string PostType { get; set; }
+        public PostType PostType { get; set; }
 
         [Display(Name = "Animal Type")]
-        public string AnimalType { get; set; }
+        public AnimalType AnimalType { get; set; }
 
-        public string Author { get; set; }
+        public User Author { get; set; }
 
         [UIHint("SingleLineText")]
         [Display(Name = "Pet Name")]
         public string PetName { get; set; }
 
         [UIHint("Integer")]
-        [Display(Name ="Pet Age")]
-        public string PetAge { get; set; }
+        [Display(Name = "Pet Age")]
+        public int? PetAge { get; set; }
 
         [UIHint("MultiLineText")]
         [Display(Name = "Pet Description")]
         public string PetDescription { get; set; }
 
+        [UIHint("SingleLineText")]
+        [Display(Name = "Pet Color")]
+        public string PetColor { get; set; }
+
         [Display(Name = "City")]
-        public string LocationCity { get; set; }
+        public City LocationCity { get; set; }
 
         [UIHint("SingleLineText")]
         [Display(Name = "Street")]
@@ -57,13 +59,14 @@
 
         public void CreateMappings(IMapperConfiguration configuration)
         {
-            configuration.CreateMap<Post, PostViewModel>()
-                .ForMember(x => x.PostType, opt => opt.MapFrom(x => x.PostType.ToString()))
+            configuration.CreateMap<Post, AddPostViewModel>()
+                .ForMember(x => x.PostType, opt => opt.MapFrom(x => x.PostType))
                 .ForMember(x => x.AnimalType, opt => opt.MapFrom(x => x.AnimalType.ToString()))
                 .ForMember(x => x.Author, opt => opt.MapFrom(x => x.Author.UserName))
                 .ForMember(x => x.PetName, opt => opt.MapFrom(x => x.Pet.Name))
                 .ForMember(x => x.PetAge, opt => opt.MapFrom(x => x.Pet.Age))
                 .ForMember(x => x.PetDescription, opt => opt.MapFrom(x => x.Pet.Description))
+                .ForMember(x => x.PetColor, opt => opt.MapFrom(x => x.Pet.Color))
                 .ForMember(x => x.LocationCity, opt => opt.MapFrom(x => x.Location.City.ToString()))
                 .ForMember(x => x.LocationStreet, opt => opt.MapFrom(x => x.Location.Street))
                 .ForMember(x => x.LocationAdditionalInfo, opt => opt.MapFrom(x => x.Location.AdditionalInfo))

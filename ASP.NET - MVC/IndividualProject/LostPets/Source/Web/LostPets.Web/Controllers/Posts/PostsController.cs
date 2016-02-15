@@ -19,17 +19,23 @@
 
     public class PostsController : BaseController
     {
-        private readonly IPostService posts;
-        private readonly IImageService images;
+        private IPostService posts;
+        private IImageService images;
+        private IPetService pets;
+        private ILocationService locations;
 
         public PostsController(
             IPostService posts,
             IImageService images,
-            IUserService users)
+            IUserService users,
+            IPetService pets,
+            ILocationService locations)
             : base(users)
         {
             this.posts = posts;
             this.images = images;
+            this.pets = pets;
+            this.locations = locations;
         }
 
         public ActionResult Details(string id)
@@ -54,8 +60,31 @@
         {
             if (post != null && this.ModelState.IsValid)
             {
-                var dbPost = this.Mapper.Map<Post>(post);
-                dbPost.Author = this.CurrentUser;
+                var pet = new Pet {
+                    Name = post.PetName,
+                    Age = post.PetAge,
+                    Color = post.PetColor,
+                    Description = post.PetDescription,
+                };
+                this.pets.Add(pet);
+                this.pets.Update();
+
+                var location = new Location {
+                    City = post.LocationCity,
+                    Street = post.LocationStreet,
+                    AdditionalInfo = post.LocationAdditionalInfo
+                };
+                this.locations.Add(location);
+                this.locations.Update();
+
+                var dbPost = new Post {
+                    PostType = post.PostType,
+                    Title = post.Title,
+                    Content = post.Content,
+                    LocationId = location.Id,
+                    PetId = pet.Id,
+                    AuthorId = this.CurrentUser.Id
+                };
 
                 if (post.UploadedImage != null)
                 {
@@ -71,6 +100,7 @@
                     }
                 }
 
+                this.posts.Add(dbPost);
                 this.posts.Update();
 
                 return this.RedirectToAction("All", "Posts");

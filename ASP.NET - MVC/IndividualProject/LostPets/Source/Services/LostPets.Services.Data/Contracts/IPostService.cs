@@ -18,5 +18,7 @@
         IQueryable<Post> GetByAnimalType(AnimalType animalType);
 
         void Update();
+
+        void Add(Post post);
     }
 }

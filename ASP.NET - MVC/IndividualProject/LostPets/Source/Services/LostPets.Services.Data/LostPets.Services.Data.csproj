@@ -42,10 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\ILocationService.cs" />
+    <Compile Include="Contracts\IPetService.cs" />
     <Compile Include="Contracts\IPostService.cs" />
     <Compile Include="Contracts\IImageService.cs" />
     <Compile Include="ImageService.cs" />
     <Compile Include="Contracts\IUserService.cs" />
+    <Compile Include="LocationService.cs" />
+    <Compile Include="PetService.cs" />
     <Compile Include="PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserService.cs" />
