@@ -1,7 +1,7 @@
 ﻿@using LostPets.Data.Models.Types
 @model LostPets.Web.ViewModels.Posts.AddPostViewModel
 @{
-    ViewBag.Title = "Add Ticket";
+    ViewBag.Title = "Add Post";
 }
 @using (Html.BeginForm("Add", "Posts", FormMethod.Post, new { @class = "form", enctype = "multipart/form-data" }))
 {
@@ -31,9 +31,7 @@
                     <div class="row">
                         <strong>Image</strong>
                     </div>
-                    <div class="row">
-                        <input type="file" name="UploadedImage" />
-                    </div>
+
                 </div>
                 <br />
             </div>

@@ -6,49 +6,56 @@
 
     using Data.Models;
     using Services.Data;
-    using ViewModels.Settings;
-    using System.Web;
+    using ViewModels.Profile;
 
-    public class SettingsController : BaseController
+    public class ProfileController : BaseController
     {
         private IImageService images;
 
-        public SettingsController(IUserService users, IImageService images)
+        public ProfileController(IUserService users, IImageService images)
             : base(users)
         {
             this.images = images;
         }
 
-        // GET: Settings
-        public ActionResult UpdateProfile(string id)
+        public ActionResult ViewProfile(string id)
         {
-            var user = this.Mapper.Map<UpdateProfileViewModel>(this.users.GetById(id));
+            var user = this.Mapper.Map<ProfileViewModel>(this.users.GetById(this.CurrentUser.Id));
+            return this.View(user);
+        }
+
+        public ActionResult EditProfile(string id)
+        {
+            var user = this.Mapper.Map<ProfileViewModel>(this.users.GetById(this.CurrentUser.Id));
             return this.View(user);
         }
 
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult UpdateProfile(HttpPostedFileBase file, string id)
+        public ActionResult EditProfile(ProfileViewModel profile, string id)
         {
             var user = this.users.GetById(this.CurrentUser.Id);
 
-            if (file != null)
+            user.FirstName = profile.FirstName;
+
+            if (profile.UploadedImage != null)
             {
                 using (var memory = new MemoryStream())
                 {
+                    profile.UploadedImage.InputStream.CopyTo(memory);
                     var content = memory.GetBuffer();
 
                     user.ProfilePicture = new Photo {
                         Content = content,
-                        FileExtension = file.FileName.Split(new[] { '.' }).Last()
+                        FileExtension = profile.UploadedImage.FileName.Split(new[] { '.' }).Last()
                     };
                     this.images.Update();
-                    this.users.Update();
                 }
             }
 
-            return this.RedirectToAction("UpdateProfile");
+            this.users.Update();
+            return this.RedirectToAction("ViewProfile");
         }
 
         public ActionResult Image(int id)
