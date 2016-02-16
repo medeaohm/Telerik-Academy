@@ -114,74 +114,74 @@
 
         private void SeedPets(LostPetsDbContext context)
         {
-            if (context.Dogs.Any())
+            if (context.Pets.Any())
             {
                 return;
             }
 
-            var dog1 = new Dog {
+            var dog1 = new Pet {
                 Name = "Rex",
                 Age = 2,
                 Color = "Black",
-                DogType = DogType.Bulldog,
+                PetType = PetType.Dog
             };
-            context.Dogs.Add(dog1);
+            context.Pets.Add(dog1);
 
-            var dog2 = new Dog {
+            var dog2 = new Pet {
                 Name = "Aria",
                 Age = 12,
                 Color = "Grey",
-                DogType = DogType.Beagle,
+                PetType = PetType.Dog,
             };
-            context.Dogs.Add(dog2);
+            context.Pets.Add(dog2);
 
-            var dog3 = new Dog {
+            var dog3 = new Pet {
                 Name = "Mimi",
                 Age = 5,
                 Color = "White",
-                DogType = DogType.Chihuahua,
+                PetType = PetType.Dog,
             };
-            context.Dogs.Add(dog3);
+            context.Pets.Add(dog3);
 
-            var cat1 = new Cat {
+            var cat1 = new Pet {
                 Name = "Kety",
                 Age = 1,
                 Color = "Grey",
-                CatType = CatType.Burmese,
+                PetType = PetType.Cat,
             };
-            context.Cats.Add(cat1);
+            context.Pets.Add(cat1);
 
-            var rabbit1 = new Rodent {
+            var rabbit1 = new Pet {
                 Name = "Bugs",
                 Age = 0,
                 Color = "Black",
-                RodentType = RodentType.Rabbit,
+                PetType = PetType.Rodent,
             };
-            context.Rodents.Add(rabbit1);
+            context.Pets.Add(rabbit1);
 
-            var guineaPig1 = new Rodent {
+            var guineaPig1 = new Pet {
                 Name = "Susanna",
                 Age = 3,
                 Color = "Maroon",
-                RodentType = RodentType.GuineaPig,
+                PetType = PetType.Rodent,
             };
-            context.Rodents.Add(guineaPig1);
+            context.Pets.Add(guineaPig1);
 
-            var bird1 = new Bird {
+            var bird1 = new Pet {
                 Name = "Ahil",
                 Age = 2,
                 Color = "Yellow and red",
-                BirdType = BirdType.Parrot,
+                PetType = PetType.Bird,
             };
-            context.Birds.Add(bird1);
+            context.Pets.Add(bird1);
 
-            var bird2 = new Bird {
+            var bird2 = new Pet {
                 Name = "Jakopson",
                 Age = 2,
                 Color = "Black and white",
-                BirdType = BirdType.Eagle,
+                PetType = PetType.Bird,
             };
-            context.Birds.Add(bird2);
+            context.Pets.Add(bird2);
 
             context.SaveChanges();
         }
@@ -195,10 +195,7 @@
 
             var users = context.Users.Take(10).ToList();
             var locations = context.Locations.Take(3).ToList();
-            var dogs = context.Dogs.Take(3).ToList();
-            var cats = context.Cats.Take(1).ToList();
-            var rodents = context.Rodents.Take(2).ToList();
-            var birds = context.Birds.Take(2).ToList();
+            var pets = context.Pets.Take(8).ToList();
 
             var image1 = this.GetImage("dog1.jpg");
             var image2 = this.GetImage("dog2.jpg");
@@ -231,9 +228,8 @@
                 Title = "I lost my dog!",
                 Content = "Please help me to find my dog... I lost it when going for a walk",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Dog,
                 PostType = PostType.Lost,
-                Pet = dogs[0],
+                Pet = pets[0],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -253,9 +249,8 @@
                 Title = "Beagle Found!",
                 Content = "Anybody is searching this dog?",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Dog,
                 PostType = PostType.Found,
-                Pet = dogs[1],
+                Pet = pets[1],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -275,9 +270,8 @@
                 Title = "I lost Mimi!",
                 Content = "I am really sad.. Mimi desappeared! Please help me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Dog,
                 PostType = PostType.Lost,
-                Pet = dogs[2],
+                Pet = pets[2],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)],
             };
 
@@ -297,9 +291,8 @@
                 Title = "Where is Kety",
                 Content = "Kety is a buautiful cat.. If somebody see her, please contact me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Cat,
                 PostType = PostType.Lost,
-                Pet = cats[0],
+                Pet = pets[3],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -319,9 +312,8 @@
                 Title = "I found a black rabbit",
                 Content = "This black rabbit found me... If is yours - please contact me",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Rodent,
                 PostType = PostType.Found,
-                Pet = rodents[0],
+                Pet = pets[4],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -341,9 +333,8 @@
                 Title = "My peruvian is not at home",
                 Content = "Please help me... I really want to fint it!",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Rodent,
                 PostType = PostType.Lost,
-                Pet = rodents[1],
+                Pet = pets[5],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -363,9 +354,8 @@
                 Title = "Somebody is searching a parrot?",
                 Content = "I found this parrot yesterday",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Bird,
                 PostType = PostType.Found,
-                Pet = birds[0],
+                Pet = pets[6],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)]
             };
 
@@ -385,9 +375,8 @@
                 Title = "Help me to find my eagle",
                 Content = "She is mostly deaf and her vision is not great but she is still pretty active. I cant get her picture to download but her face is mostly grey now.",
                 Author = users[this.random.RandomNumber(0, users.Count - 1)],
-                AnimalType = AnimalType.Bird,
                 PostType = PostType.Lost,
-                Pet = birds[1],
+                Pet = pets[7],
                 Location = locations[this.random.RandomNumber(0, locations.Count - 1)],
             };
 

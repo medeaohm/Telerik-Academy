@@ -15,7 +15,7 @@
 
         IQueryable<Post> GetByType(PostType postType);
 
-        IQueryable<Post> GetByAnimalType(AnimalType animalType);
+        IQueryable<Post> GetByAnimalType(PetType animalType);
 
         void Update();
 

@@ -2,7 +2,7 @@
 {
     using System.ComponentModel.DataAnnotations;
 
-    public enum AnimalType
+    public enum PetType
     {
         [Display(Name = "Not Given")]
         NotGiven = 0,

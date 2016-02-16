@@ -24,7 +24,7 @@
         public PostType PostType { get; set; }
 
         [Display(Name = "Animal Type")]
-        public AnimalType AnimalType { get; set; }
+        public PetType AnimalType { get; set; }
 
         public User Author { get; set; }
 
@@ -61,7 +61,7 @@
         {
             configuration.CreateMap<Post, AddPostViewModel>()
                 .ForMember(x => x.PostType, opt => opt.MapFrom(x => x.PostType))
-                .ForMember(x => x.AnimalType, opt => opt.MapFrom(x => x.AnimalType.ToString()))
+                .ForMember(x => x.AnimalType, opt => opt.MapFrom(x => x.Pet.PetType.ToString()))
                 .ForMember(x => x.Author, opt => opt.MapFrom(x => x.Author.UserName))
                 .ForMember(x => x.PetName, opt => opt.MapFrom(x => x.Pet.Name))
                 .ForMember(x => x.PetAge, opt => opt.MapFrom(x => x.Pet.Age))

@@ -24,15 +24,7 @@
 
         public IDbSet<Photo> Images { get; set; }
 
-        public IDbSet<Bird> Birds { get; set; }
-
-        public IDbSet<Cat> Cats { get; set; }
-
-        public IDbSet<Dog> Dogs { get; set; }
-
-        public IDbSet<Rodent> Rodents { get; set; }
-
-        public IDbSet<OtherPet> OtherPets { get; set; }
+        public IDbSet<Pet> Pets { get; set; }
 
         public static LostPetsDbContext Create()
         {

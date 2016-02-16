@@ -10,9 +10,9 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            @if (@Model.ImageId != null)
+            @if (@Model.Photo.Id != null)
             {
-                <img src="@Url.Action("Image", "Posts", new { id = Model.ImageId.Value })" alt="@Model.Title" class="img-responsive" width="100" />
+                <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-responsive" width="100" />
             }
             <div>
                 <i>Posted by: @Model.Author</i>
@@ -20,27 +20,27 @@
         </div>
 
         <div class="col-md-8">
-            <h3>@Model.PostType @Model.AnimalType</h3>
+            <h3>@Model.PostType @Model.Pet.PetType</h3>
             <div>
                 @Model.Content
             </div>
             <div>
-                <strong>Name: </strong> @Model.PetName
+                <strong>Name: </strong> @Model.Pet.Name
             </div>
             <div>
-                <strong>Age: </strong> @Model.PetAge
+                <strong>Age: </strong> @Model.Pet.Age
             </div>
             <div>
-                <strong>Description: </strong> @Model.PetDescription
+                <strong>Description: </strong> @Model.Pet.Description
             </div>
             <div>
-                <strong>City: </strong> @Model.LocationCity
+                <strong>City: </strong> @Model.Location.City
             </div>
             <div>
-                <strong>Street: </strong> @Model.LocationStreet
+                <strong>Street: </strong> @Model.Location.Street
             </div>
             <div>
-                <strong>Location additional info: </strong> @Model.LocationAdditionalInfo
+                <strong>Location additional info: </strong> @Model.Location.AdditionalInfo
             </div>
         </div>
     </div>

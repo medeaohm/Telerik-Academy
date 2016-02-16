@@ -31,10 +31,6 @@
         [Required]
         public PostType PostType { get; set; }
 
-        [Required]
-        [DefaultValue(AnimalType.NotGiven)]
-        public AnimalType AnimalType { get; set; }
-
         public string AuthorId { get; set; }
 
         public virtual User Author { get; set; }

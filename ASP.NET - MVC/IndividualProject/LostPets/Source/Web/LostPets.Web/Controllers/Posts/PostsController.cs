@@ -16,7 +16,6 @@
     using ViewModels.Home;
     using ViewModels.Posts;
 
-
     public class PostsController : BaseController
     {
         private IPostService posts;
@@ -109,22 +108,32 @@
             return this.View(post);
         }
 
-        public ActionResult All()
-        {
-            var posts = this.posts.GetAll().To<PostViewModel>().ToList();
-            var viewModel = new IndexViewModel {
-                Posts = posts,
-            };
+        //public ActionResult All()
+        //{
+        //    var posts = this.posts.GetAll().To<PostViewModel>().ToList();
+        //    var viewModel = new IndexViewModel {
+        //        Posts = posts,
+        //    };
 
-            return this.View(viewModel);
+        //    return this.View(viewModel);
+        //}
+
+        public ActionResult All(int? category)
+        {
+            return View(category);
         }
 
         [Authorize]
         [HttpPost]
-        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request)
+        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request, int? category)
         {
             var postsQuery = this.posts.GetAll();
 
+            if (category != null)
+            {
+                postsQuery = postsQuery.Where(t => t.PostType == PostType.Found);
+            }
+            
             var posts = this.Mapper.Map<PostViewModel>(postsQuery);
 
             return this.Json(postsQuery.ToDataSourceResult(request));

@@ -28,7 +28,7 @@
 
         public IQueryable<Post> GetAll()
         {
-            return this.posts.All().OrderByDescending(p => p.CreatedOn);
+            return this.posts.All().OrderBy(p => p.CreatedOn);
         }
 
         public IQueryable<Post> GetMostRecent(int count)
@@ -41,9 +41,9 @@
             return this.posts.All().Where(p => p.PostType == postType);
         }
 
-        public IQueryable<Post> GetByAnimalType(AnimalType animalType)
+        public IQueryable<Post> GetByAnimalType(PetType animalType)
         {
-            return this.posts.All().Where(p => p.AnimalType == animalType);
+            return this.posts.All().Where(p => p.Pet.PetType == animalType);
         }
 
         public void Update()

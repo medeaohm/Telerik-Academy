@@ -59,25 +59,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bird.cs" />
-    <Compile Include="Cat.cs" />
+    <Compile Include="JUNK\Bird.cs" />
+    <Compile Include="JUNK\Cat.cs" />
     <Compile Include="Comment.cs" />
-    <Compile Include="Dog.cs" />
+    <Compile Include="JUNK\Dog.cs" />
     <Compile Include="Photo.cs" />
     <Compile Include="Location.cs" />
-    <Compile Include="OtherPet.cs" />
+    <Compile Include="JUNK\OtherPet.cs" />
     <Compile Include="Pet.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rodent.cs" />
-    <Compile Include="Types\AnimalType.cs" />
-    <Compile Include="Types\BirdType.cs" />
-    <Compile Include="Types\CatType.cs" />
+    <Compile Include="JUNK\Rodent.cs" />
+    <Compile Include="Types\PetType.cs" />
+    <Compile Include="JUNK\BirdType.cs" />
+    <Compile Include="JUNK\CatType.cs" />
     <Compile Include="Types\City.cs" />
-    <Compile Include="Types\DogType.cs" />
+    <Compile Include="JUNK\DogType.cs" />
     <Compile Include="Types\Gender.cs" />
     <Compile Include="Types\PostType.cs" />
-    <Compile Include="Types\RodentType.cs" />
+    <Compile Include="JUNK\RodentType.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
