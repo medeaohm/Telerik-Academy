@@ -6,6 +6,8 @@
     using System.Web.Mvc.Html;
 
     using Infrastructure.Mapping;
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
 
     using Kendo.Mvc.Extensions;
     using Kendo.Mvc.UI;
@@ -118,25 +120,26 @@
         //    return this.View(viewModel);
         //}
 
-        public ActionResult All(int? category)
+        public ActionResult All()
         {
-            return View(category);
+            return this.View();
         }
 
-        [Authorize]
         [HttpPost]
-        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request, int? category)
+        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request)
         {
-            var postsQuery = this.posts.GetAll();
+            var postsQuery = this.locations.GetAll();
 
-            if (category != null)
-            {
-                postsQuery = postsQuery.Where(t => t.PostType == PostType.Found);
-            }
-            
-            var posts = this.Mapper.Map<PostViewModel>(postsQuery);
+            //if (category != null)
+            //{
+            //    postsQuery = postsQuery.Where(t => t.PostType == PostType.Found);
+            //}
 
-            return this.Json(postsQuery.ToDataSourceResult(request));
+            var posts = postsQuery.ProjectTo<ListPostsViewModel>();
+
+            //var posts = this.Mapper.Map<ListPostsViewModel>();
+
+            return this.Json(posts.ToDataSourceResult(request));
         }
 
         public ActionResult Image(int id)
@@ -151,9 +154,9 @@
             return this.File(image.Content, "image/" + image.FileExtension);
         }
 
-        public ActionResult GetCategories()
-        {
-            return this.Json(EnumHelper.GetSelectList(typeof(PostType)), JsonRequestBehavior.AllowGet);
-        }
+        //public ActionResult GetCategories()
+        //{
+        //    return this.Json(EnumHelper.GetSelectList(typeof(PostType)), JsonRequestBehavior.AllowGet);
+        //}
     }
 }

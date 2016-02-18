@@ -8,6 +8,7 @@
     using Infrastructure.Mapping;
     using Services.Web;
     using Data.Models.Types;
+    using Comments;
 
     public class PostViewModel : IMapFrom<Post>, IHaveCustomMappings
     {
@@ -27,7 +28,12 @@
 
         public User Author { get; set; }
 
-        public Location Location{ get; set; }
+        public Location Location { get; set; }
+
+        public ICollection<CommentViewModel> Comments
+        {
+            get; set;
+        }
 
         public string Url
         {

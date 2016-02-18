@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "All";
 }
-@model int?
+@*@model int?
 @using (Html.BeginForm("All", "Posts", FormMethod.Get))
 {
     @(Html.Kendo()
@@ -17,7 +17,7 @@
         }))
 
     <input type="submit" class="btn btn-default" />
-}
+}*@
 
 <br />
 <br />
@@ -35,7 +35,7 @@
 <br />
 
 @(Html.Kendo()
-    .ListView<PostViewModel>()
+    .ListView<ListPostsViewModel>()
     .TagName("div")
     .Name("all-posts")
     .Pageable()
