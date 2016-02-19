@@ -1,10 +1,8 @@
-﻿namespace LostPets.Web.ViewModels.Home
+﻿namespace LostPets.Web.ViewModels.Posts
 {
     using System.Collections.Generic;
 
-    using Posts;
-
-    public class IndexViewModel
+    public class ListPostViewModel
     {
         public IEnumerable<PostViewModel> Posts { get; set; }
     }

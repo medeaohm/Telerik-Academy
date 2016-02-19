@@ -3,7 +3,7 @@
     using System.Data.Entity;
     using System.Linq;
 
-    public class GenericRepository<T> : IRepository<T> 
+    public class GenericRepository<T> : IRepository<T>
         where T : class
     {
         private DbContext db;

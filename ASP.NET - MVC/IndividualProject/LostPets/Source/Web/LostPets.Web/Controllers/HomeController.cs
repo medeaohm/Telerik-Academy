@@ -4,10 +4,8 @@
     using System.Web.Mvc;
 
     using Infrastructure.Mapping;
-
     using Services.Data;
-
-    using ViewModels.Home;
+    using ViewModels.Comments;
     using ViewModels.Posts;
 
     public class HomeController : BaseController
@@ -28,7 +26,7 @@
                     () => this.posts.GetMostRecent(4).To<PostViewModel>().ToList(),
                     10 * 60);
 
-            var viewModel = new IndexViewModel
+            var viewModel = new ListPostViewModel
             {
                 Posts = posts
             };

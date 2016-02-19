@@ -1,25 +1,20 @@
 ﻿namespace LostPets.Web.Controllers
 {
+    using System;
     using System.IO;
     using System.Linq;
     using System.Web.Mvc;
-    using System.Web.Mvc.Html;
-
-    using Infrastructure.Mapping;
-    using AutoMapper;
-    using AutoMapper.QueryableExtensions;
-
-    using Kendo.Mvc.Extensions;
-    using Kendo.Mvc.UI;
 
     using Data.Models;
-    using Data.Models.Types;
+    using Infrastructure.Mapping;
     using Services.Data;
-    using ViewModels.Home;
+    using ViewModels.Comments;
     using ViewModels.Posts;
 
     public class PostsController : BaseController
     {
+        private const int ItemsPerPage = 5;
+
         private IPostService posts;
         private IImageService images;
         private IPetService pets;
@@ -70,7 +65,8 @@
                 this.pets.Add(pet);
                 this.pets.Update();
 
-                var location = new Location {
+                var location = new Location
+                {
                     City = post.LocationCity,
                     Street = post.LocationStreet,
                     AdditionalInfo = post.LocationAdditionalInfo
@@ -78,7 +74,8 @@
                 this.locations.Add(location);
                 this.locations.Update();
 
-                var dbPost = new Post {
+                var dbPost = new Post
+                {
                     PostType = post.PostType,
                     Title = post.Title,
                     Content = post.Content,
@@ -94,7 +91,8 @@
                         post.UploadedImage.InputStream.CopyTo(memory);
                         var content = memory.GetBuffer();
 
-                        dbPost.Gallery.Add(new Photo {
+                        dbPost.Gallery.Add(new Photo
+                        {
                             Content = content,
                             FileExtension = post.UploadedImage.FileName.Split(new[] { '.' }).Last()
                         });
@@ -110,36 +108,38 @@
             return this.View(post);
         }
 
-        //public ActionResult All()
-        //{
-        //    var posts = this.posts.GetAll().To<PostViewModel>().ToList();
-        //    var viewModel = new IndexViewModel {
-        //        Posts = posts,
-        //    };
-
-        //    return this.View(viewModel);
-        //}
-
-        public ActionResult All()
+        [HttpGet]
+        public ActionResult All(int id = 1)
         {
-            return this.View();
-        }
+            PageableListPostViewModel viewModel;
+            if (this.HttpContext.Cache["Post page_" + id] != null)
+            {
+                viewModel = (PageableListPostViewModel)this.HttpContext.Cache["Post page_" + id];
+            }
+            else
+            {
+                var page = id;
+                var allItemsCount = this.posts.GetAll().Count();
+                var totalPages = (int)Math.Ceiling(allItemsCount / (decimal)ItemsPerPage);
+                var itemsToSkip = (page - 1) * ItemsPerPage;
+                var posts = this.posts.GetAll()
+                    .OrderBy(x => x.CreatedOn)
+                    .ThenBy(x => x.Id)
+                    .Skip(itemsToSkip)
+                    .Take(ItemsPerPage)
+                    .To<PostViewModel>().ToList();
 
-        [HttpPost]
-        public ActionResult ReadPosts([DataSourceRequest]DataSourceRequest request)
-        {
-            var postsQuery = this.locations.GetAll();
+                viewModel = new PageableListPostViewModel() 
+                {
+                    CurrentPage = page,
+                    TotalPages = totalPages,
+                    Posts = posts
+                };
 
-            //if (category != null)
-            //{
-            //    postsQuery = postsQuery.Where(t => t.PostType == PostType.Found);
-            //}
+                this.HttpContext.Cache["Feedback page_" + id] = viewModel;
+            }
 
-            var posts = postsQuery.ProjectTo<ListPostsViewModel>();
-
-            //var posts = this.Mapper.Map<ListPostsViewModel>();
-
-            return this.Json(posts.ToDataSourceResult(request));
+            return this.View(viewModel);
         }
 
         public ActionResult Image(int id)
@@ -153,10 +153,5 @@
 
             return this.File(image.Content, "image/" + image.FileExtension);
         }
-
-        //public ActionResult GetCategories()
-        //{
-        //    return this.Json(EnumHelper.GetSelectList(typeof(PostType)), JsonRequestBehavior.AllowGet);
-        //}
     }
 }

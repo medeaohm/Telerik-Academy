@@ -25,21 +25,22 @@
             int destY = 0;
 
             // force resize, might distort image
-            if (this.Width != 0 && Height != 0)
+            if (this.Width != 0 && this.Height != 0)
             {
-                destWidth = Width;
-                destHeight = Height;
+                destWidth = this.Width;
+                destHeight = this.Height;
             }
+
             // change size proportially depending on width or height
-            else if (Height != 0)
+            else if (this.Height != 0)
             {
-                destWidth = (float)(Height * sourceWidth) / sourceHeight;
-                destHeight = Height;
+                destWidth = (float)(this.Height * sourceWidth) / sourceHeight;
+                destHeight = this.Height;
             }
             else
             {
-                destWidth = Width;
-                destHeight = (float)(sourceHeight * Width / sourceWidth);
+                destWidth = this.Width;
+                destHeight = (float)(sourceHeight * this.Width / sourceWidth);
             }
 
             Bitmap bmPhoto = new Bitmap((int)destWidth, (int)destHeight, PixelFormat.Format32bppPArgb);
@@ -48,7 +49,8 @@
             Graphics grPhoto = Graphics.FromImage(bmPhoto);
             grPhoto.InterpolationMode = InterpolationMode.HighQualityBicubic;
 
-            grPhoto.DrawImage(imgPhoto,
+            grPhoto.DrawImage(
+                imgPhoto,
                 new Rectangle(destX, destY, (int)destWidth, (int)destHeight),
                 new Rectangle(sourceX, sourceY, (int)sourceWidth, (int)sourceHeight),
                 GraphicsUnit.Pixel);

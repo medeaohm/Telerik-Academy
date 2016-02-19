@@ -1,7 +1,7 @@
 ﻿namespace LostPets.Data.Models
 {
-    using Types;
     using System.ComponentModel;
+    using Types;
 
     public class Cat : Pet
     {
