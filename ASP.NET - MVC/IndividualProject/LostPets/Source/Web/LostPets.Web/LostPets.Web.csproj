@@ -223,6 +223,7 @@
     <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
     <Compile Include="ViewModels\Account\ResetPasswordViewModel.cs" />
     <Compile Include="ViewModels\Account\SendCodeViewModel.cs" />
+    <Compile Include="ViewModels\Posts\EditPostViewModel.cs" />
     <Compile Include="ViewModels\Posts\PageableListPostViewModel.cs" />
     <Compile Include="ViewModels\Comments\PostCommentViewModel.cs" />
     <Compile Include="ViewModels\Comments\CommentViewModel.cs" />
@@ -1146,6 +1147,7 @@
     <Content Include="Views\UserPosts\AllByUser.cshtml" />
     <Content Include="Views\UserPosts\_AllPostsUserPartial.cshtml" />
     <Content Include="Views\UserPosts\DeletePost.cshtml" />
+    <Content Include="Views\UserPosts\EditPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

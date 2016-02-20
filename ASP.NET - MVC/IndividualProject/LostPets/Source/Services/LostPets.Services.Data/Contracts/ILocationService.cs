@@ -9,6 +9,8 @@
     {
         Location GetById(string id);
 
+        Location GetById(int id);
+
         IQueryable<Location> GetAll();
 
         IQueryable<Location> GetByCity(City city);

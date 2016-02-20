@@ -4,7 +4,7 @@
         @Html.LabelFor(m => m)
     </div>
     <div class="row">
-        @Html.TextBoxFor(m => m, new { @class = "form-control" })
+        @Html.TextBoxFor(m => m, new { @class = "form-control", @value = "m" })
     </div>
     <div>
         @Html.ValidationMessageFor(m => m)

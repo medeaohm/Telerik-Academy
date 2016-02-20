@@ -8,6 +8,8 @@
     {
         Pet GetById(string id);
 
+        Pet GetById(int id);
+
         IQueryable<Pet> GetAll();
 
         void Update();

@@ -27,6 +27,12 @@
             return location;
         }
 
+        public Location GetById(int id)
+        {
+            var location = this.locations.GetById(id);
+            return location;
+        }
+
         public IQueryable<Location> GetAll()
         {
             return this.locations.All().OrderByDescending(p => p.CreatedOn);

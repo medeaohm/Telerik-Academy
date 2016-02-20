@@ -24,6 +24,12 @@
             return pet;
         }
 
+        public Pet GetById(int id)
+        {
+            var pet = this.pets.GetById(id);
+            return pet;
+        }
+
         public IQueryable<Pet> GetAll()
         {
             return this.pets.All().OrderByDescending(p => p.CreatedOn);
