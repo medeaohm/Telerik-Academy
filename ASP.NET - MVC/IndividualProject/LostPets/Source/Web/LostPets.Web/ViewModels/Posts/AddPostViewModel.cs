@@ -5,10 +5,10 @@
     using System.Web;
 
     using AutoMapper;
-    using Data.Models;
-    using Infrastructure.Mapping;
-    using Data.Models.Types;
     using Data.Common.Models;
+    using Data.Models;
+    using Data.Models.Types;
+    using Infrastructure.Mapping;
 
     public class AddPostViewModel : BaseModel<int>, IMapFrom<Post>, IHaveCustomMappings
     {

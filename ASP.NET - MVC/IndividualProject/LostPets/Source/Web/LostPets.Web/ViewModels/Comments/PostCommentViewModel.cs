@@ -8,7 +8,6 @@
     {
         public PostCommentViewModel()
         {
-
         }
 
         public PostCommentViewModel(int postId)

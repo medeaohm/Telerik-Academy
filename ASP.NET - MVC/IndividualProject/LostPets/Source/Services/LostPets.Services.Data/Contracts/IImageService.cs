@@ -7,5 +7,7 @@
         Photo GetById(int id);
 
         void Update();
+
+        void Add(Photo image);
     }
 }

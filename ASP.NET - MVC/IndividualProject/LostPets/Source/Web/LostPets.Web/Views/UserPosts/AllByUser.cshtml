@@ -2,11 +2,11 @@
 @using LostPets.Web.ViewModels.Posts
 @model LostPets.Web.ViewModels.Posts.PageableListPostViewModel
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "User Posts";
 }
 <div class="container">
     <h1 class="text-center"> All Posts</h1>
-    @using (Html.BeginForm("All", "Posts", FormMethod.Get, new { @class = "form", enctype = "multipart/form-data" }))
+    @using (Html.BeginForm("AllByUser", "UserPosts", FormMethod.Get, new { @class = "form", enctype = "multipart/form-data" }))
     {
         <div class="row">
             <div class="col-md-3">
@@ -45,7 +45,7 @@
     <div class="row">
         <div class="col-md-2 text-center">
             Title
-        </div>
+        </div> 
         <div class="col-md-1 text-center">
             Photo
         </div>
@@ -66,7 +66,7 @@
     <div class="row">
         @foreach (var post in Model.Posts)
         {
-            @Html.Partial("_AllPostPartial", post)
+            @Html.Partial("_AllPostsUserPartial", post)
         }
     </div>  
     <div class="row text-center">

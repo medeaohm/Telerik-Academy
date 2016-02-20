@@ -12,7 +12,7 @@
 
     public class PostViewModel : IMapFrom<Post>, IHaveCustomMappings
     {
-        public IEnumerable<PostViewModel> Posts { get; set; }
+        //public IEnumerable<PostViewModel> Posts { get; set; }
 
         public int Id { get; set;  }
 

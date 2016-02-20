@@ -26,7 +26,7 @@
             return post;
         }
 
-        public Post GetById(int id)
+        public Post GetById(int? id)
         {
             return this.posts.GetById(id);
         }
@@ -39,6 +39,11 @@
         public IQueryable<Post> GetMostRecent(int count)
         {
             return this.posts.All().OrderByDescending(p => p.CreatedOn).Take(count);
+        }
+
+        public IQueryable<Post> GetByUserId(string userId)
+        {
+            return this.posts.All().Where(p => p.AuthorId == userId);
         }
 
         public IQueryable<Post> GetByType(PostType postType)
@@ -59,6 +64,25 @@
         public void Add(Post post)
         {
             this.posts.Add(post);
+        }
+
+        public void Delete(int id)
+        {
+            var post = this.posts.GetById(id);
+            post.Pet.IsDeleted = true;
+            post.Location.IsDeleted = true;
+
+            foreach (var comment in post.Comments)
+            {
+                comment.IsDeleted = true;
+            }
+
+            foreach (var image in post.Gallery)
+            {
+                image.IsDeleted = true;
+            }
+
+            post.IsDeleted = true;
         }
     }
 }

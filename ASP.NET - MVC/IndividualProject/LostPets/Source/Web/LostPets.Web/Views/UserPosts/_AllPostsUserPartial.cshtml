@@ -24,6 +24,10 @@
     <div class="col-md-2 text-center">
         @Model.Author.UserName
     </div> 
+    <div class="col-md-2">
+        @Html.ActionLink("Edit", "EditPost", new { id = Model.Id }) |
+        @Html.ActionLink("Delete", "DeletePost", new { id = Model.Id })
+    </div>
 </div>
 <br />
 

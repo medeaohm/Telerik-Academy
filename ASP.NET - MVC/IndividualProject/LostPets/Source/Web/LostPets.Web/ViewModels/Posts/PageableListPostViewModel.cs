@@ -1,7 +1,8 @@
 ﻿namespace LostPets.Web.ViewModels.Posts
 {
-    using Data.Models.Types;
     using System.Collections.Generic;
+
+    using Data.Models.Types;
 
     public class PageableListPostViewModel
     {

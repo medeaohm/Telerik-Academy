@@ -52,7 +52,8 @@
                     profile.UploadedImage.InputStream.CopyTo(memory);
                     var content = memory.GetBuffer();
 
-                    user.ProfilePicture = new Photo {
+                    user.ProfilePicture = new Photo
+                    {
                         Content = content,
                         FileExtension = profile.UploadedImage.FileName.Split(new[] { '.' }).Last()
                     };
@@ -61,7 +62,7 @@
             }
 
             this.users.Update();
-            return this.RedirectToAction("ViewProfile");
+            return this.RedirectToAction("ViewMyProfile");
         }
 
         public ActionResult Image(int id)

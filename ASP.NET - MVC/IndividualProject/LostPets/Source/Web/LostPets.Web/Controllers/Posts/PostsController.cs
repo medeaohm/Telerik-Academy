@@ -56,7 +56,9 @@
         {
             if (post != null && this.ModelState.IsValid)
             {
-                var pet = new Pet {
+                var pet = new Pet
+                {
+                    PetType = post.AnimalType,
                     Name = post.PetName,
                     Age = post.PetAge,
                     Color = post.PetColor,
@@ -74,7 +76,7 @@
                 this.locations.Add(location);
                 this.locations.Update();
 
-                var dbPost = new Post
+                var databasePost = new Post
                 {
                     PostType = post.PostType,
                     Title = post.Title,
@@ -91,15 +93,18 @@
                         post.UploadedImage.InputStream.CopyTo(memory);
                         var content = memory.GetBuffer();
 
-                        dbPost.Gallery.Add(new Photo
+                        var image = new Photo
                         {
                             Content = content,
                             FileExtension = post.UploadedImage.FileName.Split(new[] { '.' }).Last()
-                        });
+                        };
+                        this.images.Add(image);
+                        this.images.Update();
+                        databasePost.Gallery.Add(image);
                     }
                 }
 
-                this.posts.Add(dbPost);
+                this.posts.Add(databasePost);
                 this.posts.Update();
 
                 return this.RedirectToAction("All", "Posts");

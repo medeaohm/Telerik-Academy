@@ -10,10 +10,10 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            @if (@Model.Photo.Id != null)
+            @*@if (@Model.Photo.Id != null)
             {
                 <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-responsive" width="100" />
-            }
+            }*@
             <div>
                 <i>Posted by: @Model.Author.UserName</i>
             </div>

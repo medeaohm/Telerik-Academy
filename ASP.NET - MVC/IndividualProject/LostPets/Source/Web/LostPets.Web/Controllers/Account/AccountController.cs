@@ -1,5 +1,6 @@
 ﻿namespace LostPets.Web.Controllers
 {
+    using System;
     using System.Linq;
     using System.Threading.Tasks;
     using System.Web;
@@ -179,7 +180,8 @@
                     LastName = model.LastName,
                     Gender = model.Gender,
                     FacebookProfile = model.FacebookProfile,
-                    UserRole = GlobalConstants.UserRole
+                    UserRole = GlobalConstants.UserRole,
+                    CreatedOn = DateTime.Now
                 };
                 var result = await this.UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)

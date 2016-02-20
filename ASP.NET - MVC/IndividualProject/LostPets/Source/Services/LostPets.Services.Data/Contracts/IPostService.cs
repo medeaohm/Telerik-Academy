@@ -9,11 +9,13 @@
     {
         Post GetById(string id);
 
-        Post GetById(int id);
+        Post GetById(int? id);
 
         IQueryable<Post> GetAll();
 
         IQueryable<Post> GetMostRecent(int count);
+
+        IQueryable<Post> GetByUserId(string userId);
 
         IQueryable<Post> GetByType(PostType postType);
 
@@ -22,5 +24,7 @@
         void Update();
 
         void Add(Post post);
+
+        void Delete(int id);
     }
 }

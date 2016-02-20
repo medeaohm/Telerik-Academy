@@ -24,5 +24,10 @@
         {
             this.images.SaveChanges();
         }
+
+        public void Add(Photo image)
+        {
+            this.images.Add(image);
+        }
     }
 }
