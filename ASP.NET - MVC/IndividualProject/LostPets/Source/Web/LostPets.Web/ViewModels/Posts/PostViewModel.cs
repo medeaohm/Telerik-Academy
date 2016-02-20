@@ -44,6 +44,14 @@
             }
         }
 
+        public string UserUrl
+        {
+            get
+            {
+                return $"/Profile/ViewUserProfile/{this.Author.Id}";
+            }
+        }
+
         public void CreateMappings(IMapperConfiguration configuration)
         {
             configuration.CreateMap<PostViewModel, Location>()

@@ -18,9 +18,15 @@
             this.images = images;
         }
 
-        public ActionResult ViewProfile(string id)
+        public ActionResult ViewMyProfile()
         {
             var user = this.Mapper.Map<ProfileViewModel>(this.users.GetById(this.CurrentUser.Id));
+            return this.View(user);
+        }
+
+        public ActionResult ViewUserProfile(string id)
+        {
+            var user = this.Mapper.Map<ProfileViewModel>(this.users.GetById(id));
             return this.View(user);
         }
 

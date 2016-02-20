@@ -14,7 +14,8 @@
                 <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-responsive" width="100" />
             }
             <div>
-                <i>Posted by: @Model.Author.UserName</i>
+                <i>Posted by: <a href="@Model.UserUrl">@Model.Author.UserName </a>
+                 </i>
                 <a href="@Model.Url" class="btn btn-default">More Details...</a>
             </div>
         </div>
