@@ -1136,6 +1136,7 @@
     <Content Include="Views\Profile\EditorTemplates\ProfileSingleLineText.cshtml" />
     <Content Include="Views\Comments\_CommentPartial.cshtml" />
     <Content Include="Views\Comments\_PostCommentPartial.cshtml" />
+    <Content Include="Views\Posts\_AllPostPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

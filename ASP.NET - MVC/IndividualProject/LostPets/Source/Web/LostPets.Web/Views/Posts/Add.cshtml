@@ -61,7 +61,7 @@
                         @Html.LabelFor(m => m.AnimalType)
                     </div>
                     <div class="row">
-                        @Html.DropDownListFor(m => m.AnimalType, EnumHelper.GetSelectList(typeof(AnimalType)), new { @class = "form-control" })
+                        @Html.DropDownListFor(m => m.AnimalType, EnumHelper.GetSelectList(typeof(PetType)), new { @class = "form-control" })
                     </div>
                     <div>
                         @Html.ValidationMessageFor(m => m)

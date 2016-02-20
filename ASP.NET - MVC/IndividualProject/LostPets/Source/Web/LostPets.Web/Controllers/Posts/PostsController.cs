@@ -6,14 +6,14 @@
     using System.Web.Mvc;
 
     using Data.Models;
+    using Data.Models.Types;
     using Infrastructure.Mapping;
     using Services.Data;
-    using ViewModels.Comments;
     using ViewModels.Posts;
 
     public class PostsController : BaseController
     {
-        private const int ItemsPerPage = 5;
+        private const int ItemsPerPage = 4;
 
         private IPostService posts;
         private IImageService images;
@@ -109,7 +109,7 @@
         }
 
         [HttpGet]
-        public ActionResult All(int id = 1)
+        public ActionResult All(PostType? postType = null, PetType? petType = null, City? city = null, int id = 1)
         {
             PageableListPostViewModel viewModel;
             if (this.HttpContext.Cache["Post page_" + id] != null)
@@ -122,14 +122,31 @@
                 var allItemsCount = this.posts.GetAll().Count();
                 var totalPages = (int)Math.Ceiling(allItemsCount / (decimal)ItemsPerPage);
                 var itemsToSkip = (page - 1) * ItemsPerPage;
-                var posts = this.posts.GetAll()
-                    .OrderBy(x => x.CreatedOn)
+                var queryPosts = this.posts.GetAll();
+
+                if (postType != null)
+                {
+                    queryPosts = queryPosts.Where(p => p.PostType == postType);
+                }
+
+                if (petType != null)
+                {
+                    queryPosts = queryPosts.Where(p => p.Pet.PetType == petType);
+                }
+
+                if (city != null)
+                {
+                    queryPosts = queryPosts.Where(p => p.Location.City == city);
+                }
+
+                queryPosts = queryPosts.OrderBy(x => x.CreatedOn)
                     .ThenBy(x => x.Id)
                     .Skip(itemsToSkip)
-                    .Take(ItemsPerPage)
-                    .To<PostViewModel>().ToList();
+                    .Take(ItemsPerPage);
 
-                viewModel = new PageableListPostViewModel() 
+                var posts = queryPosts.To<PostViewModel>().ToList();
+
+                viewModel = new PageableListPostViewModel()
                 {
                     CurrentPage = page,
                     TotalPages = totalPages,
