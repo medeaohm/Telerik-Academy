@@ -23,7 +23,7 @@
         [Required]
         [StringLength(1000, MinimumLength = 2)]
         [UIHint("MultiLineText")]
-        [Display(Name ="Comment")]
+        [Display(Name = "Comment")]
         public string Content
         {
             get; set;

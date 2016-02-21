@@ -2,8 +2,8 @@
 {
     using System.Linq;
 
-    using LostPets.Data.Models;
     using LostPets.Data.Common.Repositories;
+    using LostPets.Data.Models;
 
     public class UserService : IUserService
     {

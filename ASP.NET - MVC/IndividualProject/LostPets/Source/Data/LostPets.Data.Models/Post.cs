@@ -1,13 +1,10 @@
 ﻿namespace LostPets.Data.Models
 {
-    using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
 
-    using Types;
     using Common.Models;
-    using System.ComponentModel.DataAnnotations.Schema;
+    using Types;
 
     public class Post : BaseModel<int>
     {

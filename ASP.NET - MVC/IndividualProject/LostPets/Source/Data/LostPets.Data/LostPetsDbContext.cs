@@ -4,17 +4,15 @@
     using System.Data.Entity;
     using System.Linq;
 
-    using Microsoft.AspNet.Identity.EntityFramework;
-
     using Common.Models;
-    using LostPets.Data.Models;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Models;
 
     public class LostPetsDbContext : IdentityDbContext<User>
     {
         public LostPetsDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
-
         }
 
         public IDbSet<Post> Posts { get; set; }

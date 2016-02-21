@@ -2,10 +2,10 @@
 {
     using System.Web;
     using System.Web.Mvc;
+
     using Data.Models;
     using Services.Data;
     using ViewModels.Comments;
-    using System.Globalization;
 
     public class CommentsController : BaseController
     {
@@ -50,13 +50,10 @@
                 post.Comments.Add(databaseComment);
                 this.posts.Update();
 
-                //ModelState["Content"].Value = new ValueProviderResult(string.Empty, "", CultureInfo.CurrentCulture);
                 var viewModel = this.Mapper.Map<CommentViewModel>(databaseComment);
-                //this.TempData["Notification"] = "Commented succesfully!";
-                //ValueProviderResult abc = new ValueProviderResult("", "", System.Globalization.CultureInfo.CurrentCulture);
-                //ModelState.SetModelValue("Content", abc);
                 return this.PartialView("_CommentPartial", viewModel);
-                //return this.RedirectToAction("Details", "Posts");
+
+                // return this.RedirectToAction("Details", "Posts");
             }
 
             throw new HttpException(400, "Invalid comment!");

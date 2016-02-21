@@ -10,11 +10,9 @@
     using Controllers;
 
     using Data;
-    using Data.Common;
-
-    using Services.Web;
-    using Services.Data;
     using Data.Common.Repositories;
+    using Services.Data;
+    using Services.Web;
 
     public static class AutofacConfig
     {

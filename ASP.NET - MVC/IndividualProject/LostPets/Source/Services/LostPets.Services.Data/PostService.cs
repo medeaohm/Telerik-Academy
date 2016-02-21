@@ -1,12 +1,11 @@
 ﻿namespace LostPets.Services.Data
 {
     using System.Linq;
-    using Web;
 
-    using LostPets.Data.Common;
+    using LostPets.Data.Common.Repositories;
     using LostPets.Data.Models;
     using LostPets.Data.Models.Types;
-    using LostPets.Data.Common.Repositories;
+    using Web;
 
     public class PostService : IPostService
     {

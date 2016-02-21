@@ -4,7 +4,7 @@
 
     public enum City
     {
-        [Display(Name ="Not Given")]
+        [Display(Name = "Not Given")]
         NotGiven = 0,
         Sofia = 1,
         Plovdiv = 2,

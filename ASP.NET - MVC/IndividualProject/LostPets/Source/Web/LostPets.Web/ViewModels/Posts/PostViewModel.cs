@@ -4,16 +4,14 @@
     using System.Linq;
 
     using AutoMapper;
+    using Comments;
     using Data.Models;
+    using Data.Models.Types;
     using Infrastructure.Mapping;
     using Services.Web;
-    using Data.Models.Types;
-    using Comments;
 
     public class PostViewModel : IMapFrom<Post>, IHaveCustomMappings
     {
-        //public IEnumerable<PostViewModel> Posts { get; set; }
-
         public int Id { get; set;  }
 
         public string Title { get; set; }

@@ -7,10 +7,9 @@
     using System.Security.Claims;
     using System.Threading.Tasks;
 
+    using Common.Models;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
-
-    using Common.Models;
     using Types;
 
     public class User : IdentityUser, IAuditInfo, IDeletableEntity

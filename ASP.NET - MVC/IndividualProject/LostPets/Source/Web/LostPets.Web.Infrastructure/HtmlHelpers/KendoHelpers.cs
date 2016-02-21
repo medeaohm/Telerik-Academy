@@ -9,7 +9,7 @@
 
     public static class KendoHelpers
     {
-        public static GridBuilder<T> FullFeaturedGrid<T>(this HtmlHelper helper, string controllerName, Expression<Func<T, object>> modelIdExpression, Action<GridColumnFactory<T>> columns = null) 
+        public static GridBuilder<T> FullFeaturedGrid<T>(this HtmlHelper helper, string controllerName, Expression<Func<T, object>> modelIdExpression, Action<GridColumnFactory<T>> columns = null)
             where T : class
         {
             if (columns == null)
@@ -40,8 +40,7 @@
                         .Read(read => read.Action("Read", controllerName))
                         .Create(create => create.Action("Create", controllerName))
                         .Update(update => update.Action("Update", controllerName))
-                        .Destroy(destroy => destroy.Action("Destroy", controllerName))
-                        );
+                        .Destroy(destroy => destroy.Action("Destroy", controllerName)));
         }
     }
 }

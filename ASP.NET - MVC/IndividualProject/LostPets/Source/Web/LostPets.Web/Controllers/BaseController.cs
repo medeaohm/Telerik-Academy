@@ -21,6 +21,8 @@
             this.users = users;
         }
 
+        public ICacheService Cache { get; set; }
+
         protected IMapper Mapper
         {
             get
@@ -28,8 +30,6 @@
                 return AutoMapperConfig.Configuration.CreateMapper();
             }
         }
-
-        public ICacheService Cache { get; set; }
 
         protected User CurrentUser { get; private set; }
 

@@ -2,16 +2,19 @@
 {
     using System;
 
+    using Data;
+    using Data.Models;
+
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin;
     using Microsoft.Owin.Security.Cookies;
 
-    using LostPets.Data;
-    using LostPets.Data.Models;
-
     using Owin;
 
+    /// <summary>
+    /// Partial Startup class
+    /// </summary>
     public partial class Startup
     {
         // For more information on configuring authentication, please visit http://go.microsoft.com/fwlink/?LinkId=301864

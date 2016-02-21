@@ -6,6 +6,9 @@ using Owin;
 
 namespace LostPets.Web
 {
+    /// <summary>
+    /// Partial Class StartUp
+    /// </summary>
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)

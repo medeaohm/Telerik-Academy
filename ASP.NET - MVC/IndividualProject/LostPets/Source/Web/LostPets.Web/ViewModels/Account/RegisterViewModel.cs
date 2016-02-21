@@ -1,8 +1,9 @@
 ﻿namespace LostPets.Web.ViewModels.Account
 {
-    using Data.Models.Types;
     using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
+
+    using Data.Models.Types;
 
     public class RegisterViewModel
     {

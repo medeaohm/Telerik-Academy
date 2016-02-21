@@ -7,7 +7,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 20:51:01.291</settingsFile>
-      <sourceFile>2016/02/12 01:04:47.785</sourceFile>
+      <sourceFile>2016/02/21 21:51:25.410</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -24,18 +24,7 @@
       <StyleCop.CSharp.SpacingRules>2015/10/13 22:30:19.705</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainBlankLinesAtEndOfFile" ruleCheckId="SA1518">
-        <context>The code must not contain blank lines at the end of the file.</context>
-        <line>19</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
-        <context>The code must not contain multiple blank lines in a row.</context>
-        <line>19</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="GlobalConstants.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
@@ -110,7 +99,7 @@
     <timestamps>
       <styleCop>2015/10/13 22:30:19.705</styleCop>
       <settingsFile>2016/02/11 20:51:01.291</settingsFile>
-      <sourceFile>2016/02/12 01:05:11.457</sourceFile>
+      <sourceFile>2016/02/21 21:55:11.528</sourceFile>
       <parser>2015/10/13 22:30:19.705</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/13 22:30:19.705</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-396340723</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -127,17 +116,6 @@
       <StyleCop.CSharp.SpacingRules>2015/10/13 22:30:19.705</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainBlankLinesAtEndOfFile" ruleCheckId="SA1518">
-        <context>The code must not contain blank lines at the end of the file.</context>
-        <line>36</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
-        <context>The code must not contain multiple blank lines in a row.</context>
-        <line>36</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
 </stylecopresultscache>
