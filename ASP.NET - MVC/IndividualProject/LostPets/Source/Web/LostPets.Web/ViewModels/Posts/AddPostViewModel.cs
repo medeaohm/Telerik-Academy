@@ -1,7 +1,6 @@
 ﻿namespace LostPets.Web.ViewModels.Posts
 {
     using System.ComponentModel.DataAnnotations;
-    using System.Linq;
     using System.Web;
 
     using AutoMapper;

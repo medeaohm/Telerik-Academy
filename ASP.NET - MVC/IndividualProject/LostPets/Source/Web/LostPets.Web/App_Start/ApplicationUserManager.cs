@@ -7,8 +7,8 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin;
 
-    using LostPets.Data;
-    using LostPets.Data.Models;
+    using Data;
+    using Data.Models;
 
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
     public class ApplicationUserManager : UserManager<User>

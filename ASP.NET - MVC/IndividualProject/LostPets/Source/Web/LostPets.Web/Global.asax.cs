@@ -18,12 +18,12 @@
     {
         protected void Application_Start()
         {
+            AreaRegistration.RegisterAllAreas();
             ViewEngines.Engines.Clear();
             ViewEngines.Engines.Add(new RazorViewEngine());
 
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<LostPetsDbContext, Configuration>());
             AutofacConfig.RegisterAutofac();
-            AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

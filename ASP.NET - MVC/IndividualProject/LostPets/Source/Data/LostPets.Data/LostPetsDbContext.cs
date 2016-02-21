@@ -14,6 +14,7 @@
         public LostPetsDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+
         }
 
         public IDbSet<Post> Posts { get; set; }

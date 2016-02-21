@@ -202,7 +202,12 @@
     <Compile Include="App_Start\SmsService.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Administration\AdministrationAreaRegistration.cs" />
-    <Compile Include="Areas\UserArea\UserAreaAreaRegistration.cs" />
+    <Compile Include="Areas\Administration\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Administration\Controllers\AdminPostsController.cs" />
+    <Compile Include="Areas\Administration\ViewModels\Comments\CommentViewModel.cs" />
+    <Compile Include="Areas\Administration\ViewModels\AdminPosts\AdminEditPostViewModel.cs" />
+    <Compile Include="Areas\Administration\ViewModels\AdminPosts\AdminPageableListPostViewModel.cs" />
+    <Compile Include="Areas\Administration\ViewModels\AdminPosts\AdminPostViewModel.cs" />
     <Compile Include="Controllers\Account\AccountController.cs" />
     <Compile Include="Controllers\Account\ProfileController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
@@ -482,7 +487,12 @@
     <Content Include="Content\kendo\images\kendoui.ttf" />
     <Content Include="Content\kendo\images\kendoui.woff" />
     <Content Include="Areas\Administration\Views\web.config" />
-    <Content Include="Areas\UserArea\Views\web.config" />
+    <Content Include="Areas\Administration\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Administration\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Administration\Views\AdminPosts\_AllPartial.cshtml" />
+    <Content Include="Areas\Administration\Views\AdminPosts\All.cshtml" />
+    <Content Include="Areas\Administration\Views\AdminPosts\DeletePost.cshtml" />
+    <Content Include="Areas\Administration\Views\AdminPosts\EditPost.cshtml" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
@@ -1151,12 +1161,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Administration\Controllers\" />
-    <Folder Include="Areas\Administration\Models\" />
-    <Folder Include="Areas\Administration\Views\Shared\" />
-    <Folder Include="Areas\UserArea\Controllers\" />
-    <Folder Include="Areas\UserArea\ViewModels\" />
-    <Folder Include="Areas\UserArea\Views\Shared\" />
     <Folder Include="ViewModels\Home\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />

@@ -1,4 +1,4 @@
-﻿namespace LostPets.Web.Controllers
+﻿namespace LostPets.Web.Areas.Administration.Controllers.Posts
 {
     using System;
     using System.IO;
@@ -10,9 +10,9 @@
     using Data.Models.Types;
     using Infrastructure.Mapping;
     using Services.Data;
-    using ViewModels.Posts;
+    using ViewModels.AdminPosts;
 
-    public class UserPostsController : BaseController
+    public class AdminPostsController : AdminController
     {
         private const int ItemsPerPage = 4;
 
@@ -21,13 +21,13 @@
         private IPetService pets;
         private ILocationService locations;
 
-        public UserPostsController(
+        public AdminPostsController(
             IPostService posts,
             IImageService images,
             IUserService users,
             IPetService pets,
             ILocationService locations)
-            : base(users)
+            : base(posts, images, users, pets, locations)
         {
             this.posts = posts;
             this.images = images;
@@ -37,52 +37,43 @@
 
         [Authorize]
         [HttpGet]
-        public ActionResult AllByUser(PostType? postType = null, PetType? petType = null, City? city = null, int id = 1)
+        public ActionResult All(PostType? postType = null, PetType? petType = null, City? city = null, int id = 1)
         {
-            PageableListPostViewModel viewModel;
-            //if (this.HttpContext.Cache["Post page_" + id] != null)
-            //{
-            //    viewModel = (PageableListPostViewModel)this.HttpContext.Cache["Post page_" + id];
-            //}
-            //else
-            //{
-                var page = id;
-                var allItemsCount = this.posts.GetByUserId(this.CurrentUser.Id).Count();
-                var totalPages = (int)Math.Ceiling(allItemsCount / (decimal)ItemsPerPage);
-                var itemsToSkip = (page - 1) * ItemsPerPage;
-                var queryPosts = this.posts.GetByUserId(this.CurrentUser.Id);
+            AdminPageableListPostViewModel viewModel;
+            var page = id;
+            var allItemsCount = this.posts.GetAll().Count();
+            var totalPages = (int)Math.Ceiling(allItemsCount / (decimal)ItemsPerPage);
+            var itemsToSkip = (page - 1) * ItemsPerPage;
+            var queryPosts = this.posts.GetAll();
 
-                if (postType != null)
-                {
-                    queryPosts = queryPosts.Where(p => p.PostType == postType);
-                }
+            if (postType != null)
+            {
+                queryPosts = queryPosts.Where(p => p.PostType == postType);
+            }
 
-                if (petType != null)
-                {
-                    queryPosts = queryPosts.Where(p => p.Pet.PetType == petType);
-                }
+            if (petType != null)
+            {
+                queryPosts = queryPosts.Where(p => p.Pet.PetType == petType);
+            }
 
-                if (city != null)
-                {
-                    queryPosts = queryPosts.Where(p => p.Location.City == city);
-                }
+            if (city != null)
+            {
+                queryPosts = queryPosts.Where(p => p.Location.City == city);
+            }
 
-                queryPosts = queryPosts.OrderBy(x => x.CreatedOn)
-                    .ThenBy(x => x.Id)
-                    .Skip(itemsToSkip)
-                    .Take(ItemsPerPage);
+            queryPosts = queryPosts.OrderBy(x => x.CreatedOn)
+                .ThenBy(x => x.Id)
+                .Skip(itemsToSkip)
+                .Take(ItemsPerPage);
 
-                var posts = queryPosts.To<PostViewModel>().ToList();
+            var posts = queryPosts.To<AdminPostViewModel>().ToList();
 
-                viewModel = new PageableListPostViewModel()
-                {
-                    CurrentPage = page,
-                    TotalPages = totalPages,
-                    Posts = posts
-                };
-
-            //    this.HttpContext.Cache["Feedback page_" + id] = viewModel;
-            //}
+            viewModel = new AdminPageableListPostViewModel()
+            {
+                CurrentPage = page,
+                TotalPages = totalPages,
+                Posts = posts
+            };
 
             return this.View(viewModel);
         }
@@ -100,13 +91,13 @@
                 return this.HttpNotFound();
             }
 
-            var viewModel = this.Mapper.Map<EditPostViewModel>(post);
+            var viewModel = this.Mapper.Map<AdminEditPostViewModel>(post);
             return this.View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditPost(EditPostViewModel post, int id)
+        public ActionResult EditPost(AdminEditPostViewModel post, int id)
         {
             var databasePost = this.posts.GetById(id);
             databasePost.PostType = post.PostType;
@@ -132,11 +123,11 @@
                     post.UploadedImage.InputStream.CopyTo(memory);
                     var content = memory.GetBuffer();
 
-                     var image = new Photo
-                     {
+                    var image = new Photo
+                    {
                         Content = content,
                         FileExtension = post.UploadedImage.FileName.Split(new[] { '.' }).Last()
-                     };
+                    };
                     this.images.Update();
                     databasePost.Gallery.Add(image);
                 }
@@ -147,7 +138,7 @@
             this.posts.Update();
 
             this.TempData["Notification"] = "Post Edited Succesfully!";
-            return this.RedirectToAction("AllByUser");
+            return this.RedirectToAction("All");
         }
 
         [Authorize]
@@ -164,7 +155,7 @@
                 return this.HttpNotFound();
             }
 
-            var viewModel = this.Mapper.Map<PostViewModel>(post);
+            var viewModel = this.Mapper.Map<AdminPostViewModel>(post);
             return this.View(viewModel);
         }
 
@@ -175,7 +166,7 @@
             this.posts.Delete(id);
             this.posts.Update();
             this.TempData["Notification"] = "Post Deleted Succesfully!";
-            return this.RedirectToAction("AllByUser");
+            return this.RedirectToAction("All");
         }
 
         public ActionResult Image(int id)
