@@ -23,6 +23,12 @@
             return comment;
         }
 
+        public Comment GetById(int? id)
+        {
+            var comment = this.comments.GetById(id);
+            return comment;
+        }
+
         public IQueryable<Comment> GetAll()
         {
             return this.comments.All().OrderBy(c => c.CreatedOn).ThenBy(c => c.Id);
@@ -52,6 +58,11 @@
         public void Add(Comment comment)
         {
             this.comments.Add(comment);
+        }
+
+        public void Delete(int id)
+        {
+            this.comments.GetById(id).IsDeleted = true;
         }
     }
 }

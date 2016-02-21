@@ -36,7 +36,7 @@
         protected override IAsyncResult BeginExecute(RequestContext requestContext, AsyncCallback callback, object state)
         {
             this.CurrentUser = this.users
-                .All()
+                .GetAll()
                 .FirstOrDefault(u => u.UserName == requestContext.HttpContext.User.Identity.Name);
 
             return base.BeginExecute(requestContext, callback, state);

@@ -34,11 +34,11 @@
                         if (User.IsInRole(LostPets.Common.GlobalConstants.AdminRole))
                         {
                             <li>
-                                Administration
-                          
+                                Administration                        
                                 <ul>
-                                    <li>@Html.ActionLink("Menage Comments", "All", "Comments", new { area = "Administration" }, null)</li>
                                     <li>@Html.ActionLink("Menage Posts", "All", "AdminPosts", new { area = "Administration" }, null)</li>
+                                    <li>@Html.ActionLink("Menage Comments", "All", "AdminComments", new { area = "Administration" }, null)</li>
+                                    <li>@Html.ActionLink("Menage Users", "All", "AdminUsers", new { area = "Administration" }, null)</li>
                                 </ul>
                             </li>
                         }

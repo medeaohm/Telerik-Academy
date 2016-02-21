@@ -159,7 +159,7 @@
                     Posts = posts
                 };
 
-                this.HttpContext.Cache["Feedback page_" + id] = viewModel;
+                this.HttpContext.Cache["Post page_" + id] = viewModel;
             }
 
             return this.View(viewModel);

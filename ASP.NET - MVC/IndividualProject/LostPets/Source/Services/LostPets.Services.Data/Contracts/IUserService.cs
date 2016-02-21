@@ -5,10 +5,12 @@
 
     public interface IUserService
     {
-        IQueryable<User> All();
+        IQueryable<User> GetAll();
 
         User GetById(object id);
 
         void Update();
+
+        void Delete(string id);
     }
 }

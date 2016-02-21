@@ -14,7 +14,7 @@
             this.users = users;
         }
 
-        public IQueryable<User> All()
+        public IQueryable<User> GetAll()
         {
             return this.users.All();
         }
@@ -27,6 +27,11 @@
         public void Update()
         {
             this.users.SaveChanges();
+        }
+
+        public void Delete(string id)
+        {
+            this.users.Delete(this.users.GetById(id));
         }
     }
 }
