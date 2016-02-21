@@ -86,8 +86,6 @@
     <Compile Include="Mapping\IMapFrom{T}.cs" />
     <Compile Include="Mapping\IMapTo{T}.cs" />
     <Compile Include="Mapping\QueryableExtensions.cs" />
-    <Compile Include="Populators\DropDownListPopulator.cs" />
-    <Compile Include="Populators\IDropDownListPopulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -103,9 +101,7 @@
       <Link>stylecop.json</Link>
     </AdditionalFiles>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Populators\Contracts\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\Common\LostPets.Common\LostPets.Common.csproj">
       <Project>{49178c27-d8f5-43d1-8eb9-e454af8357b1}</Project>
