@@ -35,6 +35,14 @@
             get; set;
         }
 
+        public ICollection<CommentViewModel> OrderedComments
+        {
+            get
+            {
+                return this.Comments.OrderByDescending(c => c.CreatedOn).ToList();
+            }
+        }
+
         public string Url
         {
             get

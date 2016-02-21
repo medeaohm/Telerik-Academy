@@ -20,7 +20,7 @@
 @if (Model.Comments.Any())
 {
     <div id="comments">
-        @foreach (var comment in Model.Comments)
+        @foreach (var comment in Model.OrderedComments)
         {
             @Html.Partial("../Comments/_CommentPartial", comment)
         }

@@ -16,6 +16,8 @@
 
         public int PostId { get; set; }
 
+        public DateTime CreatedOn { get; set; }
+
         //public void CreateMappings(IMapperConfiguration configuration)
         //{
         //    configuration.CreateMap<User, CommentViewModel>().ReverseMap();

@@ -107,6 +107,7 @@
                 this.posts.Add(databasePost);
                 this.posts.Update();
 
+                this.TempData["Notification"] = "Post Added Succesfully!";
                 return this.RedirectToAction("All", "Posts");
             }
 

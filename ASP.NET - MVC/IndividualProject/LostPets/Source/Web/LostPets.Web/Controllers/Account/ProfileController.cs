@@ -62,6 +62,8 @@
             }
 
             this.users.Update();
+
+            this.TempData["Notification"] = "Profile Updeted Succesfully!";
             return this.RedirectToAction("ViewMyProfile");
         }
 

@@ -5,6 +5,7 @@
     using Data.Models;
     using Services.Data;
     using ViewModels.Comments;
+    using System.Globalization;
 
     public class CommentsController : BaseController
     {
@@ -18,13 +19,23 @@
             this.comments = comments;
         }
 
+        [Authorize]
+        public ActionResult PostComment()
+        {
+            var postCommentViewModel = new PostCommentViewModel();
+
+            return this.View(postCommentViewModel);
+        }
+
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult PostComment(PostCommentViewModel comment)
         {
             if (comment != null && this.ModelState.IsValid)
             {
-                var dbComment = new Comment {
+                var databaseComment = new Comment
+                {
                     Content = comment.Content,
                     PostId = comment.PostId,
                     Author = this.CurrentUser
@@ -36,11 +47,16 @@
                     throw new HttpException(404, "Post not found");
                 }
 
-                post.Comments.Add(dbComment);
+                post.Comments.Add(databaseComment);
                 this.posts.Update();
 
-                var viewModel = this.Mapper.Map<CommentViewModel>(dbComment);
+                //ModelState["Content"].Value = new ValueProviderResult(string.Empty, "", CultureInfo.CurrentCulture);
+                var viewModel = this.Mapper.Map<CommentViewModel>(databaseComment);
+                //this.TempData["Notification"] = "Commented succesfully!";
+                //ValueProviderResult abc = new ValueProviderResult("", "", System.Globalization.CultureInfo.CurrentCulture);
+                //ModelState.SetModelValue("Content", abc);
                 return this.PartialView("_CommentPartial", viewModel);
+                //return this.RedirectToAction("Details", "Posts");
             }
 
             throw new HttpException(400, "Invalid comment!");

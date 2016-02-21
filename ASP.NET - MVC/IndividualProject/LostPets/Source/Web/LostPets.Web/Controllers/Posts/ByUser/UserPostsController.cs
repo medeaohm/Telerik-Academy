@@ -146,6 +146,7 @@
             this.locations.Update();
             this.posts.Update();
 
+            this.TempData["Notification"] = "Post Edited Succesfully!";
             return this.RedirectToAction("AllByUser");
         }
 
@@ -173,6 +174,7 @@
         {
             this.posts.Delete(id);
             this.posts.Update();
+            this.TempData["Notification"] = "Post Deleted Succesfully!";
             return this.RedirectToAction("AllByUser");
         }
 
