@@ -239,6 +239,7 @@
     <Compile Include="ViewModels\Comments\PostCommentViewModel.cs" />
     <Compile Include="ViewModels\Comments\CommentViewModel.cs" />
     <Compile Include="ViewModels\Posts\AddPostViewModel.cs" />
+    <Compile Include="ViewModels\Profile\EditProfileViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileViewModel.cs" />
     <Compile Include="ViewModels\Account\VerifyCodeViewModel.cs" />
     <Compile Include="ViewModels\Posts\ListPostViewModel.cs" />
@@ -1172,6 +1173,7 @@
     <Content Include="Views\UserPosts\DeletePost.cshtml" />
     <Content Include="Views\UserPosts\EditPost.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\RegisterSingleLineText.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\RegisterPassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

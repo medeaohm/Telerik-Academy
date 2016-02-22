@@ -178,6 +178,8 @@
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Gender = model.Gender,
+                    HomeCity = model.HomeCity,
+                    PhoneNumber = model.PhoneNumber,
                     FacebookProfile = model.FacebookProfile,
                     UserRole = GlobalConstants.UserRole,
                     CreatedOn = DateTime.Now

@@ -39,7 +39,7 @@
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditProfile(ProfileViewModel profile, string id)
+        public ActionResult EditProfile(EditProfileViewModel profile, string id)
         {
             var user = this.users.GetById(this.CurrentUser.Id);
 

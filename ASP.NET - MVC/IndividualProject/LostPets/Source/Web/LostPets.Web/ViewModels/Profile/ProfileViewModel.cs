@@ -31,14 +31,11 @@
         public string LastName { get; set; }
 
         [Display(Name = "Gender")]
-        [DefaultValue(Gender.NotGiven)]
         public Gender Gender { get; set; }
 
         [Display(Name = "City")]
-        [DefaultValue(City.NotGiven)]
-        public City City { get; set; }
+        public City HomeCity { get; set; }
 
-        [RegularExpression(@"^\d{10}$", ErrorMessage = "The phone number must be exactly 10 digits. ")]
         [Display(Name = "Phone Number")]
         public string PhoneNumber { get; set; }
 
@@ -46,25 +43,17 @@
         [Display(Name = "Facebook Profile")]
         public string FacebookProfile { get; set; }
 
-        [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 5)]
-        [DataType(DataType.Password)]
-        [Display(Name = "Password")]
-        public string Password { get; set; }
-
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
-
         public int? ProfilePictureId { get; set; }
 
-        public HttpPostedFileBase UploadedImage { get; set; }
+        public int? NumberOfPosts { get; set; }
+
+        public int? NumberOfComments { get; set; }
 
         public void CreateMappings(IMapperConfiguration configuration)
         {
             configuration.CreateMap<User, ProfileViewModel>()
-                .ForMember(x => x.ProfilePictureId, opt => opt.MapFrom(x => x.ProfilePictureId));
+                .ForMember(x => x.NumberOfComments, opt => opt.MapFrom(x => x.Comments.Count))
+                .ForMember(x => x.NumberOfPosts, opt => opt.MapFrom(x => x.Posts.Count));
         }
     }
 }

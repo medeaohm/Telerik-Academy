@@ -28,7 +28,7 @@
                             </div>
                             <div class="col-sm-6 form-group">
                                 <label>City</label>
-                                @Html.DropDownListFor(m => m.City, EnumHelper.GetSelectList(typeof(City)), new { @class = "form-control" })
+                                @Html.DropDownListFor(m => m.HomeCity, EnumHelper.GetSelectList(typeof(City)), new { @class = "form-control" })
                             </div>
                         </div>
                         <div class="row">
@@ -40,7 +40,7 @@
                             @Html.EditorFor(m => m.ConfirmPassword)
                         </div>
                         <div class="pull-left">
-                            <button type="button" class="btn btn-lg btn-success">Register</button>
+                            <input type="submit" class="btn btn-lg btn-success" value="Register" />
                         </div>                     
                     </div>
                 </form>

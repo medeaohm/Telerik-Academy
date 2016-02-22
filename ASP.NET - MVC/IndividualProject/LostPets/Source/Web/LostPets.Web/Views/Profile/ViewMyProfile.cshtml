@@ -3,42 +3,110 @@
 @{
     ViewBag.Title = "Profile";
 }
-<div class="container">
-    <div class="card-panel">
-        <h3 class="center">Profile</h3>
 
-        <div class="row">
-            <div class="col-md-4">
-                @if (@Model.ProfilePictureId != null)
-                {
-                    <img src="@Url.Action("Image", "Profile", new { id = Model.ProfilePictureId.Value })" alt="@Model.UserName" class="img-responsive" width="100" />
-                }
-            </div>
-        </div>
-        <div class="row">
-            <ul>
-                <li class="collection-item">
+<div class="container">
+    <br />
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-capitalize text-center">@Model.UserName</h3>
+                </div>
+                <div class="panel-body">
                     <div class="row">
-                        <div>
-                            Name
+                        <div class="col-md-3 col-lg-3 " align="center">
+                            @if (@Model.ProfilePictureId != null)
+                            {
+                                <img src="@Url.Action("Image", "Profile", new { id = Model.ProfilePictureId.Value })" alt="@Model.UserName" class="img-circle img-responsive" />
+                            }
+                            else
+                            {
+                                <img src="http://jplabilocano.freetzi.com/images/Anonymous.png" alt="@Model.UserName" class="img-circle img-responsive" />
+                            }
                         </div>
-                        <div>@Model.UserName</div>
-                    </div>
-                </li>
-                <li class="collection-item">
-                    <div class="row">
-                        <div>
-                            FirstName
+                        <div class=" col-md-9 col-lg-9 ">
+                            <table class="table table-user-information">
+                                <tbody>
+                                    <tr>
+                                        <td>First Name:</td>
+                                        <td>@Model.FirstName</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Name</td>
+                                        <td>@Model.LastName</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td>@Model.Email</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone Number:</td>
+                                        <td>@Model.PhoneNumber</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td>@Model.Gender.ToString()</td>
+                                    </tr>
+                                    <tr>
+                                        <td>City</td>
+                                        <td>@Model.HomeCity.ToString()</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Comments</td>
+                                        <td>@Model.NumberOfComments</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Posts</td>
+                                        <td>@Model.NumberOfPosts</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div>@Model.FirstName</div>
                     </div>
-                </li>
-            </ul>
-            <div>
-                @Html.ActionLink("Edit Profile", "EditProfile", "Profile", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })
+                </div>
+                <div class="panel-footer">
+                    @Html.ActionLink("Edit Profile", "EditProfile", "Profile", routeValues: null, htmlAttributes: new { @class = "btn btn-sm btn-success" })
+                </div>
             </div>
         </div>
     </div>
 </div>
+        @*<div class="container">
+            <div class="card-panel">
+                <h3 class="center">Profile</h3>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        @if (@Model.ProfilePictureId != null)
+                {
+                <img src="@Url.Action("Image", "Profile", new { id = Model.ProfilePictureId.Value })" alt="@Model.UserName" class="img-responsive" width="100" />
+                }
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li class="collection-item">
+                            <div class="row">
+                                <div>
+                                    Name
+                                </div>
+                                <div>@Model.UserName</div>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div class="row">
+                                <div>
+                                    FirstName
+                                </div>
+                                <div>@Model.FirstName</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div>
+                        @Html.ActionLink("Edit Profile", "EditProfile", "Profile", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })
+                    </div>
+                </div>
+            </div>
+        </div>*@
 
 
