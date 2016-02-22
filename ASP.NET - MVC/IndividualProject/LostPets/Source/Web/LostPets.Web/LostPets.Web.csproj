@@ -1157,13 +1157,11 @@
     <Content Include="Scripts\kendo\kendo.window.min.js.map" />
     <Content Include="Views\Profile\EditProfile.cshtml" />
     <Content Include="Views\Posts\Add.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Enum.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\SingleLineText.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\MultiLineText.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Integer.cshtml" />
     <Content Include="Views\Shared\_UploadImage.cshtml" />
     <Content Include="Views\Profile\ViewMyProfile.cshtml" />
-    <Content Include="Views\Profile\EditorTemplates\ProfileSingleLineText.cshtml" />
     <Content Include="Views\Comments\_CommentPartial.cshtml" />
     <Content Include="Views\Comments\_PostCommentPartial.cshtml" />
     <Content Include="Views\Posts\_AllPostPartial.cshtml" />
@@ -1176,6 +1174,11 @@
     <Content Include="Views\Shared\EditorTemplates\RegisterPassword.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\EditSingleLineTextDisabled.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\EditSingleLineText.cshtml" />
+    <Content Include="Views\Profile\_ProfilePartial.cshtml" />
+    <Content Include="Views\Profile\EditorTemplates\EditSingleLineText.cshtml" />
+    <Content Include="Views\Profile\EditorTemplates\EditSingleLineTextDisabled.cshtml" />
+    <Content Include="Views\Profile\EditorTemplates\RegisterPassword.cshtml" />
+    <Content Include="Views\Profile\EditorTemplates\RegisterSingleLineText.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
