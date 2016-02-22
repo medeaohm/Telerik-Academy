@@ -3,126 +3,81 @@
     ViewBag.Title = "_PostPartial";
 }
 
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 center-block toppad" style="padding-left:5em">
-        <div class="panel panel-danger">
-            <div class="panel-heading">
-                <strong class="pull-left">@Model.PostType</strong>
-               
-                <h3 class="panel-title text-center"><a href="@Model.Url" class="panel-title text-center">@Model.Title</a></h3>
+<div class="col-lg-12 well">
+    <h2 class="text-center">@Model.Title</h2>
+    <div class="row">
+        <form>
+            <div class="col-md-3 col-lg-3 " align="center">
+                    
+                @if (@Model.Photo != null)
+                {
+                    <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-circle img-responsive" width="150" />
+                }
+                else
+                {
+                    <img src="http://jplabilocano.freetzi.com/images/Anonymous.png" alt="@Model.Title" class="img-circle img-responsive" width="150" />
+                }
             </div>
-            <div class="panel-body">
-                <div class="row center-block well text-center">
-                    @Model.Content
-                </div>
+
+            <div class="col-sm-3">
+                <br />
                 <div class="row">
-                    <div class="col-md-4 col-lg-4 " align="center">
-                        @if (@Model.Photo != null)
-                        {
-                            <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-circle img-responsive" width="150" />
-                        }
-                        else
-                        {
-                            <img src="http://jplabilocano.freetzi.com/images/Anonymous.png" alt="@Model.Title" class="img-circle img-responsive" width="150" />
-                        }
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <h3>Pet Information</h3>
-                        </div>
-                        <br />
-                        <div class="row">
-                            <strong>Pet Type:</strong> @Model.Pet.PetType
-                        </div>
-                        <div class="row">
-                            <strong>Name:</strong> @Model.Pet.Name
-                        </div>
-                        <div class="row">
-                            <strong>Age:</strong> @Model.Pet.Age
-                        </div>
-                        <div class="row">
-                            <strong>Color:</strong> @Model.Pet.Color
-                        </div>
-                        <div class="row">
-                            <strong>Description:</strong> @Model.Pet.Description
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <h3>Location Information</h3>
-                        </div>
-                        <br />
-                        <div class="row">
-                            <strong>City:</strong> @Model.Location.City
-                        </div>
-                        <div class="row">
-                            <strong>Street:</strong> @Model.Location.Street
-                        </div>
-                        <div class="row">
-                            <strong>Additional Information:</strong> @Model.Location.AdditionalInfo
-                        </div>
-                    </div>
+                    <strong>Post Type: </strong> @Model.PostType
+                </div>
+                <br />
+                <div class="row">
+                    <strong>Content: </strong> @Model.Content
                 </div>
             </div>
-            <div class="panel-footer">
-                <div class="row" style="padding-left:5em; padding-right:5em">
-                    <p class="pull-left">
-                        <i style="color:darkslategrey">   Posted by: <a href="@Model.UserUrl">@Model.Author.UserName </a></i>
-                    </p>
-                    <p class="pull-right">
-                        <i style="color:darkslategrey">Comments: @Model.Comments.Count</i>
-                    </p>
-                </div>
-            </div>
-        </div>
+        </form>
     </div>
 </div>
 
 
 
 @*<div class="col-md-6">
-        <div class="row">
-            <h3>@Model.Title</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                @if (@Model.Photo != null)
-                {
-                    <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-responsive" width="100" />
-                }
-                <div>
-                    <i>Posted by: <a href="@Model.UserUrl">@Model.Author.UserName </a>
-                     </i>
-                    <a href="@Model.Url" class="btn btn-default">More Details...</a>
-                </div>
+    <div class="row">
+        <h3>@Model.Title</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            @if (@Model.Photo != null)
+            {
+                <img src="@Url.Action("Image", "Posts", new { id = Model.Photo.Id })" alt="@Model.Title" class="img-responsive" width="100" />
+            }
+            <div>
+                <i>Posted by: <a href="@Model.UserUrl">@Model.Author.UserName </a>
+                 </i>
+                <a href="@Model.Url" class="btn btn-default">More Details...</a>
             </div>
+        </div>
 
-            <div class="col-md-8">
-                <h3>@Model.PostType @Model.Pet.PetType</h3>
-                <div>
-                    @Model.Content
-                </div>
-                <div>
-                    <strong>Name: </strong> @Model.Pet.Name
-                </div>
-                <div>
-                    <strong>Age: </strong> @Model.Pet.Age
-                </div>
-                <div>
-                    <strong>Description: </strong> @Model.Pet.Description
-                </div>
-                <div>
-                    <strong>City: </strong> @Model.Location.City
-                </div>
-                <div>
-                    <strong>Street: </strong> @Model.Location.Street
-                </div>
-                <div>
-                    <strong>Location additional info: </strong> @Model.Location.AdditionalInfo
-                </div>
+        <div class="col-md-8">
+            <h3>@Model.PostType @Model.Pet.PetType</h3>
+            <div>
+                @Model.Content
+            </div>
+            <div>
+                <strong>Name: </strong> @Model.Pet.Name
+            </div>
+            <div>
+                <strong>Age: </strong> @Model.Pet.Age
+            </div>
+            <div>
+                <strong>Description: </strong> @Model.Pet.Description
+            </div>
+            <div>
+                <strong>City: </strong> @Model.Location.City
+            </div>
+            <div>
+                <strong>Street: </strong> @Model.Location.Street
+            </div>
+            <div>
+                <strong>Location additional info: </strong> @Model.Location.AdditionalInfo
             </div>
         </div>
-    </div>*@
+    </div>
+</div>*@
 
 
 
