@@ -1174,6 +1174,8 @@
     <Content Include="Views\UserPosts\EditPost.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\RegisterSingleLineText.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\RegisterPassword.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\EditSingleLineTextDisabled.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\EditSingleLineText.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

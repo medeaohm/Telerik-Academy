@@ -15,23 +15,23 @@
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineTextDisabled")]
         public string Email { get; set; }
 
         [Required]
         [StringLength(30, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 4)]
         [Display(Name = "Username")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineTextDisabled")]
         public string UserName { get; set; }
 
         [StringLength(30)]
         [Display(Name = "First name")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineText")]
         public string FirstName { get; set; }
 
         [StringLength(30)]
         [Display(Name = "Last name")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineText")]
         public string LastName { get; set; }
 
         [Display(Name = "Gender")]
@@ -40,16 +40,16 @@
 
         [Display(Name = "City")]
         [DefaultValue(City.NotGiven)]
-        public City City { get; set; }
+        public City HomeCity { get; set; }
 
         [RegularExpression(@"^\d{10}$", ErrorMessage = "The phone number must be exactly 10 digits. ")]
         [Display(Name = "Phone Number")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineText")]
         public string PhoneNumber { get; set; }
 
         [StringLength(200)]
         [Display(Name = "Facebook Profile")]
-        [UIHint("RegisterSingleLineText")]
+        [UIHint("EditSingleLineText")]
         public string FacebookProfile { get; set; }
 
         public int? ProfilePictureId { get; set; }

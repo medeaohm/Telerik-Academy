@@ -32,7 +32,7 @@
 
         public ActionResult EditProfile(string id)
         {
-            var user = this.Mapper.Map<ProfileViewModel>(this.users.GetById(this.CurrentUser.Id));
+            var user = this.Mapper.Map<EditProfileViewModel>(this.users.GetById(this.CurrentUser.Id));
             return this.View(user);
         }
 
@@ -44,6 +44,11 @@
             var user = this.users.GetById(this.CurrentUser.Id);
 
             user.FirstName = profile.FirstName;
+            user.LastName = profile.LastName;
+            user.HomeCity = profile.HomeCity;
+            user.Gender = profile.Gender;
+            user.PhoneNumber = profile.PhoneNumber;
+            user.FacebookProfile = profile.FacebookProfile;
 
             if (profile.UploadedImage != null)
             {
