@@ -1,4 +1,0 @@
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\bin\Release\TiketingSystem.Common.dll
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\bin\Release\TiketingSystem.Common.pdb
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\obj\Release\TiketingSystem.Common.dll
-C:\Users\Adrian\Desktop\Telerik-Academy\ASP.NET - MVC\ExamPreparation\TicketingSystem\TicketingSystem.Common\obj\Release\TiketingSystem.Common.pdb
